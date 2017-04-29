@@ -1,0 +1,16 @@
+HISTORIÆ: Historia Sancti Simperti, aus dem Benediktinerkloster St. Ulrich & Afra Augsburg
+==========================================================================================
+
+:author: Klugseder, Robert
+:series: Musicological Studies
+:volume: LXV
+:volume_part: 13
+:price: 62
+:isbn13: 978-1-896926-81-0
+:isbn10: 1-896926-81-9
+:pages: xix + 29
+:publisher: IMM
+:place: Ottawa
+:year: 2006
+
+Einführung und Edition von Robert Klugseder.
