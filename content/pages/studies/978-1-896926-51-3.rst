@@ -1,10 +1,12 @@
 The Poetic and Musical Legacy of Heloise and Abelard: An Anthology of Essays by Various Authors
 ===============================================================================================
 
-:author: Stewart, Marc and Wulstan, David, eds.
+:editor: Stewart, Marc; Wulstan, David
 :series: Musicological Studies
 :volume: LXXVIII
 :price: 76
 :isbn: 978-1-896926-51-3
-:pages: xv + 164 pp.
-:publication: Ottawa: IMM and Westhumble, Surrey: The Plainsong and Mediaeval Music Society, 2003.
+:pages: xv + 164
+:publisher: IMM; The Plainsong and Mediaeval Music Society
+:place: Ottawa; Westhumble, Surrey
+:year: 2003
