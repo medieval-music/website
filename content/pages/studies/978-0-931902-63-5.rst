@@ -5,8 +5,10 @@ Letter Notations in Middle Ages
 :series: Musicological Studies
 :volume: LII
 :price: 90
-:isbn: 978-0-931902-63-5
+:isbn13: 978-0-931902-63-5
+:isbn10: 0-931902-63-0
 :pages: xv + 272
 :publisher: IMM
 :place: Ottawa
 :year: 1989
+:corrigenda: ISBN10 printed as 0-931902-63-8
