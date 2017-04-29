@@ -12,3 +12,5 @@ CANTUS: Four Klosterneuburg Antiphoners, Augustiner-Chorherren Stiftsbibliothek,
 :publisher: IMM
 :place: Ottawa
 :year: 1998
+
+Introduction by Debra Lacoste.
