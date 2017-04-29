@@ -1,0 +1,14 @@
+The Medieval West Meets Rest of the World
+=========================================
+
+:editor: van Deusen, Nancy
+:series: Musicological Studies
+:volume: LXII
+:volume_part: 2
+:price: 50
+:isbn13: 978-0-931902-94-9
+:isbn10: 0-931902-94-0
+:pages: vi + 138
+:publisher: IMM
+:place: Ottawa
+:year: 1995
