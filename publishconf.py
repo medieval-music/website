@@ -11,7 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # NOTE: just for now we're using the Netlify URL
-SITEURL = 'https://medieval-music.netlify.com/'
+SITEURL = 'https://medieval-music.netlify.com'
 # SITEURL = 'https://medievalmusic.ca'
 RELATIVE_URLS = False
 
