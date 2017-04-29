@@ -5,7 +5,8 @@ The Poetic and Musical Legacy of Heloise and Abelard: An Anthology of Essays by 
 :series: Musicological Studies
 :volume: LXXVIII
 :price: 76
-:isbn: 978-1-896926-51-3
+:isbn13: 978-1-896926-51-3
+:isbn10: 1-896926-51-7
 :pages: xv + 164
 :publisher: IMM; The Plainsong and Mediaeval Music Society
 :place: Ottawa; Westhumble, Surrey
