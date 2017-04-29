@@ -1,0 +1,14 @@
+Le premier et le secont livre de fauvel, in the version preserved in B.N. f. fr. 146
+====================================================================================
+
+:editor: Helmer, Paul
+:series: Musicological Studies
+:volume: LXX
+:volume_part: 1
+:pages: lxxv + 378
+:price: 112
+:isbn13: 978-1-896926-08-7
+:isbn10: 1-896926-08-8
+:publisher: IMM
+:place: Ottawa
+:year: 1997
