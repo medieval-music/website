@@ -1,0 +1,14 @@
+The Cultural Milieu of the Troubadours and Trouvères
+====================================================
+
+:editor: van Deusen, Nancy
+:series: Musicological Studies
+:volume: LXII
+:volume_part: 1
+:price: 52
+:isbn13: 978-0-931902-87-1
+:isbn10: 0-931902-87-8
+:pages: viii + 145
+:publisher: IMM
+:place: Ottawa
+:year: 1994
