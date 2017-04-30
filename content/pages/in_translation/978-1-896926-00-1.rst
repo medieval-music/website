@@ -1,0 +1,17 @@
+Opusculum de musica ex traditione Iohannis Hollandrini
+======================================================
+
+:editor: Rausch, Alexander
+:series: Musical Theorists in Translation
+:volume: XV
+:pages: vi + 125
+:size: 24
+:price: 48
+:isbn13: 978-1-896926-00-1
+:isbn10: 1-896926-00-2
+:publisher: IMM
+:place: Ottawa
+:year: 1997
+:corrigenda: ISBN10 printed as 0-896926-00-2
+
+A Commentary, Critical Edition and Translation. Includes bibliographical references (p. 121-125) and indexes.
