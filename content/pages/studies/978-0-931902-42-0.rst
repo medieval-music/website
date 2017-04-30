@@ -1,0 +1,16 @@
+HISTORIÆ: Historia Sancti Emmerammi, Arnoldi Vohburgensis, circa 1030
+=====================================================================
+
+:author: Hiley, David
+:series: Musicological Studies
+:volume: LXV
+:volume_part: 2
+:pages: xxx + 43
+:price: 52
+:isbn10: 0-931902-42-8
+:isbn13: 978-0-931902-42-0
+:publisher: IMM
+:place: Ottawa
+:year: 1996
+
+Introduction and Edition by David Hiley.
