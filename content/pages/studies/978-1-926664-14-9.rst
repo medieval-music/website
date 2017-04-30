@@ -11,5 +11,6 @@ HISTORIÆ: Historia Sancti Demetrii Thessalonicensis
 :publisher: IMM
 :place: Lions Bay, BC
 :year: 2013
+:corrigenda: ISBN printed as 978-1-926664-15-6.
 
 Einführung von Péter Tóth und Zsuzsa Czagány. Edition von Zsuzsa Czagány.
