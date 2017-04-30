@@ -12,3 +12,5 @@ HISTORIÆ: Historia Sancti Dionysii Areopagitæ, St. Emmeram, Regensburg, ca. 10
 :publisher: IMM
 :place: Ottawa
 :year: 1998
+
+Introduction and Edition by Roman Hankeln.
