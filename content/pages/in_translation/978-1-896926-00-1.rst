@@ -1,7 +1,7 @@
 Opusculum de musica ex traditione Iohannis Hollandrini
 ======================================================
 
-:editor: Rausch, Alexander
+:author: Rausch, Alexander
 :series: Musical Theorists in Translation
 :volume: XV
 :pages: vi + 125
@@ -14,4 +14,4 @@ Opusculum de musica ex traditione Iohannis Hollandrini
 :year: 1997
 :corrigenda: ISBN10 printed as 0-896926-00-2
 
-A Commentary, Critical Edition and Translation. Includes bibliographical references (p. 121-125) and indexes.
+A Commentary, Critical Edition and Translation von/by Alexander Rausch. Includes bibliographical references (p. 121-125) and indexes.
