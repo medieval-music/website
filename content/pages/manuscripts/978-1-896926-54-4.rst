@@ -1,0 +1,18 @@
+Paris, Bibliothèque nationale, fonds latin 10509
+================================================
+
+:editor: Santosuosso, Alma
+:series: Publications of Mediæval Musical Manuscripts
+:volume: XXIV
+:volume_part: 2
+:pages: x + 111 + index
+:plates: yes
+:size: 25
+:price: 88
+:isbn13: 978-1-896926-54-4
+:isbn10: 1-896926-54-1
+:publisher: IMM
+:place: Ottawa
+:year: 2003
+
+Facsimile. This manuscript consists of two separate parts which the editor believes were only joined at a later date. The first part contains the Office for Saint Taurinus and a collection of tracts; the second is an anthology of writings by medieval music theorists. Preface, bibliography, index.

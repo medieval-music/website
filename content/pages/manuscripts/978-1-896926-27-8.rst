@@ -1,0 +1,17 @@
+Lambeth Palace, Sion College, MS. L1: The Noted Breviary of York (Olim Sion College, ms. Arc.L.40.2/L.1), Volume 2: Sanctorale and Common of Saints
+===================================================================================================================================================
+
+:editor: Hughes, Andrew
+:series: Publications of Mediæval Musical Manuscripts
+:volume: XXV
+:volume_part: 2
+:pages: ii
+:plates: 406
+:price: 180
+:isbn13: 978-1-896926-27-8
+:isbn10: 1-896926-27-4
+:publisher: IMM
+:place: Ottawa
+:year: 2000
+
+Facsimile.
