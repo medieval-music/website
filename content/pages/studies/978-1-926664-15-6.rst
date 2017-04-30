@@ -1,0 +1,15 @@
+HISTORIÆ: Historia Sancti Galli (circa 900)
+===========================================
+
+:author: Tremp, Ernst; Berschin, Walter; Hiley, David
+:series: Musicological Studies
+:volume: LXV
+:volume_part: 21
+:pages: xxxii + 109
+:price: 124
+:isbn13: 978-1-926664-15-6
+:publisher: IMM
+:place: Lions Bay, BC
+:year: 2012
+
+Essays und Edition von Ernst Tremp, Walter Berschin und David Hiley.
