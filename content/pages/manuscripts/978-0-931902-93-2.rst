@@ -1,0 +1,17 @@
+Oxford Bodleian Library, MS. Lat. liturg. b. 5
+==============================================
+
+:editor: Hiley, David
+:series: Publications of Mediæval Musical Manuscripts
+:volume: XX
+:pages: xix
+:plates: 270
+:size: 44
+:price: 320
+:isbn13: 978-0-931902-93-2
+:isbn10: 0-931902-93-2
+:publisher: IMM
+:place: Ottawa
+:year: 1995
+
+Facsimile. Contains chants for the proper and ordinary of the Mass sung during the 15th century at the parish church of East Drayton, Nottinghamshire, York. Includes indexes of the chants.
