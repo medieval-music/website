@@ -1,0 +1,16 @@
+HISTORIÆ: Hermannus Contractus (1013-1054), Historia Sancti Wolfgangi Episcopi Ratisbonensis
+============================================================================================
+
+:author: Hiley, David
+:series: Musicological Studies
+:volume: LXV
+:volume_part: 7
+:pages: xl + 41
+:price: 56
+:isbn10: 1-896926-45-2
+:isbn13: 978-1-896926-45-2
+:publisher: IMM
+:place: Ottawa
+:year: 2002
+
+Einführung und Edition / Introduction and Edition by David Hiley.
