@@ -1,0 +1,16 @@
+HISTORIÆ: Officium Presentationis Beate Virginis Marie in Templo
+================================================================
+
+:author: Boyce, James; Coleman, William E.
+:series: Musicological Studies
+:volume: LXV
+:volume_part: 5
+:pages: xv + 42
+:price: 48
+:isbn10: 1-896926-32-0
+:isbn13: 978-1-896926-32-2
+:publisher: IMM
+:place: Ottawa
+:year: 2001
+
+Office of the Presentation of the Blessed Virgin Mary which is Celebrated on the 21st Day of November. Paris, Bibliothèque nationale de France, MS Latin 173330, fols. 7r-14r. Introduction, Edition and Translation by James Boyce and William E. Coleman.
