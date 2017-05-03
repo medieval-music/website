@@ -1,0 +1,14 @@
+Jean Maillard, The Masses
+=========================
+
+:editor: Rosenstock, Raymond H.
+:series: Collected Works
+:volume: XVI
+:volume_part: 1
+:pages: xvii + 273
+:price: 70
+:isbn10: 1-896926-07-x
+:isbn13: 978-1-896926-07-0
+:publisher: IMM
+:place: Ottawa
+:year: 1997
