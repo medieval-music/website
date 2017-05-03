@@ -1,7 +1,8 @@
 HISTORIÆ: Balther von Säckingen, Bischof von Speyer, Historia Sancti Fridolini (ca. 970)
 ========================================================================================
 
-:author: Pörnbacher, Mechthild; Hiley, David
+:author: Pörnbacher, Mechthild
+:author: Hiley, David
 :series: Musicological Studies
 :volume: LXV
 :volume_part: 26
