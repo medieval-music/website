@@ -1,0 +1,13 @@
+Collected Works of Robert de Févin, Masses and Motet
+====================================================
+
+:editor: Clinkscale, Edward
+:series: Collected Works
+:volume: XIII
+:pages: xx + 140
+:price: 85
+:isbn10: 0-931902-77-0
+:isbn13: 978-0-931902-77-2
+:publisher: IMM
+:place: Ottawa
+:year: 1993
