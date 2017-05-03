@@ -1,7 +1,8 @@
 HISTORIÆ: Hermannus Contractus (1013-1054), Historia Sanctæ Afræ Martyris Augustensis
 =====================================================================================
 
-:author: Hiley, David; Berschin, Walter
+:author: Hiley, David
+:author: Berschin, Walter
 :series: Musicological Studies
 :volume: LXV
 :volume_part: 10
