@@ -1,7 +1,8 @@
 HISTORIÆ: Historia Sancti Demetrii Thessalonicensis
 ===================================================
 
-:author: Tóth, Péter; Czagány, Zsuzsa
+:author: Tóth, Péter
+:author: Czagány, Zsuzsa
 :series: Musicological Studies
 :volume: LXV
 :volume_part: 20
