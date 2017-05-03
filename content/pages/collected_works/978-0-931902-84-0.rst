@@ -1,0 +1,14 @@
+Collected Works of Francisco de Peñalosa, Twenty-Four Motets
+============================================================
+
+:editor: Hardie, Jane Morlet
+:series: Collected Works
+:volume: XIV
+:volume_part: 1
+:pages: xliii + 159
+:price: 104
+:isbn10: 0-931902-84-3
+:isbn13: 978-0-931902-84-0
+:publisher: IMM
+:place: Ottawa
+:year: 1994
