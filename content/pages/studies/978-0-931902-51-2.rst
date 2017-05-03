@@ -1,0 +1,13 @@
+Medieval Polyphonic Sequences: An Anthology
+===========================================
+
+:author: Gillingham, Bryan
+:series: Musicological Studies
+:volume: XLV
+:pages: xl + 89
+:price: 40
+:isbn10: 0-931902-51-7
+:isbn13: 978-0-931902-51-2
+:publisher: IMM
+:place: Ottawa
+:year: 1985
