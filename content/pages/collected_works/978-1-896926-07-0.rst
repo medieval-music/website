@@ -1,6 +1,7 @@
 Jean Maillard, The Masses
 =========================
 
+:author: Jean Maillard
 :editor: Rosenstock, Raymond H.
 :series: Collected Works
 :volume: XVI
