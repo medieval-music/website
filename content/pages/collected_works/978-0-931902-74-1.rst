@@ -1,2 +1,5 @@
 Galliculus IV: Isagoge de Composicione Cantus
 =============================================
+
+:volume: VIII
+:volume_part: 4
