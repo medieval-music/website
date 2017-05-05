@@ -5,7 +5,13 @@ Metadata Fields for Book Entries
 
 - author (full name, last name first)
 
+- author2 (full name, last name first, second author)
+
+- author3 (full name, last name first, third author)
+
 - editor (full name, last name first)
+
+- editor2 (full name, last name first, second editor)
 
 - volume
 
@@ -17,18 +23,16 @@ Metadata Fields for Book Entries
 
 - isbn13
 
-- pages (without units; the system will add pp. when it generates the
-record)
+- pages (without units)
 
-- plates
+- plates (could be folios ff. or pages pp., but this is entered without units)
 
-- year
+- year (of publication)
 
-- place
+- place (of publication)
 
-- publisher
+- publisher (most often, IMM)
 
-- size (in centimeters, but I'm not putting in the unit - just the number)
+- size (in centimeters, entered without unit)
 
-- corrigenda (sometimes an explanation, and sometimes pages that need to be
-available for download - how to do this?)
+- corrigenda (sometimes an explanation or information, and sometimes replacement pages to download)
