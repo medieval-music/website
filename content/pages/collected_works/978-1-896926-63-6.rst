@@ -1,0 +1,17 @@
+Obras completas de Cristóbal Galán, Volumen IX: Octetos 9-15
+============================================================
+
+:editor: Baron, John H.
+:editor2: Vogt, Eric W.
+:series: Collected Works
+:volume: XII
+:volume_part: 9
+:pages: xxxi + 240
+:price: 108
+:isbn10: 1-896926-63-0
+:isbn13: 978-1-896926-63-6
+:publisher: IMM
+:place: Ottawa
+:year: 2004
+
+Edición de John H. Baron, Eric W. Vogt.
