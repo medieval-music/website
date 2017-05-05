@@ -1,6 +1,7 @@
 Collected Works of Robert de Févin, Masses and Motet
 ====================================================
 
+:author: Robert de Févin
 :editor: Clinkscale, Edward
 :series: Collected Works
 :volume: XIII
