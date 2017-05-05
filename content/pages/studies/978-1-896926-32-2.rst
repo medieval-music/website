@@ -2,7 +2,7 @@ HISTORIÆ: Officium Presentationis Beate Virginis Marie in Templo
 ================================================================
 
 :author: Boyce, James
-:author: Coleman, William E.
+:author2: Coleman, William E.
 :series: Musicological Studies
 :volume: LXV
 :volume_part: 5
