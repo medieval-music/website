@@ -1,0 +1,17 @@
+Obras completas de Cristóbal Galán, Volumen X: Octetos 16-22
+============================================================
+
+:editor: Baron, John H.
+:editor2: Vogt, Eric W.
+:series: Collected Works
+:volume: XII
+:volume_part: 10
+:pages: xxvi + 229
+:price: 108
+:isbn10: 1-896926-74-6
+:isbn13: 978-1-896926-74-2
+:publisher: IMM
+:place: Ottawa
+:year: 2006
+
+Edición de John H. Baron, Eric W. Vogt.
