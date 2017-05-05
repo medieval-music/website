@@ -1,6 +1,7 @@
 Obras completas de Cristóbal Galán, Volumen X: Octetos 16-22
 ============================================================
 
+:author: Cristóbal de Galán
 :editor: Baron, John H.
 :editor2: Vogt, Eric W.
 :series: Collected Works
