@@ -1,0 +1,14 @@
+The Complete Extant Transmissions of the Masses by Guillaume Faugues (1)
+========================================================================
+
+:editor: Eakins, Rex
+:author: Guillaume Faugues
+:series: Collected Works
+:volume: XXIX
+:volume_part: 1
+:pages: xii + 293
+:price: 110
+:isbn13: 978-1-926664-33-0
+:publisher: IMM
+:place: Lions Bay, BC
+:year: 2015
