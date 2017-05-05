@@ -1,0 +1,17 @@
+Obras completas de Cristóbal de Galán, Volumen III: Obras litúrgicas, Tercera Parte
+===================================================================================
+
+:editor: Baron, John H.
+:editor2: Heiple, Daniel L.
+:series: Collected Works
+:volume: XII
+:volume_part: 3
+:pages: xxxiii + 298
+:price: 130
+:isbn10: 0-931902-70-3
+:isbn13: 978-0-931902-70-3
+:publisher: IMM
+:place: Ottawa
+:year: 1992
+
+Edición de John H. Baron, Daniel L. Heiple.
