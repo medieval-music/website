@@ -22,6 +22,12 @@ DEFAULT_PAGINATION = False
 
 THEME = 'theme'
 
+SLUGIFY_SOURCE = 'basename'
+DEFAULT_METADATA = {
+    'volume': 'Unknown',
+}
+PATH_METADATA = r'pages/(?P<series>.*)/.*\.rst'
+
 
 # Change the URLs
 # ===============
@@ -30,8 +36,8 @@ AUTHORS_SAVE_AS = 'authors/index.html'
 AUTHORS_URL = 'authors'
 CATEGORIES_SAVE_AS = ''
 TAGS_SAVE_AS = ''
-PAGE_URL = '{category}/{slug}'
-PAGE_SAVE_AS = '{category}/{slug}/index.html'
+PAGE_URL = 'books/{slug}'
+PAGE_SAVE_AS = 'books/{slug}/index.html'
 
 
 # Theme (Pelican Settings)
