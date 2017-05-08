@@ -1,4 +1,5 @@
-Paris, Bibliothèque nationale, fonds latin 7211: Analysis, Inventory and Text =============================================================================
+Paris, Bibliothèque nationale, fonds latin 7211: Analysis, Inventory and Text
+=============================================================================
 
 :editor: Santosuosso, Alma Colk
 :series: Publications of Mediæval Musical Manuscripts
