@@ -2,6 +2,17 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import os
+import sys
+
+try:
+    sys.path.append(os.curdir)
+    from debra_settings import *
+except SyntaxError:
+    print('\n\nPROBLEM: There is a syntax mistake in "debra_settings.py"\n\n')
+    raise
+
+
 AUTHOR = 'Placeholder Author Who Does not Matter'
 SITENAME = 'Institute of Medieval Music'
 SITEURL = ''
@@ -24,7 +35,8 @@ THEME = 'theme'
 
 SLUGIFY_SOURCE = 'basename'
 DEFAULT_METADATA = {
-    'volume': 'Unknown',
+    'series': 'DEFAULT SERIES THAT WE DO NOT SHOW',
+    'volume': 'DEFAULT VOLUME THAT IS JUST GARBAGE',
 }
 PATH_METADATA = r'pages/(?P<series>.*)/.*\.rst'
 
