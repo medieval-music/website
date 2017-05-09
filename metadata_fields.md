@@ -1,8 +1,6 @@
 Metadata Fields for Book Entries
 ================================
 
-- series (full series name, must match exactly)
-
 - author (full name, last name first)
 
 - author2 (full name, last name first, second author)
