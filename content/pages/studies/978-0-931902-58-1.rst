@@ -1,0 +1,12 @@
+The Mass of Saint James: Solemn Mass for the Feast of the Passion of St. James of Compostela according to the Codex Calixtinus
+==============================================================================================================================
+
+:author: Helmer, Paul
+:volume: XLIX
+:pages: 252
+:price: 80
+:isbn10: 0-931902-58-4
+:isbn13: 978-0-931902-58-1
+:publisher: IMM
+:place: Ottawa
+:year: 1988
