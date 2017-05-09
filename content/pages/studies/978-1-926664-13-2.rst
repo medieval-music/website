@@ -2,7 +2,7 @@ The Versified Office: Sources, poetry and chants (Volume 2)
 ===========================================================
 
 :author: Hughes, Andrew
-:series: Musicological Studies
+
 :volume: XCVII
 :volume_part: 2
 :pages: x + 223

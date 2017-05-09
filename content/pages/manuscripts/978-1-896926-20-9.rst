@@ -2,7 +2,7 @@ Mss Avranches, Bibliothèque municipale 236, 237: Music Theory in Mediaeval Norm
 ===============================================================================================================================
 
 :editor: Santosuosso, Alma
-:series: Publications of Mediæval Musical Manuscripts
+
 :volume: XXIV
 :volume_part: 1
 :pages: lxxxii + 16

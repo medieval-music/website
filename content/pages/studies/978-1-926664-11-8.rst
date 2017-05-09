@@ -3,7 +3,7 @@ HISTORIÆ: L'Office de la Couronne d'épines à Sens
 
 :author: Arnaud, Brigitte
 :author2: Daniel, Annie
-:series: Musicological Studies
+
 :volume: LXV
 :volume_part: 19
 :pages: xl + 42

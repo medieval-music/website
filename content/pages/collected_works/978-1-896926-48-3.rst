@@ -2,7 +2,7 @@ The Transitoria of the Ambrosian Mass Edited from Three Sources
 ===============================================================
 
 :editor: Bailey, Terence
-:series: Collected Works
+
 :volume: XXI
 :pages: vii + 102
 :price: 52

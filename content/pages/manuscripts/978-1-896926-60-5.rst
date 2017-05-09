@@ -2,7 +2,7 @@ Utrecht, Universiteitsbibliotheek, Hs. 16 H 34
 ==============================================
 
 :editor: Hascher-Burger, Ulrike
-:series: Publications of Mediæval Musical Manuscripts
+
 :volume: XXXI
 :pages: xxxviii
 :plates: 277

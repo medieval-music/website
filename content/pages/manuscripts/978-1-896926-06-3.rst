@@ -2,7 +2,7 @@ National Library of Wales, MS.20541 E, The Penpont Antiphonal
 =============================================================
 
 :editor: Edwards, Owain Tudor
-:series: Publications of Mediæval Musical Manuscripts
+
 :volume: XXII
 :pages: 122
 :plates: 623

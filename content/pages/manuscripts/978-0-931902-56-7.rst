@@ -2,7 +2,7 @@ Paris,  Bibliothèque nationale, fonds latin 3549 and London, British Library, A
 =========================================================================================
 
 :editor: Gillingham, Bryan
-:series: Publications of Mediæval Musical Manuscripts
+
 :volume: XVI
 :pages: viii + 2 (indices)
 :plates: 101

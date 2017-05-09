@@ -3,7 +3,7 @@ The Complete Extant Transmissions of the Masses by Guillaume Faugues (3)
 
 :editor: Eakins, Rex
 :author: Guillaume Faugues
-:series: Collected Works
+
 :volume: XXIX
 :volume_part: 3
 :pages: vi + 258

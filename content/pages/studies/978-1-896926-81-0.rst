@@ -2,7 +2,7 @@ HISTORIÆ: Historia Sancti Simperti, aus dem Benediktinerkloster St. Ulrich & Af
 ==========================================================================================
 
 :author: Klugseder, Robert
-:series: Musicological Studies
+
 :volume: LXV
 :volume_part: 13
 :price: 62

@@ -2,7 +2,7 @@ HISTORIÆ: L'Office Romano-Franc des Saints Martyrs Denis, Rustique et Eleuthere
 ===============================================================================
 
 :author: Goudesenne, Jean-François
-:series: Musicological Studies
+
 :volume: LXV
 :volume_part: 6
 :pages: l + 43

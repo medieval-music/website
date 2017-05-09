@@ -2,7 +2,7 @@ HISTORIÆ: Historia Sancti Quirini, Historia Sancti Chrysogoni aus dem Benedikti
 =============================================================================================
 
 :author: Klugseder, Robert
-:series: Musicological Studies
+
 :volume: LXV
 :volume_part: 14
 :pages: xxvi + 39

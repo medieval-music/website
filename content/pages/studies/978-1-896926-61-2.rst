@@ -2,7 +2,7 @@ HISTORIÆ: Historia de Sancta Martha Hospita Christi redactio Bohemica: Ein spä
 ============================================================================================================================================================================
 
 :author: Czagány, Zsuzsa
-:series: Musicological Studies
+
 :volume: LXV
 :volume_part: 9
 :pages: xxvi + 26

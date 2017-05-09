@@ -2,7 +2,7 @@ Tallin, Eesti Ajaloomuuseum (Tallin, Historical Museum), MS 237.1.228.a (XIX.184
 ========================================================================================
 
 :editor: Goncharova, Victoria
-:series: Publications of Mediæval Musical Manuscripts
+
 :volume: XXXV
 :pages: xli
 :plates: 630

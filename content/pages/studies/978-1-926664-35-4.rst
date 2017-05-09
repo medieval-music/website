@@ -2,7 +2,7 @@ The Letter of St. Bernard and the Tract on the Cistercian revision of the Antiph
 ====================================================================================
 
 :author: Wulstan, David
-:series: Musicological Studies
+
 :volume: CVI
 :pages: iii + 67
 :price: 76

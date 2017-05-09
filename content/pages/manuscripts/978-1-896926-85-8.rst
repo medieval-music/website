@@ -2,7 +2,7 @@ Linz, Upper Austrian State Library (olim Bundesstaatliche Studienbibliothek), Co
 =======================================================================================================
 
 :editor: Czernin, Martin 
-:series: Publications of Mediæval Musical Manuscripts
+
 :volume: XXXIV
 :volume_part: 2
 :pages: iii

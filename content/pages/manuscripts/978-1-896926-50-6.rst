@@ -3,7 +3,7 @@ Vilnius, Library of the Lithuanian Academy of Sciences, Department of Manuscript
 
 :editor: de Loos, Ike
 :editor2: Goncharova, Victoria
-:series: Publications of Mediæval Musical Manuscripts
+
 :volume: XXIX
 :pages: xiii + 23 (index)
 :plates: 480

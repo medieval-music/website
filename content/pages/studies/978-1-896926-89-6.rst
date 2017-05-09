@@ -2,7 +2,7 @@ Studies in Medieval Chant and Liturgy in Honour of David Hiley
 ==============================================================
 
 :editor: Bailey, Terence; Dobszay, László
-:series: Musicological Studies
+
 :volume: LXXXVII
 :pages: v + 519
 :price: 120

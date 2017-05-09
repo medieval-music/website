@@ -2,7 +2,7 @@ Oxford, Bodleian Library, MS. Selden Supra 27: Prosaire-Tropaire de Heidenheim
 ==============================================================================
 
 :editor: Smoje, Dujka
-:series: Publications of Mediæval Musical Manuscripts
+
 :volume: XXXIII
 :pages: vii + 112
 :plates: 94 + 16

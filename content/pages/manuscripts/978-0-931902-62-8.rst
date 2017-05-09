@@ -2,7 +2,7 @@ Cambridge, University Library Ff.i.17 (1)
 =========================================
 
 :editor: Gillingham, Bryan
-:series: Publications of Mediæval Musical Manuscripts
+
 :volume: XVII
 :pages: xxvi + 114
 :price: 64

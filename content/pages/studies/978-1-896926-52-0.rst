@@ -2,7 +2,7 @@ The Transitoria of the Ambrosian Mass: Compositional Process in Ecclesiastical C
 ====================================================================================
 
 :author: Bailey, Terence
-:series: Musicological Studies
+
 :volume: LXXIX
 :pages: xi + 281
 :price: 74

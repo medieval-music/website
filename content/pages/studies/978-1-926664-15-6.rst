@@ -4,7 +4,7 @@ HISTORIÆ: Historia Sancti Galli (circa 900)
 :author: Tremp, Ernst
 :author2: Berschin, Walter
 :author3: Hiley, David
-:series: Musicological Studies
+
 :volume: LXV
 :volume_part: 21
 :pages: xxxii + 109

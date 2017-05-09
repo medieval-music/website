@@ -2,7 +2,7 @@ Opusculum de musica ex traditione Iohannis Hollandrini
 ======================================================
 
 :author: Rausch, Alexander
-:series: Musical Theorists in Translation
+
 :volume: XV
 :pages: vi + 125
 :size: 24

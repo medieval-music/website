@@ -2,7 +2,7 @@ Nikolaus Gengenbach's Musica nova: Newe Singekunst
 ==================================================
 
 :editor: Scott, Allen
-:series: Musical Theorists in Translation
+
 :volume: XIV
 :pages: vi + 293
 :size: 32

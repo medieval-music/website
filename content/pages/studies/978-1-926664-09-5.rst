@@ -2,7 +2,7 @@ Cathedral, City and Cloister: Essays on Manuscripts, Music and Art in Old and Ne
 ========================================================================================
 
 :author: Nelson, Kathleen
-:series: Musicological Studies
+
 :volume: XCVI
 :pages: xvi + 288
 :price: 134

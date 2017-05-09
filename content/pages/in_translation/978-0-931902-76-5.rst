@@ -2,7 +2,7 @@ Johannes Galliculus (Hähnel), The Introduction to Song Composition (Isagoge de 
 ========================================================================================================
 
 :editor: Moorefield, Arthur A.
-:series: Musical Theorists in Translation
+
 :volume: XIII
 :pages: vi + 36
 :size: 24

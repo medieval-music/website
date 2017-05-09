@@ -2,7 +2,7 @@ Lambeth Palace, Sion College, MS. L1: The Noted Breviary of York (Olim Sion Coll
 ===================================================================================================================================================
 
 :editor: Hughes, Andrew
-:series: Publications of Mediæval Musical Manuscripts
+
 :volume: XXV
 :volume_part: 2
 :pages: ii

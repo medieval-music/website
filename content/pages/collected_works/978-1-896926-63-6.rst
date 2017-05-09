@@ -4,7 +4,7 @@ Obras completas de Cristóbal Galán, Volumen IX: Octetos 9-15
 :author: Cristóbal de Galán
 :editor: Baron, John H.
 :editor2: Vogt, Eric W.
-:series: Collected Works
+
 :volume: XII
 :volume_part: 9
 :pages: xxxi + 240

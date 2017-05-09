@@ -2,7 +2,7 @@ Paris, Bibliothèque nationale, fonds latin 10509
 ================================================
 
 :editor: Santosuosso, Alma
-:series: Publications of Mediæval Musical Manuscripts
+
 :volume: XXIV
 :volume_part: 2
 :pages: x + 111 + index

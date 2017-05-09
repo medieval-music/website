@@ -2,7 +2,7 @@ CANTUS: Four Klosterneuburg Antiphoners, Augustiner-Chorherren Stiftsbibliothek,
 =============================================================================================================================================================================
 
 :editor: Debra S. Lacoste
-:series: Musicological Studies
+
 :volume: LV
 :volume_part: 7
 :price: 94

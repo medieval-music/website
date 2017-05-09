@@ -2,7 +2,7 @@ Antiphon and Psalm in the Ambrosian Office
 ==========================================
 
 :author: Bailey, Terence
-:series: Musicological Studies
+
 :volume: L
 :volume_part: 3
 :price: 78

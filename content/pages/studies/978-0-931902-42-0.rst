@@ -2,7 +2,7 @@ HISTORIÆ: Historia Sancti Emmerammi, Arnoldi Vohburgensis, circa 1030
 =====================================================================
 
 :author: Hiley, David
-:series: Musicological Studies
+
 :volume: LXV
 :volume_part: 2
 :pages: xxx + 43

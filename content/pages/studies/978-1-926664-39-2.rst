@@ -3,7 +3,7 @@ HISTORIÆ: Balther von Säckingen, Bischof von Speyer, Historia Sancti Fridolini
 
 :author: Pörnbacher, Mechthild
 :author2: Hiley, David
-:series: Musicological Studies
+
 :volume: LXV
 :volume_part: 26
 :pages: xxvii + 33

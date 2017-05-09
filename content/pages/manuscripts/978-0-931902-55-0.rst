@@ -2,7 +2,7 @@ Paris, Bibliothèque nationale, fonds latin 3719: facsimile reproduction of the 
 =========================================================================================
 
 :editor: Gillingham, Bryan
-:series: Publications of Mediæval Musical Manuscripts
+
 :volume: XV
 :pages: viii + 2 (indices)
 :plates: 230

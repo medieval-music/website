@@ -2,7 +2,7 @@ HISTORIÆ: The Office of St. Vigilius, Bishop and Patron of the Church of Trent
 ==============================================================================
 
 :author: Gabrielli, Giulia
-:series: Musicological Studies
+
 :volume: LXV
 :volume_part: 24
 :pages: liv + 29

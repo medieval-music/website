@@ -3,7 +3,7 @@ The Songs of the Master Trouvère Gace Brulé (ca. 1159-ca. 1213)
 
 :author: Gace Brulé
 :editor: Tischler, Hans
-:series: Collected Works
+
 :volume: XVIII
 :pages: xxxi + 161
 :size: 24

@@ -2,7 +2,7 @@ HISTORIÆ: Two Aquileian Poetic Offices
 ======================================
 
 :author: Snoj, Jurij
-:series: Musicological Studies
+
 :volume: LXV
 :volume_part: 8
 :price: 68

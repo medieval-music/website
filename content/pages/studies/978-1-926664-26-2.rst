@@ -2,7 +2,7 @@ HISTORIÆ: Historia Sancti Gatiani Episcopi Turonensis
 =====================================================
 
 :author: Maurey, Yossi
-:series: Musicological Studies
+
 :volume: LXV
 :volume_part: 23
 :pages: xxviii + 34

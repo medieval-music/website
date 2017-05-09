@@ -2,7 +2,7 @@ HISTORIÆ: The Offices and Masses of St. Knud Lavard († 1131), (Kiel Univ. Lib
 =====================================================================================================================
 
 :author: Bergsagel, John
-:series: Musicological Studies
+
 :volume: LXV
 :volume_part: 17a
 :price: 152

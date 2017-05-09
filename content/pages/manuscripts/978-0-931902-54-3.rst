@@ -2,7 +2,7 @@ Paris, Bibliothèque nationale, fonds latin 1139: d'après les manuscrits conse
 ======================================================================================================================
 
 :editor: Gillingham, Bryan
-:series: Publications of Mediæval Musical Manuscripts
+
 :volume: XIV
 :pages: viii + 4 + 4 (indices)
 :plates: 456

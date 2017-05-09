@@ -2,7 +2,7 @@ HISTORIÆ: Hermannus Contractus (1013-1054), Historia Sancti Wolfgangi Episcopi 
 ============================================================================================
 
 :author: Hiley, David
-:series: Musicological Studies
+
 :volume: LXV
 :volume_part: 7
 :pages: xl + 41

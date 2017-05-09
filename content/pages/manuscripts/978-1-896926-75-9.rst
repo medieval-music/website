@@ -2,7 +2,7 @@ München, Bayerische Staatsbibliothek, Clm 14965b: The Tonary of Frutolf of Mich
 ===================================================================================================
 
 :editor: Maloy, Rebecca 
-:series: Publications of Mediæval Musical Manuscripts
+
 :volume: XXXII
 :pages: iii + 67
 :plates: 80

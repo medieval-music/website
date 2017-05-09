@@ -6,7 +6,7 @@ The Circle Around Gace Brulé: Four Famous Early Trouvères
 :author2: Conon de Béthune
 :author3: Guy Le Chastelain de Couci
 :author4: Gautier de Dargies
-:series: Collected Works
+
 :volume: XIX
 :pages: xxxvi +  196
 :price: 74

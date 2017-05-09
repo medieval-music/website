@@ -2,7 +2,7 @@ Offertorium and Offerenda: Kinship and Structure
 ================================================
 
 :author: Bailey, Terence
-:series: Musicological Studies
+
 :volume: XCIX
 :pages: viii + 35(I) + 135(II)
 :price: 78

@@ -4,7 +4,7 @@ Obras completas de Cristóbal Galán, Volumen V: Cuartetos/Quartets, Primera Par
 :author: Cristóbal de Galán
 :editor: Baron, John H.
 :editor2: Heiple, Daniel L.
-:series: Collected Works
+
 :volume: XII
 :volume_part: 5
 :pages: lv + 274

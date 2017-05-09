@@ -2,7 +2,7 @@ Indices to Cambridge, Fitzwilliam Museum MS 369
 ===============================================
 
 :author: Gillingham, Bryan
-:series: Musicological Studies
+
 :volume: LXXXIX
 :pages: xxiv + 823
 :price: 164

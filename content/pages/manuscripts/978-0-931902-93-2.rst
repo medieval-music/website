@@ -2,7 +2,7 @@ Oxford Bodleian Library, MS. Lat. liturg. b. 5
 ==============================================
 
 :editor: Hiley, David
-:series: Publications of Mediæval Musical Manuscripts
+
 :volume: XX
 :pages: xix
 :plates: 270

@@ -2,7 +2,7 @@ Introductorium Musicæ of Johannes Keck
 ======================================
 
 :author: Slemon, Peter
-:series: Musical Theorists in Translation
+
 :volume: XVI
 :pages: xiv + 64
 :price: 56

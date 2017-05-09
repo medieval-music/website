@@ -2,7 +2,7 @@ HISTORIÆ: Historia Sancti Martini
 =================================
 
 :author: Fickett, Martha
-:series: Musicological Studies
+
 :volume: LXV
 :volume_part: 11
 :pages: xxvii + 52

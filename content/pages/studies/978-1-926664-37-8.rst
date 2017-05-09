@@ -2,7 +2,7 @@ The Ambrosian Processions 'ad crucem'
 =====================================
 
 :author: Bailey, Terence
-:series: Musicological Studies
+
 :volume: CVII
 :pages: iv + 126
 :price: 98

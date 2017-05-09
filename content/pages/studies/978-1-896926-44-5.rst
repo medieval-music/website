@@ -3,7 +3,7 @@ Albi, Bibliothèque Municipale Rochegude, Manuscript 44: A Complete Ninth-Centur
 
 :author: Emerson, John A.
 :editor: Collamore, Lila
-:series: Musicological Studies
+
 :volume: LXXVII
 :pages: lxxii + 375
 :price: 120

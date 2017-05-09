@@ -2,7 +2,7 @@ Utrecht, Bibliotheek der Rijksuniversiteit, MS 406 (3.J.7)
 ==========================================================
 
 :editor: Steiner, Ruth
-:series: Publications of Mediæval Musical Manuscripts
+
 :volume: XXI
 :pages: liii
 :plates: 512

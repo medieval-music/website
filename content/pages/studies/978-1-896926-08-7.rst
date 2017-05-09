@@ -2,7 +2,7 @@ Le premier et le secont livre de fauvel, in the version preserved in B.N. f. fr.
 ====================================================================================
 
 :editor: Helmer, Paul
-:series: Musicological Studies
+
 :volume: LXX
 :volume_part: 1
 :pages: lxxv + 378

@@ -2,7 +2,7 @@ The Medieval West Meets the Rest of the World
 =============================================
 
 :editor: van Deusen, Nancy
-:series: Musicological Studies
+
 :volume: LXII
 :volume_part: 2
 :price: 50

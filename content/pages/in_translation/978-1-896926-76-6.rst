@@ -2,7 +2,7 @@ Anleitung zur Singekunst of Thomas Selle: An introduction, edition, translation 
 =============================================================================================
 
 :editor: Carter, Joanna
-:series: Musical Theorists in Translation
+
 :volume: XVII
 :pages: vi + 120
 :plates: 54
