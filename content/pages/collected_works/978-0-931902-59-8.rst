@@ -1,2 +1,5 @@
 Galliculus II: 3 Magnificats
 ============================
+
+:volume: VIII
+:volume_part: 2
