@@ -1,2 +1,5 @@
 Cristóbal de Galán Obras litúrgicas II
 ======================================
+
+:volume: XII
+:volume_part: 2
