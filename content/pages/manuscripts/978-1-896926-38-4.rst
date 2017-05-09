@@ -1,2 +1,5 @@
 Salamanca, Archivo de la Catedral, Ms 5
 =======================================
+
+:volume: XXVII
+:volume_part: 1
