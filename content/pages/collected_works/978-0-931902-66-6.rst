@@ -1,2 +1,5 @@
 Galliculus III: Motets
 ======================
+
+:volume: VIII
+:volume_part: 3
