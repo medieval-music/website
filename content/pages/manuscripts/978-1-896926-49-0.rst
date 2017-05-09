@@ -1,2 +1,4 @@
 Liber sequentiarum et sacramentarium de Sibenik
 ===============================================
+
+:volume: XXVIII
