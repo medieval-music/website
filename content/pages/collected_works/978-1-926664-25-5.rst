@@ -1,0 +1,8 @@
+Anthology of 15c Italian Psalms, vol. 2
+=======================================
+
+:author: Karr, John
+:volume: XXVII
+:volume_part: 2
+:isbn13: 978-1-926664-25-5
+:price: 130
