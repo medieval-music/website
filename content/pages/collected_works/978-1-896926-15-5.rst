@@ -6,3 +6,4 @@ Cuartetos, Quintetos y Sextetos VI
 :volume_part: 6
 :ISBN10: 1-896926-15-0
 :ISBN: 978-1-896926-15-5
+:price: 80
