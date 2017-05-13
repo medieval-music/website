@@ -1,0 +1,9 @@
+The Earliest Polyphonic Art Music (1)
+=====================================
+
+:editor: Tischler, Hans
+:volume: XXIV
+:volume_part: 1
+:isbn10: 1-896926-69-X
+:isbn13: 978-1-896926-69-8
+:price: 90
