@@ -4,5 +4,5 @@ Obras para conjuntos de más de ocho voces . . .
 :author: Galán, Cristóbal
 :volume: XII
 :volume_part: 11
-:ISBN10:
-:ISBN: 978-1-896926-87-2
+:price: 140
+:isbn13: 978-1-896926-87-2
