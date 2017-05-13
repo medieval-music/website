@@ -1,0 +1,8 @@
+Modal Rhythm
+============
+
+:author: Gillingham, B.
+:volume: XLVI
+:isbn10: 0-931902-52-5
+:isbn13: 978-0-931902-52-9
+:price: 40
