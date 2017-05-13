@@ -1,0 +1,8 @@
+Hildegard of Bingen: Ordo Virtutum
+==================================
+
+:author: Hildegard of Bingen
+:editor: Corrigan, Vincent
+:volume: XXVIII
+:isbn13: 978-1-926664-19-4
+:price: 84
