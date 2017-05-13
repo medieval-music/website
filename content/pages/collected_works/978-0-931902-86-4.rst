@@ -3,5 +3,5 @@ Intabolatura di Liuto (1566)
 
 :author: Neusidler, Melchior
 :volume: XV
-:ISBN10: 0-931902-86-x
-:ISBN: 978-0-931902-86-4
+:isbn10: 0-931902-86-x
+:isbn13: 978-0-931902-86-4
