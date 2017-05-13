@@ -1,8 +1,8 @@
 Anleitung zur Singekunst of Thomas Selle: An introduction, edition, translation and facsimile
 =============================================================================================
 
+:author: Selle, Thomas
 :editor: Carter, Joanna
-
 :volume: XVII
 :pages: vi + 120
 :plates: 54
