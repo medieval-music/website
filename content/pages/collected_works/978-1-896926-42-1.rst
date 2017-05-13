@@ -6,7 +6,6 @@ The Circle Around Gace Brulé: Four Famous Early Trouvères
 :author2: Conon de Béthune
 :author3: Guy Le Chastelain de Couci
 :author4: Gautier de Dargies
-
 :volume: XIX
 :pages: xxxvi +  196
 :price: 74
@@ -17,5 +16,4 @@ The Circle Around Gace Brulé: Four Famous Early Trouvères
 :place: Ottawa
 :year: 2002
 
-The extant songs (music and lyrics) of Blondel de Nesles, Conon de Béthune, The Chastelain de Couci, and Gautier de Dargies. With critical notes and an appendix with indices and lists.
-Note: The pages of the edition are unnumbered; instead, the pieces are labelled and indexed by first line.
+The extant songs (music and lyrics) of Blondel de Nesles, Conon de Béthune, The Chastelain de Couci, and Gautier de Dargies. With critical notes and an appendix with indices and lists.  Note: The pages of the edition are unnumbered; instead, the pieces are labelled and indexed by first line.
