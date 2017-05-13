@@ -3,6 +3,6 @@ Capella Sistina 51. Bibl. Apost. Vaticana: Liber Missarum (6)
 
 :volume: XVII
 :volume_part: 6
-:ISBN10: 1-896926-66-5
-:ISBN: 978-1-896926-66-7
+:isbn10: 1-896926-66-5
+:isbn13: 978-1-896926-66-7
 :price: 126
