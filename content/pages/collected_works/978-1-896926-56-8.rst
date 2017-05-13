@@ -4,5 +4,5 @@ Octetos 1-8 VIII
 :author: Galán, Cristóbal
 :volume: XII
 :volume_part: 8
-:ISBN10: 1-896926-56-8
-:ISBN: 978-1-896926-56-8
+:isbn10: 1-896926-56-8
+:isbn13: 978-1-896926-56-8
