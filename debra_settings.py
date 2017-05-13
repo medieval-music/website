@@ -56,5 +56,6 @@ SERIES_NAMES = {
 }
 
 AUTHOR_TO_CANONICAL = {
-    'Alma Colk Santosuosso': 'Alma Santosuosso',
+    'Gillingham, B.': 'Gillingham, Bryan',
+    'Santosuosso, Alma Colk': 'Santosuosso, Alma',
 }
