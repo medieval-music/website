@@ -2,7 +2,7 @@ Introductorium Musicæ of Johannes Keck
 ======================================
 
 :author: Slemon, Peter
-
+:author2: Keck, Johannes
 :volume: XVI
 :pages: xiv + 64
 :price: 56
