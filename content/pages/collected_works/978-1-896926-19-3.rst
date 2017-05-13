@@ -1,0 +1,8 @@
+The Lamentations of Jeremiah
+============================
+
+:author: Francisco de Peñalosa
+:volume: XIV
+:volume_part: 2
+:isbn10: 1-896926-19-3
+:isbn13: 978-1-896926-19-3

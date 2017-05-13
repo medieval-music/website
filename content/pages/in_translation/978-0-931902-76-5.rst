@@ -1,8 +1,8 @@
 Johannes Galliculus (Hähnel), The Introduction to Song Composition (Isagoge de Composicione Cantus)
 ========================================================================================================
 
+:author: Galliculus (Alectorius, Hähnel, Hennel), Johannes 
 :editor: Moorefield, Arthur A.
-
 :volume: XIII
 :pages: vi + 36
 :size: 24

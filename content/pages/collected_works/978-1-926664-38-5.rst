@@ -1,0 +1,7 @@
+Hildegard of Bingen, Symphonia
+==============================
+
+:author: Hildegard of Bingen
+:volume: XXX
+:isbn13: 978-1-926664-38-5
+:price: 126

@@ -1,8 +1,8 @@
 Nikolaus Gengenbach's Musica nova: Newe Singekunst
 ==================================================
 
+:author: Gengenbach, Nikolaus
 :editor: Scott, Allen
-
 :volume: XIV
 :pages: vi + 293
 :size: 32

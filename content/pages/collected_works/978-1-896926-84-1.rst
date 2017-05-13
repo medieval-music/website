@@ -2,7 +2,6 @@ Trouvère Lyrics with Melodies: Complete Comparative Edition, Revisited
 ======================================================================
 
 :author: Tischler, Hans
-
 :volume: XXV
 :pages: 108
 :price: 46

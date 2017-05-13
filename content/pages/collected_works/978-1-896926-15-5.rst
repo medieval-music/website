@@ -1,0 +1,9 @@
+Cuartetos, Quintetos y Sextetos VI
+==================================
+
+:author: Galán, Cristóbal
+:volume: XII
+:volume_part: 6
+:isbn13: 978-1-896926-15-5
+:isbn10: 1-896926-15-0
+:price: 80

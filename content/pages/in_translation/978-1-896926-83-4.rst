@@ -3,7 +3,6 @@ Theinred of Dover's De Legitimis Ordinibus Pentachordorum et Tetrachordorum: A C
 
 :editor: Snyder, John
 :author: Theinred of Dover
-
 :volume: XVIII
 :pages: x + 411
 :price: 116

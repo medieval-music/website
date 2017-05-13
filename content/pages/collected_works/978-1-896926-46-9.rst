@@ -1,0 +1,8 @@
+Sextetos y Septetos VII
+=======================
+
+:author: Galán, Cristóbal
+:isbn10: 1-896926-46-0
+:isbn13: 978-1-896926-46-9
+:volume: XII
+:volume_part: 7
