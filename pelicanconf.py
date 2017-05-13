@@ -40,6 +40,8 @@ DEFAULT_METADATA = {
 }
 PATH_METADATA = r'pages/(?P<series>.*)/.*\.rst'
 
+PLUGINS = ['plugins.combine_authors']
+
 
 # Change the URLs
 # ===============
