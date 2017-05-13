@@ -1,0 +1,8 @@
+The Earliest Laude: The Cortona Hymnal
+======================================
+
+:editor: Tischler, Hans
+:volume: XX
+:isbn10: 1-896926-47-9
+:isbn13: 978-1-896926-47-6
+:price: 48
