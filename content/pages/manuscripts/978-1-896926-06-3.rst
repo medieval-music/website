@@ -2,7 +2,6 @@ National Library of Wales, MS.20541 E, The Penpont Antiphonal
 =============================================================
 
 :editor: Edwards, Owain Tudor
-
 :volume: XXII
 :pages: 122
 :plates: 623
@@ -14,4 +13,4 @@ National Library of Wales, MS.20541 E, The Penpont Antiphonal
 :place: Ottawa
 :year: 1997
 
-Greyscale facsimile of an important antiphonal of Sarum use, prepared for a non-monastic Welsh church in the mid-14th century. Its name, “Penpont Antiphonal” is after the manor of that name in south Wales with which it was connected and where is was kept until its sale at a Sotheby auction in 1960. Introduction and indices prepared by Owain Tudor Edwards.
+Greyscale facsimile of an important antiphonal of Sarum use, prepared for a non-monastic Welsh church in the mid-14th century. Its name, “Penpont Antiphonal,” is after the manor of that name in south Wales with which it was connected and where is was kept until its sale at a Sotheby auction in 1960. Introduction and indices prepared by Owain Tudor Edwards.
