@@ -1,0 +1,11 @@
+Le Veglie di Siena
+==================
+
+:author: Vecchi, Orazio
+:editor: Beecher, Don
+:volume: XXIII
+:isbn10: 1-896926-58-4
+:isbn13: 978-1-896926-58-2
+:price: 92, 50
+
+STATUS = Hardcover out of print, available in a performing edition for 50 Euros.
