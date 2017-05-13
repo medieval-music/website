@@ -35,10 +35,11 @@ THEME = 'theme'
 
 SLUGIFY_SOURCE = 'basename'
 DEFAULT_METADATA = {
+    'isbn13': 'DEFAULT ISBN-13 PLACEHOLDER',
     'series': 'DEFAULT SERIES THAT WE DO NOT SHOW',
     'volume': 'DEFAULT VOLUME THAT IS JUST GARBAGE',
 }
-PATH_METADATA = r'pages/(?P<series>.*)/.*\.rst'
+PATH_METADATA = r'pages/(?P<series>.*)/(?P<isbn13>\d{3}-\d-\d{6}-\d{2}-\d)\.rst'
 
 PLUGINS = ['plugins.combine_authors']
 
