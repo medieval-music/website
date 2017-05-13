@@ -1,0 +1,8 @@
+Capella Sistina 51. Bibl. Apost. Vaticana: Liber Missarum (3)
+=============================================================
+
+:volume: XVII
+:volume_part: 3
+:ISBN10: 1-896926-37-1
+:ISBN: 978-1-896926-37-7
+:price: 106
