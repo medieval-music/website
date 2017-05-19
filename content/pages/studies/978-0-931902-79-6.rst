@@ -1,0 +1,10 @@
+CANTUS, Piacenza, Biblioteca Capitolare 65
+==========================================
+
+:volume: LV
+:volume_part: 2
+:price: 84
+:isbn10: 0-931902-79-7
+:isbn13: 978-0-931902-79-6
+:publisher: IMM
+:place: Ottawa
