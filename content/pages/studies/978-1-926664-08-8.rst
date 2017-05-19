@@ -1,4 +1,7 @@
-Ristory, Heinz Bibliographia Organorum Antiquorum
-=================================================
+Bibliographia Organorum Antiquorum
+==================================
 
+:author: Ristory, Heinz
 :volume: XCV
+:price: 76
+:isbn13: 978-1-926664-08-8
