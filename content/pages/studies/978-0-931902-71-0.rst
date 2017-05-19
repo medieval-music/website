@@ -1,0 +1,10 @@
+CANTUS, Aquitanian Antiphoner Toledo, Bibl. Cap. 44.2
+=====================================================
+
+:volume: LV
+:volume_part: 1
+:price: 80
+:isbn10: 0-931902-71-1
+:isbn13: 978-0-931902-71-0
+:publisher: IMM
+:place: Ottawa
