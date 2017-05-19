@@ -1,8 +1,7 @@
 CANTUS: Four Klosterneuburg Antiphoners, Augustiner-Chorherren Stiftsbibliothek, 1013, 1012, 1017, and 1018, Printouts from an Index in Machine-Readable Form, A CANTUS Index
 =============================================================================================================================================================================
 
-:editor: Debra S. Lacoste
-
+:editor: Lacoste, Debra S.
 :volume: LV
 :volume_part: 7
 :price: 94
