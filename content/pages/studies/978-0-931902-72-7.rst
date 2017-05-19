@@ -1,0 +1,10 @@
+Modal Assignment in Northern Tonaries
+=====================================
+
+:author: Merkley, Paul	
+:volume: LVI
+:price: 95
+:isbn10: 0-931902-72-x
+:isbn13: 978-0-931902-72-7
+:publisher: IMM
+:place: Ottawa
