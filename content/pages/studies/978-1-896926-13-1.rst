@@ -1,0 +1,11 @@
+Design & Production Medieval & Early Modern Europe
+==================================================
+
+:author: van Deusen, Nancy	
+:volume: LXII
+:volume_part: 4
+:price: 64
+:isbn10: 1-896926-13-4
+:isbn13: 978-1-896926-13-1
+:publisher: IMM
+:place: Ottawa
