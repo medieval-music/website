@@ -1,0 +1,10 @@
+CANTUS, Zwiefalten Antiphonar, Karlsruhe aug, perg. LX
+======================================================
+	
+:volume: LV
+:volume_part: 5
+:price: 90
+:isbn10: 0-931902-43-6
+:isbn13: 978-0-931902-43-7
+:publisher: IMM
+:place: Ottawa
