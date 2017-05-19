@@ -1,0 +1,11 @@
+Secular Medieval Latin Song: Anthology
+======================================
+
+:author: Gillingham, Bryan
+:volume: LX
+:volume_part: 1
+:price: 180
+:isbn10: 0-931902-81-9
+:isbn13: 978-0-931902-81-9
+:publisher: IMM
+:place: Ottawa
