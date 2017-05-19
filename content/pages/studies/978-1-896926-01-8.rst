@@ -1,0 +1,11 @@
+Tradition and Ecstasy: Agony of the 14th Century
+================================================
+
+:author: van Deusen, Nancy	
+:volume: LXII
+:volume_part: 3
+:price: 80
+:isbn10: 1-896926-01-0
+:isbn13: 978-1-896926-01-8
+:publisher: IMM
+:place: Ottawa
