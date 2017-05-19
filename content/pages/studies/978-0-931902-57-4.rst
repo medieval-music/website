@@ -1,0 +1,6 @@
+Italian Tonaries
+================
+
+:author: Merkley, Paul
+:price: 60
+:isbn13: 978-0-931902-57-4
