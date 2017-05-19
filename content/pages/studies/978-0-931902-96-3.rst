@@ -1,0 +1,10 @@
+CANTUS, Linz, Bundesst. Studienbibl. 290 (183)
+==============================================
+
+:volume: LV
+:volume_part: 3
+:price: 78
+:isbn10: 0-931902-96-7
+:isbn13: 978-0-931902-96-3
+:publisher: IMM
+:place: Ottawa
