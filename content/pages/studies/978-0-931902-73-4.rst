@@ -1,0 +1,10 @@
+Les Chansons de Claude Goudimel
+===============================
+
+:author: Egan-Buffet, Máire	
+:volume: LVII
+:price: 160
+:isbn10: 0-931902-73-8
+:isbn13: 978-0-931902-73-4
+:publisher: IMM
+:place: Ottawa
