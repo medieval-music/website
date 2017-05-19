@@ -1,0 +1,10 @@
+CANTUS, Utrecht Antiphonar, Rijksuni. 406 (3.J.7)
+=================================================
+	
+:volume: LV
+:volume_part: 6
+:price: 82
+:isbn10: 1-896926-05-3
+:isbn13: 978-1-896926-05-6
+:publisher: IMM
+:place: Ottawa
