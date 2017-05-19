@@ -1,0 +1,11 @@
+Issues in Medieval Philosophy
+=============================
+
+:author: van Deusen, Nancy	
+:volume: LXII
+:volume_part: 6
+:price: 68
+:isbn10: 1-896926-36-3
+:isbn13: 978-1-896926-36-0
+:publisher: IMM
+:place: Ottawa
