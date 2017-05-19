@@ -1,0 +1,11 @@
+Medieval Germany: Associations & Delineations
+=============================================
+
+:author: van Deusen, Nancy	
+:volume: LXII
+:volume_part: 5
+:price: 48
+:isbn10: 1-896926-22-3
+:isbn13: 978-1-896926-22-3
+:publisher: IMM
+:place: Ottawa
