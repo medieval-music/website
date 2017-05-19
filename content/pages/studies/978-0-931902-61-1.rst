@@ -1,0 +1,7 @@
+Style & Symbol
+==============
+
+:author: Hughes, Andrew
+:volume: LI
+:price: 90
+:isbn13: 978-0-931902-61-1
