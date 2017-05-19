@@ -1,0 +1,10 @@
+CANTUS, Cambrai, Médiat. Mun. 38 & Impr. XVIC4
+==============================================
+	
+:volume: LV
+:volume_part: 4
+:price: 96
+:isbn10: 0-931902-98-3
+:isbn13: 978-0-931902-98-7
+:publisher: IMM
+:place: Ottawa
