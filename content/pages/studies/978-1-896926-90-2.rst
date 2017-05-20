@@ -1,0 +1,9 @@
+Boethius: De Institutione arithmetica libri duo
+===============================================
+
+:author: Humphrey, Illo
+:author2: Boethius
+:volume: LXXXVI
+:price: 120
+:isbn13: 978-1-896926-90-2
+:publisher: IMM
