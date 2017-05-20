@@ -1,0 +1,11 @@
+Johannis de Muris, Musica Speculativa
+=====================================
+
+:author: Johannis de Muris
+:editor: Fast, S.
+:volume: LXI
+:price: 92
+:isbn10: 0-931902-85-1
+:isbn13: 978-0-931902-85-7
+:publisher: IMM
+:place: Ottawa
