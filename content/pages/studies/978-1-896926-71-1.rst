@@ -1,0 +1,9 @@
+Manuscript Sources of French Music Theory
+=========================================
+
+:author: Buffet, Máire
+:volume: LXXXII
+:price: 112
+:isbn10: 1-896926-71-1
+:isbn13: 978-1-896926-71-1
+:publisher: IMM
