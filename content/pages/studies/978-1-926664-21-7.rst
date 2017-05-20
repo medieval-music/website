@@ -1,0 +1,8 @@
+CANTUS PLANUS: Dobogoko Proceedings (2)
+=======================================
+
+:volume: C
+:volume_part: 2
+:price: 95
+:isbn13: 978-1-926664-21-7
+:publisher: IMM
