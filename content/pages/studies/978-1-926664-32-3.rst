@@ -1,0 +1,9 @@
+Chant and Culture / Plain-chant et Culture
+==========================================
+
+:author: Karim
+:author2: Swanson
+:volume: CV
+:price: 126
+:isbn13: 978-1-926664-32-3
+:publisher: IMM
