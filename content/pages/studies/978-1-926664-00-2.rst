@@ -1,8 +1,7 @@
 HISTORIÆ: Historia Sancti Ludgeri
 =================================
 
-:author: Hankeln, Roman
-:author2: Bezuidenhout, Morne
+:author: Bezuidenhout, Morne
 :volume: LXV
 :volume_part: 15
 :price: 80
