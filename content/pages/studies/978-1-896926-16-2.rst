@@ -2,7 +2,7 @@ Chant and Its Peripheries: Essays for T. Bailey
 ===============================================
 
 :author: Gillingham
-:author: Merkley
+:author2: Merkley
 :volume: LXXII
 :price: 88
 :isbn10: 1-896926-16-9
