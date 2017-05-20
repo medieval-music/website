@@ -1,0 +1,10 @@
+The Manuscript Ivrea, Bibl. capitolare 115
+==========================================
+
+:author: Kügle, K.
+:volume: LXIX
+:price: 76
+:isbn10: 1-896926-04-5
+:isbn13: 978-1-896926-04-9
+:publisher: IMM
+:place: Ottawa
