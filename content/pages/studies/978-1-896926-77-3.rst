@@ -1,0 +1,10 @@
+Commemoration, Ritual and Performance: Essays
+=============================================
+
+:author: Hardie, Jane
+:author2: Harvey, David
+:volume: LXXXIV
+:price: 66
+:isbn10: 1-896926-77-0
+:isbn13: 978-1-896926-77-3
+:publisher: IMM
