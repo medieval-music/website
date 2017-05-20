@@ -1,0 +1,11 @@
+Manuscrits en écriture bénéventaine... Bénévent (2)
+===================================================
+
+:author: Mallet et Thibaut
+:volume: LXXI
+:volume_part: 2
+:price: 180
+:isbn10: 1-896926-10-x
+:isbn13: 978-1-896926-10-0
+:publisher: IMM
+:place: Ottawa
