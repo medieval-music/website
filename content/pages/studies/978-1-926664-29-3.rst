@@ -1,0 +1,9 @@
+The Becket Offices (2)
+======================
+
+:author: Helsen, Kate
+:author2: Getz
+:volume: CIII
+:price: 90
+:isbn13: 978-1-926664-29-3
+:publisher: IMM
