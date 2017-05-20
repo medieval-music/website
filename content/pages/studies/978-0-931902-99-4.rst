@@ -1,0 +1,11 @@
+Adrian Le Roy, Traicté de Musique
+=================================
+
+:author: Adrian Le Roy
+:author2: Egan-Buffet, Máire
+:volume: LXVI
+:price: 52
+:isbn10: 0-931902-99-1
+:isbn13: 978-0-931902-99-4
+:publisher: IMM
+:place: Ottawa
