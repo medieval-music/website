@@ -1,0 +1,9 @@
+A Musicological Gift: Libro Homeneje for Jane Morlet Hardie
+===========================================================
+
+:author: Nelson, K.
+:author2: Gomez, M.
+:volume: CI
+:price: 126
+:isbn13: 978-1-926664-24-8
+:publisher: IMM
