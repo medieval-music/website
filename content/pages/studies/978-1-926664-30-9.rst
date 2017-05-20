@@ -1,0 +1,8 @@
+122 Ambrosian Responsories
+==========================
+
+:author: Bailey, Terence
+:volume: CIV
+:price: 120
+:isbn13: 978-1-926664-30-9
+:publisher: IMM
