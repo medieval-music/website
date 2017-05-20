@@ -1,0 +1,10 @@
+Lateinische Conductus-Texte des Mittelalters
+============================================
+
+:author: Szövérffy, J.
+:volume: LXXIV
+:price: 74
+:isbn10: 1-896926-24-x
+:isbn13: 978-1-896926-24-7
+:publisher: IMM
+:place: Ottawa
