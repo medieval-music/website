@@ -1,0 +1,11 @@
+HISTORIÆ: Historia Sancti Erhardi
+=================================
+
+:author: Hankeln, Roman
+:volume: LXV
+:volume_part: 4
+:price: 44
+:isbn10: 1-896926-23-1
+:isbn13: 978-1-896926-23-0
+:publisher: IMM
+:place: Ottawa
