@@ -1,0 +1,11 @@
+HISTORIÆ: Two Offices for St. Elizabeth of Hungary
+==================================================
+
+:author: Haggh, Barbara
+:volume: LXV
+:volume_part: 1
+:price: 48
+:isbn10: 0-931902-97-5
+:isbn13: 978-0-931902-97-0
+:publisher: IMM
+:place: Ottawa
