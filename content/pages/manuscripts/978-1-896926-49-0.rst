@@ -1,4 +1,13 @@
-Liber sequentiarum et sacramentarium de Sibenik
+Liber sequentiarum et sacramentarium de Šibenik
 ===============================================
 
+:editor: Smoje, Dujka
 :volume: XXVIII
+:price: 80
+:isbn10: 1-896926-49-5
+:isbn13: 978-1-896926-49-0
+:publisher: IMM
+:place: Ottawa
+:date: 2003
+:pages: lxvi
+:plates: 57
