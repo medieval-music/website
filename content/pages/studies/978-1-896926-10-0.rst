@@ -8,7 +8,10 @@ Les manuscrits en écriture bénéventaine de la Bibliothèque Capitulaire de B�
 :price: 180
 :isbn10: 1-896926-10-x
 :isbn13: 978-1-896926-10-0
+:pages: iv + 675-1572
 :publisher: IMM
 :place: Ottawa
 :date: 1997
 :corrigenda: Sigles et Abbréviations insert
+
+This is a joint publication involving the Institute of Mediaeval Music, l'Institut de Recherche et d'Histoires des Textes and Brepols. The two volumes produced here in collaboration are part of a much larger 24 volume study of Beneventan culture. The involvement of the Institute is limited solely to the two volumes (Musicological Studies LXXI/1 and LXXI/2 or Tome II and III of the larger study). © 1997 IMM; © 1997 CNRS Éditions, Paris, ISBN: 2-271-05464-8; © 1997 Brepols, Turnhout, ISBN: 2-503-50642-9.
