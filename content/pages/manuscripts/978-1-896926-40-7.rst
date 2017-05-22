@@ -1,5 +1,17 @@
-Salamanca, Archivo de la Catedral, Ms 7
-=======================================
+Salamanca, Archivo de la Catedral, Ms. 7
+========================================
 
+:editor: Boyce, James (O. Carm.)
 :volume: XXVII
 :volume_part: 3
+:price: 120
+:isbn10: 1-896926-40-1
+:isbn13: 978-1-896926-40-7
+:publisher: IMM
+:place: Ottawa
+:date: 2003
+:pages: iii + 2
+:plates: 180
+:size: 25 x 35 
+
+Greyscale facsimile of a pre-Council of Trent chant source from Salamanca, an important diocese following the Christian reconquest of Spain.
