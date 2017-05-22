@@ -1,8 +1,12 @@
-Anthology of 15c Italian Psalms, vol. 1
-=======================================
+An Anthology of Fifteenth-Century Italian Psalms, Vol. 1
+========================================================
 
-:author: Karr, John
+:editor: Karr, John
 :volume: XXVII
 :volume_part: 1
 :isbn13: 978-1-926664-03-3
 :price: 90
+:publisher: IMM
+:place: Ottawa
+:date: 2010
+:pages: xlvii + 188
