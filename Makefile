@@ -27,7 +27,10 @@ help:
 	@echo '   make html                           (re)generate the web site          '
 	@echo '   make clean                          remove the generated files         '
 	@echo '   make regenerate                     regenerate files upon modification '
+	@echo '   make images                         generate optimzed images in output '
 	@echo '   make publish                        generate using production settings '
+	@ehco '   make netlify-publish                build everything from scratch      '
+	@echo '   make update-submodules              runs "git submodule update"        '
 	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
@@ -53,9 +56,10 @@ endif
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
-netlify-publish:
+netlify-publish: update-submodule publish images
+
+update-submodule:
 	git submodule update
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 images:
 	convert $(IMGDIR)/laurier_hymnal.jpg -resize 200 $(IMGDIR)/homepage-200px.jpg
@@ -67,4 +71,4 @@ images:
 	convert $(IMGDIR)/laurier_hymnal.jpg -resize 400 $(IMGDIR)/homepage-400px.webp
 	convert $(IMGDIR)/laurier_hymnal.jpg -resize 500 $(IMGDIR)/homepage-500px.webp
 
-.PHONY: html help clean regenerate serve serve-global devserver stopserver publish images
+.PHONY: html help clean regenerate serve serve-global devserver stopserver publish images update-submodule
