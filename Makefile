@@ -7,6 +7,7 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
+IMGDIR=$(OUTPUTDIR)/static/img
 
 
 DEBUG ?= 0
@@ -56,4 +57,14 @@ netlify-publish:
 	git submodule update
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
-.PHONY: html help clean regenerate serve serve-global devserver stopserver publish
+images:
+	convert $(IMGDIR)/laurier_hymnal.jpg -resize 200 $(IMGDIR)/homepage-200px.jpg
+	convert $(IMGDIR)/laurier_hymnal.jpg -resize 300 $(IMGDIR)/homepage-300px.jpg
+	convert $(IMGDIR)/laurier_hymnal.jpg -resize 400 $(IMGDIR)/homepage-400px.jpg
+	convert $(IMGDIR)/laurier_hymnal.jpg -resize 500 $(IMGDIR)/homepage-500px.jpg
+	convert $(IMGDIR)/laurier_hymnal.jpg -resize 200 $(IMGDIR)/homepage-200px.webp
+	convert $(IMGDIR)/laurier_hymnal.jpg -resize 300 $(IMGDIR)/homepage-300px.webp
+	convert $(IMGDIR)/laurier_hymnal.jpg -resize 400 $(IMGDIR)/homepage-400px.webp
+	convert $(IMGDIR)/laurier_hymnal.jpg -resize 500 $(IMGDIR)/homepage-500px.webp
+
+.PHONY: html help clean regenerate serve serve-global devserver stopserver publish images
