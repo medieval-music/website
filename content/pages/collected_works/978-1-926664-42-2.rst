@@ -1,8 +1,13 @@
-Anthology of 15c Italian Psalms, vol. 3
-=======================================
+An Anthology of Fifteenth-Century Italian Psalms, Volume 3
+==========================================================
 
-:author: Karr, John
+:editor: Karr, John
 :volume: XXVII
 :volume_part: 3
 :isbn13: 978-1-926664-42-2
 :price: 120
+:publisher: IMM
+:place: Lions Bay, BC
+:date: 2016
+:pages: xxi + 147
+:corrigenda: The title page mistakenly reads “Wissenschaftliche Abhandlungen / Musicological Studies” as the series; a label affixed overtop corrects this to “Gesamtausgaben / Collected Works.”
