@@ -6,3 +6,7 @@ The Earliest Laude: The Cortona Hymnal
 :isbn10: 1-896926-47-9
 :isbn13: 978-1-896926-47-6
 :price: 48
+:publisher: IMM
+:place: Ottawa
+:date: 2002
+:pages: xx + 56
