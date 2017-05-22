@@ -1,8 +1,13 @@
-Festschrift Luther Dittmer
-==========================
+Beyond the Moon: Festschrift Luther Dittmer
+===========================================
 
-:author: Gillingham, Bryan
-:author2: Merkley, Paul
+:editor: Gillingham, Bryan
+:editor2: Merkley, Paul
 :volume: LIII
-:price: 80
+:isbn10: 0-931902-65-7
 :isbn13: 978-0-931902-65-9
+:price: 80
+:publisher: IMM
+:place: Ottawa
+:date: 1990
+:pages: xvi + 414
