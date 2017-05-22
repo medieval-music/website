@@ -3,6 +3,7 @@ HISTORIÆ: The Office of Saint Julian of Le Mans
 
 :author: Hiley, David
 :volume: LXV
+:volume_part: 25
 :price: 62
 :isbn13: 978-1-926664-31-6
 :publisher: IMM
