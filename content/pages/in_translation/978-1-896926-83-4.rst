@@ -1,7 +1,7 @@
 Theinred of Dover's De Legitimis Ordinibus Pentachordorum et Tetrachordorum: A Critical Text and Translation
 =============================================================================================================
 
-:editor: Snyder, John
+:editor: Snyder, John L.
 :author: Theinred of Dover
 :volume: XVIII
 :pages: x + 411
@@ -12,4 +12,4 @@ Theinred of Dover's De Legitimis Ordinibus Pentachordorum et Tetrachordorum: A C
 :place: Ottawa
 :year: 2006
 
-Introduction, Annotations, and Indices by John Snyder.
+With an Introduction, Annotations, and Indices by John L. Snyder.
