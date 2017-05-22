@@ -13,6 +13,8 @@ Metadata Fields for Book Entries
 
 - editor2 (full name, last name first, second editor)
 
+- editor3 (full name, last name first, second editor)
+
 - volume
 
 - volume_part (e.g., the "2" in XVII/2)
