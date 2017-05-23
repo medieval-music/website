@@ -1,9 +1,14 @@
-Antiphons of the Ambrosian Office
-=================================
+The Antiphons of the Ambrosian Office
+=====================================
 
 :author: Bailey, Terence
 :author2: Merkley, Paul
 :volume: L
 :volume_part: 1
+:isbn10: 0-931902-60-6
 :isbn13: 978-0-931902-60-4
 :price: 70
+:publisher: IMM
+:place: Ottawa
+:date: 1989
+:pages: 271
