@@ -1,9 +1,12 @@
-Letania and Preces: Music for Lenten-Rogations
-==============================================
+Letania and Preces: Music for Lenten and Rogations Litanies
+===========================================================
 
 :author: Brockett, Clyde
 :volume: LXXXV
-:price: 56
 :isbn10: 1-896926-78-9
 :isbn13: 978-1-896926-78-0
+:price: 56
 :publisher: IMM
+:place: Ottawa
+:date: 2006
+:pages: iii + 72
