@@ -1,9 +1,8 @@
 Collected Works of Francisco de Peñalosa, Twenty-Four Motets
 ============================================================
 
-:author: Francisco de Peñalosa
+:author: Peñalosa, Francisco de
 :editor: Hardie, Jane Morlet
-
 :volume: XIV
 :volume_part: 1
 :pages: xliii + 159
