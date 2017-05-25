@@ -10,6 +10,6 @@ Capella Sistina 51, Biblioteca Apostolica Vaticana, Città del Vaticano: Liber M
 :publisher: IMM
 :place: Ottawa 
 :date: 2000
-:pages: lii + 313 pp. 
+:pages: lii + 313
 
 An Editorial Transnotation of the Manuscript.
