@@ -1,9 +1,14 @@
-Chant and Culture / Plain-chant et Culture
-==========================================
+Chant and Culture: Proceedings of the conference of the Gregorian Institute of Canada / Plain-chant et Culture: Actes du colloque de l’Institut grégorien du Canada
+===================================================================================================================================================================
 
-:author: Karim
-:author2: Swanson
+:editor: Karim, Armin
+:editor2: Swanson, Barbara
 :volume: CV
-:price: 126
 :isbn13: 978-1-926664-32-3
 :publisher: IMM
+:price: 126
+:place: Lions Bay, BC
+:date: 2014
+:pages: xii + 290
+
+Proceedings of the conference of the Gregorian Institute of Canada, University of British Columbia, August 6–9, 2013. Foreword by / Avant-propos de Chantal Phan.
