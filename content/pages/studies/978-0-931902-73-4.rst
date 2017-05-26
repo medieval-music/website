@@ -1,10 +1,12 @@
-Les Chansons de Claude Goudimel
-===============================
+Les Chansons de Claude Goudimel: Analyses Modale et Stylistiques
+================================================================
 
-:author: Egan-Buffet, Máire	
+:author: Egan-Buffet, Máire
 :volume: LVII
-:price: 160
 :isbn10: 0-931902-73-8
 :isbn13: 978-0-931902-73-4
 :publisher: IMM
-:place: Ottawa
+:price: 160
+:place: Ottawa 
+:date: 1992
+:pages: xvi + 912
