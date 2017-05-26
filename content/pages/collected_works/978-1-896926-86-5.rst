@@ -1,7 +1,11 @@
-Matins for the Dead in 16th-Century Colonial Mexico
-===================================================
+Matins for the Dead in Sixteenth-Century Colonial Mexico: Mexico City Cathedral 3 and Puebla Cathedral 3
+========================================================================================================
 
-:author: Wagstaff, G.
+:editor: Wagstaff, Grayson
 :volume: XXVI
 :isbn13: 978-1-896926-86-5
+:publisher: IMM
 :price: 84
+:place: Ottawa 
+:date: 2007
+:pages: li + 163
