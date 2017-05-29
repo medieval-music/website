@@ -1,8 +1,11 @@
-Kritik und Methode in musikhistorischer Spaetmittel
-===================================================
+Kritik und Methode in musikhistorischer Spätmittelalterforschung
+================================================================
 
 :author: Ristory, Heinz
 :volume: LXXXVIII
 :price: 40
 :isbn13: 978-1-896926-88-9
 :publisher: IMM
+:place: Ottawa
+:date: 2008
+:pages: 82
