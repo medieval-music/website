@@ -1,10 +1,15 @@
-Procession, Performance, Liturgy and Ritual
-===========================================
+Procession, Performance, Liturgy, and Ritual: Essays in Honor of Bryan R. Gillingham
+====================================================================================
 
-:author: van Deusen, Nancy	
+:editor: van Deusen, Nancy	
 :volume: LXII
 :volume_part: 8
 :price: 92
 :isbn13: 978-1-896926-91-9
 :publisher: IMM
 :place: Ottawa
+:date: 2007
+:pages: xiii + 258
+:corrigenda: ISBN printed as “987-1-896926-91-9”
+
+Claremont Cultural Studies.
