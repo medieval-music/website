@@ -8,3 +8,5 @@ Modal Assignment in Northern Tonaries
 :isbn13: 978-0-931902-72-7
 :publisher: IMM
 :place: Ottawa
+:date: 1992
+:pages: xxi + 405
