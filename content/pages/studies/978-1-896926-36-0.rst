@@ -1,7 +1,6 @@
-Issues in Medieval Philosophy
-=============================
+Issues in Medieval Philosophy: Essays in Honor of Richard C. Dales ==================================================================
 
-:author: van Deusen, Nancy	
+:editor: van Deusen, Nancy	
 :volume: LXII
 :volume_part: 6
 :price: 68
@@ -9,3 +8,7 @@ Issues in Medieval Philosophy
 :isbn13: 978-1-896926-36-0
 :publisher: IMM
 :place: Ottawa
+:date: 2001
+:pages: ix + 196
+
+Claremont Cultural Studies.
