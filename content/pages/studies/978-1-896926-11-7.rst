@@ -1,5 +1,5 @@
-Social Background to Secular Medieval Song
-==========================================
+The Social Background to Secular Medieval Latin Song
+====================================================
 
 :author: Gillingham, Bryan
 :volume: LX
@@ -9,3 +9,5 @@ Social Background to Secular Medieval Song
 :isbn13: 978-1-896926-11-7
 :publisher: IMM
 :place: Ottawa
+:date: 1998
+:pages: v + 218
