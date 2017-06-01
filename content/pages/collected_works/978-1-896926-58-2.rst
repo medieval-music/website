@@ -1,11 +1,16 @@
-Le Veglie di Siena
-==================
+Le Veglie di Siena; The Night Games of Siena
+============================================
 
 :author: Vecchi, Orazio
-:editor: Beecher, Don
+:editor: Beecher, Donald
+:editor2: Gillingham, Bryan
 :volume: XXIII
+:price: 50
 :isbn10: 1-896926-58-4
 :isbn13: 978-1-896926-58-2
-:price: 92, 50
+:publisher: IMM
+:place: Ottawa
+:date: 2004
+:pages: lxvi + 223
 
-STATUS = Hardcover out of print, available in a performing edition for 50 Euros.
+Edited with an Introduction by Donald Beecher. General Editor: Bryan Gillingham. Available in a spiral-bound softcover performing edition. Note: Hardcover publication (was €92) is out of print.
