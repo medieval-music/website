@@ -1,10 +1,15 @@
-Commemoration, Ritual and Performance: Essays
-=============================================
+Commemoration, Ritual and Performance: Essays in Medieval and Early Modern Music
+================================================================================
 
-:author: Hardie, Jane
-:author2: Harvey, David
+:editor: Hardie, Jane Morlet
+:editor2: Harvey, David
 :volume: LXXXIV
 :price: 66
 :isbn10: 1-896926-77-0
 :isbn13: 978-1-896926-77-3
 :publisher: IMM
+:place: Ottawa
+:date: 2006
+:pages: iii + 109
+
+Edited by Jane Morlet Hardie with David Harvey.
