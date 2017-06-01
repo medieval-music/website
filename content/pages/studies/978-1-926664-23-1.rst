@@ -1,4 +1,4 @@
-HISTORIÆ: Hermannus Contractus (1013-1054); Historia Sancti Magni
+HISTORIÆ: Hermannus Contractus (1013-1054), Historia Sancti Magni
 =================================================================
 
 :editor: Hiley, David
