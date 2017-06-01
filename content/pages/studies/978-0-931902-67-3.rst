@@ -4,4 +4,11 @@ A Tradition of Three Tropes
 :author: Diamond, Joseph A.
 :volume: LIV
 :price: 46
+:isbn10: 0-931902-67-3
 :isbn13: 978-0-931902-67-3
+:publisher: IMM
+:place: Ottawa
+:date: 1991
+:pages: xi + 127
+
+In Memoriam: Joseph A. Diamond (1952-1990).
