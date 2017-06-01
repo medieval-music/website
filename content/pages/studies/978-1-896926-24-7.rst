@@ -1,10 +1,12 @@
-Lateinische Conductus-Texte des Mittelalters
-============================================
+Lateinische Conductus-Texte des Mittelalters (Medieval Latin Conductus Texts)
+=============================================================================
 
-:author: Szövérffy, J.
+:author: Szövérffy, Joseph
 :volume: LXXIV
 :price: 74
 :isbn10: 1-896926-24-x
 :isbn13: 978-1-896926-24-7
 :publisher: IMM
 :place: Ottawa
+:date: 2000
+:pages: v + 341 + i
