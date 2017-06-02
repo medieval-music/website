@@ -1,4 +1,5 @@
-Bibliographia Organorum Antiquorum, cum indicibus nominum et rerum ==================================================================
+Bibliographia Organorum Antiquorum, cum indicibus nominum et rerum
+==================================================================
 
 :author: Ristory, Heinz
 :volume: XCV
