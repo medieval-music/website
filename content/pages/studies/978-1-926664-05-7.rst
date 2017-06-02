@@ -1,14 +1,15 @@
-HISTORIÆ: The Offices and Masses of St. Knud Lavard († 1131), (Kiel Univ. Lib. MS S.H. 8 A.8°), Volume 2: Edition
-===================================================================================================================
+HISTORIÆ: The Offices and Masses of St. Knud Lavard († 1131), (Kiel Univ. Lib. MS S.H. 8 A.8°). Volume 2: Edition
+=================================================================================================================
 
 :author: Bergsagel, John
-
+:author2: Riis, Thomas
 :volume: LXV
 :volume_part: 17b
-:price: 152
+:price: 80
 :isbn13: 978-1-926664-05-7
 :publisher: Danish Centre for Music Publication of The Royal Library; IMM
 :place: Copenhagen; Ottawa
-:year: 2010
+:date: 2010
+:pages: xliv + 72
 
-Transcription and Edition by John Bergsagel.
+Reproduced in facsimile, transcribed and edited by John Bergsagel. With an essay on the historical background by Thomas Riis, and a foreword by David Hiley.
