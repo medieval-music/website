@@ -1,0 +1,15 @@
+HISTORIÆ: Historia Sancti Achacii
+=================================
+
+:author: Thomayer, Klaus
+:volume: LXV
+:volume_part: 12
+:price: 52
+:isbn10: 1-896926-80-0
+:isbn13: 978-1-896926-80-3
+:publisher: IMM
+:place: Ottawa
+:date: 2006
+:pages: xvii + 22
+
+Einführung und Edition / Introduction and Edition by Klaus Thomayer.
