@@ -1,10 +1,17 @@
-HISTORIÆ: Historia Sancti Stephani Regis
-========================================
+HISTORIÆ: Historia Sancti Stephani Regis 1190-1270
+==================================================
 
-:author: Dobsay, Laszlo
+:author: Dobszay, László
+:author2: Bartha, Gergely
+:author3: Földváry, Miklós
+:author4: Szendrei, Janka
 :volume: LXV
 :volume_part: 18
 :price: 65
 :isbn13: 978-1-926664-06-4
 :publisher: IMM
-:place: Lions Bay, BC
+:place: Ottawa
+:date: 2010
+:pages: xxiv + 38
+
+Introduction and Edition by László Dobszay, with the help of Gergely Bartha, Miklós Földváry and Janka Szendrei.
