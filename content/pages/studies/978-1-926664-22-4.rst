@@ -1,8 +1,15 @@
-CANTUS PLANUS: Dobogoko Proceedings (3)
-=======================================
+Papers Read at the 15th Meeting of the IMS Study Group CANTUS PLANUS, Dobogókő/Hungary, 2009. Aug. 23-29. Volume 3
+==================================================================================================================
 
+:editor: Haggh-Huglo, Barbara
+:editor2: Lacoste, Debra
 :volume: C
 :volume_part: 3
 :price: 130
 :isbn13: 978-1-926664-22-4
 :publisher: IMM
+:place: Lions Bay, BC
+:date: 2013
+:pages: v + 629-958 pp.
+
+With the members of the Cantus Planus Advisory Board: Nicolas Bell, Christelle Cazaux-Kowalski, Jeremy Llewellyn, Christian Troelsgård, Anna Vildera. Design and layout: Debra Lacoste.
