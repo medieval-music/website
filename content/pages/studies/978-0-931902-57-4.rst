@@ -9,4 +9,4 @@ Italian Tonaries
 :publisher: IMM
 :place: Ottawa
 :date: 1988
-:pages: 246 pp.
+:pages: 246
