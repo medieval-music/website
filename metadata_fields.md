@@ -9,6 +9,8 @@ Metadata Fields for Book Entries
 
 - author4 (full name, last name first, fourth author)
 
+- author5 (full name, last name first, fifth author)
+
 - editor (full name, last name first)
 
 - editor2 (full name, last name first, second editor)
