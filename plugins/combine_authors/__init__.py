@@ -39,7 +39,7 @@ book list by "title."
 **Copyright Notice**
 
 This file contains code copied from the Pelican project ("generators.py") and modified for use by
-the Institute of Medieval Music. The copyright of this file is therefore the same as the copied
+the Institute of Mediaeval Music. The copyright of this file is therefore the same as the copied
 source file, AGPLv3.
 """
 

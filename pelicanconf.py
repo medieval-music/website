@@ -14,7 +14,7 @@ except SyntaxError:
 
 
 AUTHOR = 'Placeholder Author Who Does not Matter'
-SITENAME = 'Institute of Medieval Music'
+SITENAME = 'Institute of Mediaeval Music'
 SITEURL = ''
 
 PATH = 'content'
