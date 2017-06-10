@@ -10,9 +10,10 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-# NOTE: just for now we're using the Netlify URL
-SITEURL = 'https://medieval-music.netlify.com'
-# SITEURL = 'https://medievalmusic.ca'
+
+# Take the URL from Netlify's environment variable. If it's not set, default to no URL, which isn't
+# great but at least won't break the site.
+SITEURL = os.getenv('URL', '')
 RELATIVE_URLS = False
 
 DELETE_OUTPUT_DIRECTORY = True
