@@ -58,6 +58,7 @@ PAGE_SAVE_AS = 'books/{slug}/index.html'
 
 # Theme (Pelican Settings)
 # ========================
+DIRECT_TEMPLATES = ['compress_images']
 THEME_STATIC_DIR = 'static'
 TYPOGRIFY = True
 TEMPLATE_PAGES = {
@@ -68,3 +69,6 @@ TEMPLATE_PAGES = {
 
 # Theme (Custom Settings)
 # =======================
+
+# desired width, in pixels, for the homepage image to be outputted in
+HOMEPAGE_IMAGE_SIZES = [300, 400, 500, 600, 700]

@@ -56,19 +56,9 @@ endif
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
-netlify-publish: update-submodule publish images
-
-update-submodule:
-	git submodule update
+netlify-publish: publish images
 
 images:
-	convert $(IMGDIR)/laurier_hymnal.jpg -resize 200 $(IMGDIR)/homepage-200px.jpg
-	convert $(IMGDIR)/laurier_hymnal.jpg -resize 300 $(IMGDIR)/homepage-300px.jpg
-	convert $(IMGDIR)/laurier_hymnal.jpg -resize 400 $(IMGDIR)/homepage-400px.jpg
-	convert $(IMGDIR)/laurier_hymnal.jpg -resize 500 $(IMGDIR)/homepage-500px.jpg
-	convert $(IMGDIR)/laurier_hymnal.jpg -resize 200 $(IMGDIR)/homepage-200px.webp
-	convert $(IMGDIR)/laurier_hymnal.jpg -resize 300 $(IMGDIR)/homepage-300px.webp
-	convert $(IMGDIR)/laurier_hymnal.jpg -resize 400 $(IMGDIR)/homepage-400px.webp
-	convert $(IMGDIR)/laurier_hymnal.jpg -resize 500 $(IMGDIR)/homepage-500px.webp
+	cd output && bash compress_images.html
 
-.PHONY: html help clean regenerate serve serve-global devserver stopserver publish images update-submodule
+.PHONY: html help clean regenerate serve serve-global devserver stopserver publish images

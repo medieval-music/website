@@ -45,6 +45,8 @@ Description of Settings
 - AUTHOR_TO_CANONICAL maps various spellings (forms, versions) of an author's name to a canonical
   version. The canonical version is used in the "Authors" list, though each book page uses the
   spelling in its own file.
+- HOMEPAGE_IMAGE_CREDIT is the text shown below the manuscript image on the homepage. Make sure
+  this text begins and ends with a triple-double-quote like on the next line:
 """
 
 SERIES_NAMES = {
@@ -61,3 +63,5 @@ AUTHOR_TO_CANONICAL = {
     'Boyce, James': 'Boyce, James (O. Carm.)',
     'Lacoste, Debra': 'Lacoste, Debra S.',
 }
+
+HOMEPAGE_IMAGE_CREDIT = """Photograph courtesy of Wilfrid Laurier University Archives."""
