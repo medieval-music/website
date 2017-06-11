@@ -37,7 +37,7 @@ help:
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo '                                                                          '
 
-html:
+build-html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
@@ -56,9 +56,18 @@ endif
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
-netlify-publish: publish images
+netlify-publish: publish build-sass images
 
 images:
 	cd output && bash compress_images.html
 
-.PHONY: html help clean regenerate serve serve-global devserver stopserver publish images
+build-sass:
+	cd output/static/css && sassc --output-style=compressed main.scss main.css
+	cd output/static/css && rm *.scss
+
+build-sass-debug:
+	cd output/static/css && sassc --output-style=expanded --sourcemap main.scss main.css
+
+html: build-html build-sass-debug
+
+.PHONY: html help clean regenerate serve serve-global devserver stopserver publish images build-html build-sass build-sass-debug
