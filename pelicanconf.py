@@ -58,7 +58,7 @@ PAGE_SAVE_AS = 'books/{slug}/index.html'
 
 # Theme (Pelican Settings)
 # ========================
-DIRECT_TEMPLATES = ['compress_images']
+DIRECT_TEMPLATES = ['authors', 'compress_images']
 THEME_STATIC_DIR = 'static'
 TYPOGRIFY = True
 TEMPLATE_PAGES = {
