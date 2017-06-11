@@ -37,12 +37,12 @@ SLUGIFY_SOURCE = 'basename'
 DEFAULT_METADATA = {
     'isbn13': 'DEFAULT ISBN-13 PLACEHOLDER',
     'series': 'DEFAULT SERIES THAT WE SHOULD NOT SHOW',
-    'volume': 'DEFAULT VOLUME THAT WE SHOUDL NOT SHOW',
+    'volume': 'DEFAULT VOLUME THAT WE SHOULD NOT SHOW',
     'volume_part': 'DEFAULT VOLUME PART THAT WE SHOULD NOT SHOW',
 }
 PATH_METADATA = r'pages/(?P<series>.*)/(?P<isbn13>\d{3}-\d-\d{6}-\d{2}-\d)\.rst'
 
-PLUGINS = ['plugins.combine_authors']
+PLUGINS = ['plugins.combine_authors', 'plugins.volume_sort']
 
 
 # Change the URLs

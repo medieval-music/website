@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- encoding: utf-8 -*-
 """
 This plugin manipulates author- and editor-related metadata in several ways:
 
