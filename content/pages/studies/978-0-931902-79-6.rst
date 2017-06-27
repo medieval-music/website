@@ -1,6 +1,10 @@
-CANTUS, Piacenza, Biblioteca Capitolare 65
-==========================================
+CANTUS: Piacenza, Biblioteca Capitolare 65, Printouts from an Index in Machine-Readable Form, A CANTUS Index
+============================================================================================================
 
+:author: Glaeske, Keith
+:author2: Falconer, Keith
+:author3: Collamore, Lila
+:author4: Rice, Richard
 :volume: LV
 :volume_part: 2
 :price: 84
@@ -8,3 +12,7 @@ CANTUS, Piacenza, Biblioteca Capitolare 65
 :isbn13: 978-0-931902-79-6
 :publisher: IMM
 :place: Ottawa
+:date: 1993
+:pages: xix + 178
+
+Introduction by Paul Merkley. Project Director: Ruth Steiner.
