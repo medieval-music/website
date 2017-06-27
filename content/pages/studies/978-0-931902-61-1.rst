@@ -1,7 +1,12 @@
-Style & Symbol
-==============
+Style and Symbol, Medieval Music: 800-1453
+==========================================
 
 :author: Hughes, Andrew
 :volume: LI
 :price: 90
+:isbn10: 0-931902-61-4
 :isbn13: 978-0-931902-61-1
+:publisher: IMM
+:place: Ottawa
+:date: 1989
+:pages: xxxi + 587
