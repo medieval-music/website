@@ -1,6 +1,10 @@
-CANTUS, Cambrai, Médiat. Mun. 38 & Impr. XVIC4
-==============================================
-	
+CANTUS: Two Cambrai Antphoners, Cambrai, Médiathèque Municipale 38 and Impr. XVI C 4, Printouts from two Indices in Machine-Readable Form, A CANTUS Index
+=========================================================================================================================================================
+
+:author: Haggh, Barbara
+:author2: Downey, Charles
+:author3: Glaeske, Keith
+:author4: Collamore, Lila
 :volume: LV
 :volume_part: 4
 :price: 96
@@ -8,3 +12,7 @@ CANTUS, Cambrai, Médiat. Mun. 38 & Impr. XVIC4
 :isbn13: 978-0-931902-98-7
 :publisher: IMM
 :place: Ottawa
+:date: 1995
+:pages: xliv + 313
+
+Introduction by Barbara Haggh. Project Director: Ruth Steiner.
