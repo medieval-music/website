@@ -1,5 +1,5 @@
-Adrian Le Roy, Traicté de Musique
-=================================
+Adrian Le Roy, Traicté de Musique: Facsimile Edition with Translation, Introduction and Notes
+=============================================================================================
 
 :author: Adrian Le Roy
 :author2: Egan-Buffet, Máire
@@ -9,3 +9,6 @@ Adrian Le Roy, Traicté de Musique
 :isbn13: 978-0-931902-99-4
 :publisher: IMM
 :place: Ottawa
+:date: 1996
+:pages: xlii + 102
+
