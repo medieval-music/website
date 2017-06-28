@@ -1,8 +1,12 @@
 Modal Rhythm
 ============
 
-:author: Gillingham, B.
+:author: Gillingham, Bryan
 :volume: XLVI
+:price: 40
 :isbn10: 0-931902-52-5
 :isbn13: 978-0-931902-52-9
-:price: 40
+:publisher: IMM
+:place: Ottawa
+:date: 1986
+:pages: 133
