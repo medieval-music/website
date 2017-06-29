@@ -24,5 +24,5 @@ You may also submit orders by mail to:
 
 
 We accept credit card payments through PayPal (VISA, Mastercard, Discover, American Express). No PayPal account required.
-We also accept cheques in Canadian dollars, US dollars, UK pounds, and Euros and Interac eTransfers.
+We also accept cheques in Canadian dollars, US dollars, UK pounds, and Euros, as well as Interac eTransfers.
 NOTE: We no longer accept wire payments owing to high bank charges.
