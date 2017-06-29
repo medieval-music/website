@@ -1,0 +1,7 @@
+Chant: Old and New/ Plain-Chant: l'ancien et le nouveau
+==============================================
+
+:isbn13: 978-1-926664-12-5
+:volume:  XCVIII
+:author: Renwick, William
+:price: 140,00
