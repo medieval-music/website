@@ -22,6 +22,6 @@ You may also submit orders by mail to:
 | Kitchener, Ontario, Canada
 | N2R 1L5
 
-We accept: VISA, Mastercard, Discover, American Express, Interac eTransfers,
-and cheques in Canadian dollars, US dollars, UK pounds, and Euros.
-We no longer accept wire payments owing to high bank charges.
+We accept credit card payments through PayPal (VISA, Mastercard, Discover, American Express). No PayPal account required.
+We also accept cheques in Canadian dollars, US dollars, UK pounds, and Euros and Interac eTransfers.
+NOTE: We no longer accept wire payments owing to high bank charges.
