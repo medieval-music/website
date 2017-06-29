@@ -62,6 +62,7 @@ AUTHOR_TO_CANONICAL = {
     'Santosuosso, Alma': 'Santosuosso, Alma Colk',
     'Boyce, James': 'Boyce, James (O. Carm.)',
     'Haggh, Barbara': 'Haggh-Huglo, Barbara',
+    'Hardie, Jane': 'Hardie, Jane Morlet',
     'Lacoste, Debra': 'Lacoste, Debra S.',
 }
 
