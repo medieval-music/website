@@ -1,8 +1,12 @@
-The Lamentations of Jeremiah. Ten 16th-c. Prints
-================================================
+The Lamentations of Jeremiah: Ten Sixteenth-Century Spanish Prints, An edition with introduction
+================================================================================================
 
-:editor: Hardie, Jane
+:editor: Hardie, Jane Morlet
 :volume: XXII
+:price: 116
 :isbn10: 1-896926-57-6
 :isbn13: 978-1-896926-57-5
-:price: 116
+:publisher: IMM
+:place: Ottawa
+:date: 2003
+:pages: lxxi + 287
