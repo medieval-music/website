@@ -1,9 +1,13 @@
-The Earliest Polyphonic Art Music (2)
-=====================================
+The Earliest Polyphonic Art Music: The 150 Two-Part Conductus in the Notre-Dame Manuscripts (Volume 2)
+======================================================================================================
 
-:editor: Tischler, Hans
+:author: Tischler, Hans
 :volume: XXIV
 :volume_part: 2
 :isbn10: 1-896926-70-3
 :isbn13: 978-1-896926-70-4
 :price: 82
+:place: Ottawa
+:publisher: IMM
+:date: 2005
+:pages: 410
