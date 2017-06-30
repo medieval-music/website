@@ -2,7 +2,7 @@ Obras completas de Cristóbal Galán, Volumen II: Obras litúrgicas, Segunda Par
 ===============================================================================
 
 :author: Galán, Cristóbal
-:editor1: Baron, John H.
+:editor: Baron, John H.
 :editor2: Heiple, Daniel L.
 :volume: XII
 :volume_part: 2
