@@ -1,10 +1,14 @@
 Indices to the Notre-Dame Facsimiles
 ====================================
 
-:author: Gillingham, Bryan	
+:author: Gillingham, Bryan
 :volume: LXIII
-:price: 36
 :isbn10: 0-931902-88-6
 :isbn13: 978-0-931902-88-8
-:publisher: IMM
+:price: 36
 :place: Ottawa
+:publisher: IMM
+:date: 1994
+:pages: 75
+
+Prepared by Bryan Gillingham.
