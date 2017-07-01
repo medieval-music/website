@@ -1,7 +1,13 @@
-Chant: Old and New / Plain-Chant: l'ancien et le nouveau
-========================================================
+Chant: Old and New/ Plain-chant: l'ancien et le nouveau
+=======================================================
 
+:editor: Renwick, William
+:volume: XCVIII
 :isbn13: 978-1-926664-12-5
-:volume:  XCVIII
-:author: Renwick, William
-:price: 140,00
+:price: 140
+:place: Lions Bay, BC
+:publisher: IMM
+:date: 2012
+:pages: xii + 225
+
+Proceedings of the conference of the Gregorian Institute of Canada / Actes du colloque de l’Institut grégorien du Canada, Dalhousie University, August 4-7, 2011. Foreword by Jennifer Bain.
