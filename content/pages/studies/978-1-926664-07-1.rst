@@ -1,4 +1,15 @@
-Duhamel/Swanson Traditions in Western Plainchant/Les traditions du 
-==================================================================
+Les traditions du  Plain-chant Occidental / Traditions in Western Plainchant
+============================================================================
 
+:editor: Duhamel, Pascale
+:editor2: Swanson, Barbara
 :volume: XCIV
+:isbn13: 978-1-926664-07-1
+:price: 108
+:place: Ottawa
+:publisher: IMM
+:date: 2010
+:pages: xx + 225
+:corrigenda: ISBN is printed as 978-1-926664-07-01. McMaster University is identified as “University McMaster” on the title page.
+
+Proceedings of the conference of the Gregorian Institute of Canada, McMaster University (Hamilton), August 13-16, 2009. Foreward by William Renwick.
