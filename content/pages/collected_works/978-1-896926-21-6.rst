@@ -1,7 +1,7 @@
 Capella Sistina 51, Biblioteca Apostolica Vaticana, Città del Vaticano: Liber Missarum (1)
 ==========================================================================================
 
-:editor: Eakins, Rex
+:author: Eakins, Rex
 :volume: XVII
 :volume_part: 1
 :isbn10: 1-896926-21-5
