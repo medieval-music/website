@@ -1,10 +1,12 @@
-Latin Motet: Ind. Printed Coll. 15-1600
-=======================================
+The Latin Motet: Indexes to Printed Collections, 1500-1600
+==========================================================
 
-:author: Lincoln, Harry B.	
+:author: Lincoln, Harry B.
 :volume: LIX
-:price: 220
 :isbn10: 0-931902-80-0
 :isbn13: 978-0-931902-80-2
-:publisher: IMM
+:price: 220
 :place: Ottawa
+:publisher: IMM
+:date: 1993
+:pages: xi + 835
