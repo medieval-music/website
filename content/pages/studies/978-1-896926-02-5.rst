@@ -1,10 +1,12 @@
-French Double & Triple Motets in Mont. H 196
-============================================
+French Double and Triple Motets in the Montpellier Manuscript: Textual Edition, Translation and Commentary
+==========================================================================================================
 
-:author: Smith, R.
+:author: Smith, Robyn Elizabeth
 :volume: LXVIII
-:price: 124
 :isbn10: 1-896926-02-9
 :isbn13: 978-1-896926-02-5
-:publisher: IMM
+:price: 124
 :place: Ottawa
+:publisher: IMM
+:date: 1997
+:pages: xvi + 412
