@@ -3,8 +3,10 @@ Conductus and Contrafacta
 
 :author: Tischler, Hans
 :volume: LXXV
-:price: 76
 :isbn10: 1-896926-29-0
 :isbn13: 978-1-896926-29-2
-:publisher: IMM
+:price: 76
 :place: Ottawa
+:publisher: IMM
+:date: 2001
+:pages: vi + 322
