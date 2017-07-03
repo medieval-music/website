@@ -64,6 +64,7 @@ AUTHOR_TO_CANONICAL = {
     'Haggh, Barbara': 'Haggh-Huglo, Barbara',
     'Hardie, Jane': 'Hardie, Jane Morlet',
     'Galliculus (Hähnel), Johannes': 'Galliculus (Alectorius, Hähnel, Hennel), Johannes',
+    'Nelson, Kathleen': 'Nelson, Kathleen E.',
     'Lacoste, Debra': 'Lacoste, Debra S.',
 }
 
