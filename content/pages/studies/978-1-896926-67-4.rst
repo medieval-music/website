@@ -1,5 +1,5 @@
-Denkmodelle zur französischen Mensuraltheorie des 14. Jahrhunderts (1)
-======================================================================
+Denkmodelle zur französischen Mensuraltheorie des 14. Jahrhunderts, Band I: Historische Darstellung 
+===================================================================================================
 
 :author: Ristory, Heinz
 :volume: LXXXI
@@ -9,5 +9,7 @@ Denkmodelle zur französischen Mensuraltheorie des 14. Jahrhunderts (1)
 :isbn13: 978-1-896926-67-4
 :publisher: IMM
 :place: Ottawa
+:date: 2004
+:pages: vi + 665
 
 This item is out of print. Contact the publisher for more information.
