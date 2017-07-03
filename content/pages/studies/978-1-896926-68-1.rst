@@ -1,7 +1,8 @@
-Performing Ecstasies: Music, Dance & Ritual
-===========================================
+Performing Ecstasies: Music, Dance, and Ritual in the Mediterranean
+===================================================================
 
-:author: Giudice/Deusen	
+:author: Del Giudice, Luisa
+:author2: van Deusen, Nancy
 :volume: LXII
 :volume_part: 7
 :price: 86 (out of print)
@@ -9,3 +10,8 @@ Performing Ecstasies: Music, Dance & Ritual
 :isbn13: 978-1-896926-68-1
 :publisher: IMM
 :place: Ottawa
+:date: 2005
+:pages: xxvi + 294
+:size: 25 cm
+
+**This item is out of print. Contact the publisher for more information.** Papers presented at the conference and festival "Performing Ecstasies: Music, Dance and Ritual in the Mediterranean," held in October 2000, in Los Angeles, California; the event was organized by the Italian Oral History Institute. Includes bibliographical references.
