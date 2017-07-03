@@ -1,10 +1,12 @@
-The Emperor's Old Clothes: the Rhythm of Medieval Song
-======================================================
+The Emperor's Old Clothes: The Rhythm of Mediaeval Song
+=======================================================
 
-:author: Wulstan, D.
+:author: Wulstan, David
 :volume: LXXVI
-:price: 116
 :isbn10: 1-896926-31-2
 :isbn13: 978-1-896926-31-5
-:publisher: IMM
+:price: 116
 :place: Ottawa
+:publisher: IMM
+:date: 2001
+:pages: xv + 398
