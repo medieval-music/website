@@ -1,11 +1,13 @@
-HISTORIÆ: Two Offices for St. Elizabeth of Hungary
-==================================================
+HISTORIÆ: Two Offices for St. Elizabeth of Hungary, Gaudeat Hungaria and Letare Germania; Introduction and Edition
+==================================================================================================================
 
 :author: Haggh, Barbara
 :volume: LXV
 :volume_part: 1
-:price: 48
 :isbn10: 0-931902-97-5
 :isbn13: 978-0-931902-97-0
-:publisher: IMM
+:price: 48
 :place: Ottawa
+:publisher: IMM
+:date: 1995
+:pages: xxv + 48
