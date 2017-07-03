@@ -1,9 +1,12 @@
-Music in the Cluniac Ecclesia: a Pilot Project
+Music in the Cluniac Ecclesia: A Pilot Project
 ==============================================
 
 :author: Gillingham, Bryan
 :volume: LXXXIII
-:price: 96
 :isbn10: 1-896926-73-8
 :isbn13: 978-1-896926-73-5
+:price: 96
+:place: Ottawa
 :publisher: IMM
+:date: 2006
+:pages: v + 330
