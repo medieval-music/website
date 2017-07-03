@@ -1,5 +1,16 @@
-Galliculus III: Motets
-======================
+Gesamtausgabe der Werke von Johannes Galliculus (Hähnel), Band III: Motets
+==========================================================================
 
+:author: Galliculus (Hähnel), Johannes
+:editor: Moorefield, Arthur A.
 :volume: VIII
 :volume_part: 3
+:isbn10: 0-931902-66-5
+:isbn13: 978-0-931902-66-6
+:price: 86
+:place: Ottawa
+:publisher: IMM
+:date: 1988
+:pages: xxxvi + 178
+
+Herausgegeben von Arthur A. Moorefield.
