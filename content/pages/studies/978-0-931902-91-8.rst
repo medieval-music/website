@@ -1,11 +1,13 @@
-Critical Study of Secular Medieval Latin Song
-=============================================
+A Critical Study of Secular Medieval Latin Song
+===============================================
 
 :author: Gillingham, Bryan
 :volume: LX
 :volume_part: 2
-:price: 116
 :isbn10: 0-931902-91-6
 :isbn13: 978-0-931902-91-8
-:publisher: IMM
+:price: 116
 :place: Ottawa
+:publisher: IMM
+:date: 1995
+:pages: viii + 318
