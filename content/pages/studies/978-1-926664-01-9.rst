@@ -1,10 +1,14 @@
-HISTORIÆ: Historia Sancti Reguli
-================================
+HISTORIÆ: Historia Sancti Reguli Episcopi et Martiris
+=====================================================
 
 :author: Brand, Benjamin
 :volume: LXV
 :volume_part: 16
-:price: 58
 :isbn13: 978-1-926664-01-9
+:price: 58
+:place: Ottawa
 :publisher: IMM
-:place: Lions Bay, BC
+:date: 2010
+:pages: xix + 21
+
+Einführung und Edition von / Introduction and Edition by Benjamin Brand.
