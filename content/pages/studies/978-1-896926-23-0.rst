@@ -1,11 +1,16 @@
 HISTORIÆ: Historia Sancti Erhardi
 =================================
 
-:author: Hankeln, Roman
+:author: Konrad von Megenberg (1309-1384)
+:author2: Hankeln, Roman
 :volume: LXV
 :volume_part: 4
-:price: 44
 :isbn10: 1-896926-23-1
 :isbn13: 978-1-896926-23-0
-:publisher: IMM
+:price: 44
 :place: Ottawa
+:publisher: IMM
+:date: 2000
+:pages: xlix + 27
+
+Einführung und Edition von / Introduction and Edition by Roman Hankeln.
