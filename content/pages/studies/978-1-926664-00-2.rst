@@ -1,11 +1,14 @@
 HISTORIÆ: Historia Sancti Ludgeri
 =================================
 
-:author: Bezuidenhout, Morne
+:author: Bezuidenhout, Morné
 :volume: LXV
 :volume_part: 15
-:price: 80
 :isbn13: 978-1-926664-00-2
+:price: 80
+:place: Ottawa
 :publisher: IMM
-:place: Lions Bay, BC
-:year: 2010
+:date: 2010
+:pages: lx + 93
+
+Introduction and Edition by Morné Bezuidenhout.
