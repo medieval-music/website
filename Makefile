@@ -29,7 +29,7 @@ help:
 	@echo '   make regenerate                     regenerate files upon modification '
 	@echo '   make images                         generate optimzed images in output '
 	@echo '   make publish                        generate using production settings '
-	@ehco '   make netlify-publish                build everything from scratch      '
+	@echo '   make netlify-publish                build everything from scratch      '
 	@echo '   make update-submodules              runs "git submodule update"        '
 	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
 	@echo '                                                                          '
