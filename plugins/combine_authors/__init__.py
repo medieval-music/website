@@ -9,6 +9,9 @@ This plugin manipulates author- and editor-related metadata in several ways:
   :attr:`imm_editors` attribute.
 - If an author is the same as the default :const:`AUTHOR` setting, it is omitted. This may lead to
   :class:`Content` instances where :attr:`imm_authors` is empty.
+- The :attr:`imm_authors_bib` attribute is a string for use in a book's bibliographic entry.
+  This string may contain the names of editors, if the book has no authors. The string does not
+  require additional processing, and it does end with a period.
 - Finally, add an "imm_authors_list" list to the templating context (that is: as a variable
   accessible in the Jinja2 templates). Data format described below.
 
@@ -191,12 +194,28 @@ class IMMAuthorList(generators.CachingGenerator):
         self.readers.save_cache()
 
 
+def bibliographic_list_joiner(bib_list):
+    """
+    Joins a list of names for a bibliography.
+    """
+    if len(bib_list) == 1:
+        bib_list = bib_list[0]
+    elif len(bib_list) == 2:
+        bib_list = '{0} and {1}'.format(bib_list[0], bib_list[1])
+    elif len(bib_list) > 2:
+        bib_list[-1] = 'and {}'.format(bib_list[-1])
+        bib_list = ', '.join(bib_list)
+    return bib_list
+
+
 def add_authors_to_page(content):
     """
     Adds the "imm_authors" and "imm_editors" fields to all :class:`Content` pages.
     """
+    auths_bib = []
+    edits_bib = []
     content.imm_authors = []
-    for field in _AUTHOR_FIELDS_TO_COLLECT:
+    for i, field in enumerate(_AUTHOR_FIELDS_TO_COLLECT):
         if hasattr(content, field):
             this_field = getattr(content, field)
             if str(this_field) == content.settings.get('AUTHOR', ''):
@@ -205,10 +224,40 @@ def add_authors_to_page(content):
                 this_field = urlwrappers.Author(this_field, content.settings)
             content.imm_authors.append(this_field)
 
+            bib_name = str(this_field)
+            if ',' in bib_name and i > 0:
+                bib_name = bib_name.split(',')
+                bib_name = '{0} {1}'.format(bib_name[1], bib_name[0])
+            auths_bib.append(bib_name)
+
+    auths_bib = bibliographic_list_joiner(auths_bib)
+
     content.imm_editors = []
-    for field in _EDITOR_FIELDS_TO_COLLECT:
+    for i, field in enumerate(_EDITOR_FIELDS_TO_COLLECT):
         if hasattr(content, field):
             content.imm_editors.append(urlwrappers.Author(getattr(content, field), content.settings))
+
+            bib_name = getattr(content, field)
+            if ',' in bib_name and i > 0:
+                bib_name = bib_name.split(',')
+                bib_name = '{0} {1}'.format(bib_name[1], bib_name[0])
+            edits_bib.append(bib_name)
+
+    if auths_bib:
+        # If there are editors and authors, all the editor names are firstname lastname.
+        content.imm_authors_bib = auths_bib
+        if edits_bib:
+            edits_bib[0] = edits_bib[0].split(',')
+            edits_bib[0] = '{0} {1}'.format(edits_bib[0][1], edits_bib[0][0])
+        content.imm_editors_bib = bibliographic_list_joiner(edits_bib)
+    else:
+        # If there are editors but no authors, treat the editors as though they were authors.
+        if len(edits_bib) > 1:
+            edits_bib = '{0}, eds'.format(bibliographic_list_joiner(edits_bib))
+        else:
+            edits_bib = '{0}, ed'.format(edits_bib)
+        content.imm_authors_bib = edits_bib
+        content.imm_editors_bib = False
 
 
 def add_generator(nothing):  # pylint: disable=unused-argument
