@@ -16,6 +16,8 @@ except SyntaxError:
 AUTHOR = 'Placeholder Author Who Does not Matter'
 SITENAME = 'Institute of Mediaeval Music'
 SITEURL = ''
+# used when no author or editor is in the record
+INSTITUTION_AUTHOR = SITENAME
 
 PATH = 'content'
 
