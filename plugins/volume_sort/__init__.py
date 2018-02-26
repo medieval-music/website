@@ -4,6 +4,9 @@
 This plugin converts the "volume" and "volume_part" fields into an integer that can be used to sort
 all the volumes in a series. This integer is added to the "volume_sort" field.
 
+This plugin also adds the Latin numeral version of the "volume" field,
+assigned to the "volume_latin_numerals" attribute.
+
 
 **Copyright Notice**
 
@@ -43,7 +46,8 @@ def add_volume_sort(content):
     sort = 0
 
     if content.volume != 'DEFAULT VOLUME THAT WE SHOULD NOT SHOW':
-        sort += roman.fromRoman(content.volume) * _VOLUME_FACTOR
+        content.volume_latin_numerals = roman.fromRoman(content.volume)
+        sort += content.volume_latin_numerals * _VOLUME_FACTOR
 
     if content.volume_part != 'DEFAULT VOLUME PART THAT WE SHOULD NOT SHOW':
         try:
