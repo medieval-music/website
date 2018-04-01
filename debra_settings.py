@@ -58,14 +58,22 @@ SERIES_NAMES = {
 }
 
 AUTHOR_TO_CANONICAL = {
-    'Gillingham, B.': 'Gillingham, Bryan',
-    'Santosuosso, Alma': 'Santosuosso, Alma Colk',
     'Boyce, James': 'Boyce, James (O. Carm.)',
+    'van Deusen, Nancy': 'Deusen, Nancy van',
+    'de Peñalosa, Francisco': 'Peñalosa, Francisco de',
+    'Antoine de Févin': 'Févin, Antoine de',
+    'de Févin, Antoine': 'Févin, Antoine de',
+    'Robert de Févin': 'Févin, Robert de',
+    'de Févin, Robert': 'Févin, Robert de',
+    'Galliculus (Hähnel), Johannes': 'Galliculus (Alectorius, Hähnel, Hennel), Johannes',
+    'Gillingham, B.': 'Gillingham, Bryan',
+    'Del Giudice, Luisa': 'Giudice, Luisa del',
     'Haggh, Barbara': 'Haggh-Huglo, Barbara',
     'Hardie, Jane': 'Hardie, Jane Morlet',
-    'Galliculus (Hähnel), Johannes': 'Galliculus (Alectorius, Hähnel, Hennel), Johannes',
-    'Nelson, Kathleen': 'Nelson, Kathleen E.',
     'Lacoste, Debra': 'Lacoste, Debra S.',
+    'de Loos, Ike': 'Loos, Ike de',
+    'Nelson, Kathleen': 'Nelson, Kathleen E.',
+    'Santosuosso, Alma': 'Santosuosso, Alma Colk',
 }
 
 HOMEPAGE_IMAGE_CREDIT = """Photograph courtesy of Wilfrid Laurier University Archives."""
