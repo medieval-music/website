@@ -3,13 +3,13 @@ blinker==1.4
 docutils==0.14
 feedgenerator==1.9
 Jinja2==2.10
-libsass==0.13.7
+libsass==0.14.2
 MarkupSafe==1.0
-packaging==16.8
+packaging==17.1
 pelican==3.7.1
 Pygments==2.2.0
 pyparsing==2.2.0
-python-dateutil==2.6.1
+python-dateutil==2.7.2
 pytz==2018.3
 roman==2.0.0
 six==1.11.0
