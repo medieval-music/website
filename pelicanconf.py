@@ -16,7 +16,7 @@ except SyntaxError:
 AUTHOR = 'Placeholder Author Who Does not Matter'
 SITENAME = 'Institute of Mediaeval Music'
 # Take the URL from Netlify's environment variable. If it's not set, default to no URL.
-SITEURL = os.getenv('URL', '')
+SITEURL = os.getenv('DEPLOY_PRIME_URL', os.getenv('URL', ''))
 RELATIVE_URLS = False
 # used when no author or editor is in the record
 INSTITUTION_AUTHOR = SITENAME
