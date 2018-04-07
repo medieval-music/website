@@ -14,11 +14,14 @@ CSS_DIR=$(OUTPUT_DIR)/static/css
 MAIN_CSS_FILE=$(CSS_DIR)/main.css
 CSS_SOURCEMAP=$(CSS_DIR)/main.css.map
 
-HOMEPAGE_IMAGE_SIZES=$(shell echo {3..7}00)
+# HOMEPAGE_IMAGE_SIZES=$(shell echo {3..7}00)
+HOMEPAGE_IMAGE_SIZES=300 400 500 600 700
 IMG_SOURCE_FILE=$(THEME_DIR)/static/img/laurier_hymnal.jpg
 IMG_DEST_DIR=$(OUTPUT_DIR)/static/img
-JPEG_OUTPUT_FILES=$(shell echo $(IMG_DEST_DIR)/homepage-{3..7}00.jpg)
-WEBP_OUTPUT_FILES=$(shell echo $(IMG_DEST_DIR)/homepage-{3..7}00.webp)
+# JPEG_OUTPUT_FILES=$(shell echo $(IMG_DEST_DIR)/homepage-{3..7}00.jpg)
+# WEBP_OUTPUT_FILES=$(shell echo $(IMG_DEST_DIR)/homepage-{3..7}00.webp)
+JPEG_OUTPUT_FILES=$(IMG_DEST_DIR)/homepage-300.jpg $(IMG_DEST_DIR)/homepage-400.jpg $(IMG_DEST_DIR)/homepage-500.jpg $(IMG_DEST_DIR)/homepage-600.jpg $(IMG_DEST_DIR)/homepage-700.jpg
+WEBP_OUTPUT_FILES=$(IMG_DEST_DIR)/homepage-300.webp $(IMG_DEST_DIR)/homepage-400.webp $(IMG_DEST_DIR)/homepage-500.webp $(IMG_DEST_DIR)/homepage-600.webp $(IMG_DEST_DIR)/homepage-700.webp
 
 
 help:
