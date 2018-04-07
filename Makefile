@@ -26,7 +26,8 @@ help:
 	@echo '                                                                          '
 
 
-build-html:
+build-html: $(OUTPUT_DIR)/index.html
+$(OUTPUT_DIR)/index.html: $(INPUT_DIR)/**/*.rst $(THEME_DIR)/templates/**/*.html $(THEME_DIR)/templates/*.html
 	HOMEPAGE_IMAGE_SIZES="$(HOMEPAGE_IMAGE_SIZES)" $(PELICAN) $(INPUT_DIR) -o $(OUTPUT_DIR) -s $(CONF_FILE) $(PELICAN_OPTS)
 
 
