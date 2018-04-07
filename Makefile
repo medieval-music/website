@@ -1,73 +1,59 @@
 PY?=python3
 PELICAN?=pelican
-PELICANOPTS=
+PELICAN_OPTS=
 
-BASEDIR=$(CURDIR)
-INPUTDIR=$(BASEDIR)/content
-OUTPUTDIR=$(BASEDIR)/output
-CONFFILE=$(BASEDIR)/pelicanconf.py
-PUBLISHCONF=$(BASEDIR)/publishconf.py
-IMGDIR=$(OUTPUTDIR)/static/img
+BASE_DIR=$(CURDIR)
+INPUT_DIR=$(BASE_DIR)/content
+OUTPUT_DIR=$(BASE_DIR)/output
+CONF_FILE=$(BASE_DIR)/pelicanconf.py
 
+THEME_DIR=$(BASE_DIR)/theme
+SASS_DIR=$(THEME_DIR)/static/css
+MAIN_SASS_FILE=$(SASS_DIR)/main.scss
+CSS_DIR=$(OUTPUT_DIR)/static/css
+MAIN_CSS_FILE=$(CSS_DIR)/main.css
+CSS_SOURCEMAP=$(CSS_DIR)/main.css.map
 
-DEBUG ?= 0
-ifeq ($(DEBUG), 1)
-	PELICANOPTS += -D
-endif
-
-RELATIVE ?= 0
-ifeq ($(RELATIVE), 1)
-	PELICANOPTS += --relative-urls
-endif
 
 help:
-	@echo 'Makefile for a pelican Web site                                           '
+	@echo 'Makefile for the Institute of Mediaeval Music website                     '
 	@echo '                                                                          '
-	@echo 'Usage:                                                                    '
-	@echo '   make html                           (re)generate the web site          '
-	@echo '   make clean                          remove the generated files         '
-	@echo '   make regenerate                     regenerate files upon modification '
-	@echo '   make images                         generate optimzed images in output '
-	@echo '   make publish                        generate using production settings '
-	@echo '   make netlify-publish                build everything from scratch      '
-	@echo '   make update-submodules              runs "git submodule update"        '
-	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
-	@echo '                                                                          '
-	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
-	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
-	@echo '                                                                          '
+
 
 build-html:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	$(PELICAN) $(INPUT_DIR) -o $(OUTPUT_DIR) -s $(CONF_FILE) $(PELICAN_OPTS)
+
 
 clean:
-	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
+	@rm -rf $(OUTPUT_DIR)/*
 
-regenerate:
-	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
-serve:
-ifdef PORT
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server $(PORT)
-else
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server
-endif
+publish: clean build-html $(MAIN_CSS_FILE)
+	rm -rf $(CSS_DIR)/*.scss
 
-publish:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
-netlify-publish: publish build-sass images
+netlify-publish: clean publish $(MAIN_CSS_FILE) images
+
 
 images:
 	cd output && bash compress_images.html
 
-build-sass:
-	cd output/static/css && sassc --output-style=compressed main.scss main.css
-	cd output/static/css && rm *.scss
 
-build-sass-debug:
-	cd output/static/css && sassc --output-style=expanded --sourcemap main.scss main.css
+build-sass: $(MAIN_CSS_FILE)
+$(MAIN_CSS_FILE): $(SASS_DIR)/*.scss
+	@rm -rf $(CSS_DIR)/*
+	@mkdir -p $(CSS_DIR)
+	sassc --output-style=compressed $(MAIN_SASS_FILE) $(MAIN_CSS_FILE)
 
-html: build-html build-sass-debug
 
-.PHONY: html help clean regenerate serve serve-global devserver stopserver publish images build-html build-sass build-sass-debug
+build-sass-debug: $(CSS_SOURCEMAP)
+$(CSS_SOURCEMAP): $(SASS_DIR)/*.scss
+	@rm -rf $(CSS_DIR)/*
+	@mkdir -p $(CSS_DIR)
+	sassc --output-style=expanded --sourcemap $(MAIN_SASS_FILE) $(MAIN_CSS_FILE)
+
+
+build: build-html $(CSS_SOURCEMAP)
+
+
+.PHONY: html help clean publish netlify-publish images build-html build-sass build-sass-debug
