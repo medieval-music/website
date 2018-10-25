@@ -2,7 +2,7 @@ HISTORIÆ: The Office of Saint William of York
 =============================================
 
 :author: Toy, John
-:author: Hiley, David
+:author2: Hiley, David
 
 :volume: LXV
 :volume_part: 27
