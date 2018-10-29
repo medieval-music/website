@@ -67,6 +67,7 @@ THEME_STATIC_DIR = 'static'
 TYPOGRIFY = True
 TEMPLATE_PAGES = {
     'series.html': 'series/index.html',
+    'titles.html': 'titles/index.html',
     'volumes.html': 'volumes/index.html',
 }
 
