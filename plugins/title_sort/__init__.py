@@ -26,7 +26,7 @@ from pelican import signals
 
 
 # This list contains words that, if found at the start of the title, will be removed.
-UNWANTED_LEADING_ARTICLES = ('a', 'an', 'la', 'le', 'les', 'of', 'on', 'the')
+_DEFAULT_IGNOREABLE_INITIAL_WORDS = ('a', 'an', 'the')
 
 
 class FilterTagsParser(HTMLParser):
@@ -51,6 +51,14 @@ def add_title_sort(content):
     if content.title:
         sort = content.title
 
+        # pre: clean the ignoreable words too
+        ignoreables = [
+            word.lower().strip() for word in content.settings.get(
+                'IGNOREABLE_INITIAL_WORDS',
+                _DEFAULT_IGNOREABLE_INITIAL_WORDS
+            )
+        ]
+
         # 1.) converts to lowercase
         sort = sort.lower()
 
@@ -65,7 +73,7 @@ def add_title_sort(content):
 
         # 4.) removes leading articles(see list below)
         index_of_first_space = sort.find(' ')
-        if index_of_first_space != -1 and sort[0:index_of_first_space] in UNWANTED_LEADING_ARTICLES:
+        if index_of_first_space != -1 and sort[0:index_of_first_space] in ignoreables:
             sort = sort[index_of_first_space:]
 
         # 5.) removes whitespace
