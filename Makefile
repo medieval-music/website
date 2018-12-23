@@ -82,14 +82,14 @@ build-sass: $(MAIN_CSS_FILE)
 $(MAIN_CSS_FILE): $(SASS_DIR)/*.scss
 	@rm -rf $(CSS_DIR)/*
 	@mkdir -p $(CSS_DIR)
-	sassc --output-style=compressed $(MAIN_SASS_FILE) $(MAIN_CSS_FILE)
+	pysassc --output-style=compressed $(MAIN_SASS_FILE) $(MAIN_CSS_FILE)
 
 
 build-sass-debug: $(CSS_SOURCEMAP)
 $(CSS_SOURCEMAP): $(SASS_DIR)/*.scss
 	@rm -rf $(CSS_DIR)/*
 	@mkdir -p $(CSS_DIR)
-	sassc --output-style=expanded --sourcemap $(MAIN_SASS_FILE) $(MAIN_CSS_FILE)
+	pysassc --output-style=expanded --sourcemap $(MAIN_SASS_FILE) $(MAIN_CSS_FILE)
 
 
 build: build-html $(CSS_SOURCEMAP) images

@@ -49,7 +49,7 @@ source file, AGPLv3.
 
 import logging
 
-from pelican import contents, generators, signals, urlwrappers
+from pelican import contents, generators, signals, urlwrappers, utils
 
 LOGGER = logging.getLogger(__name__)
 
@@ -160,6 +160,10 @@ class IMMAuthorList(generators.CachingGenerator):
                         path=each_file,
                         content_class=contents.Page,
                         context=self.context,
+                        preread_signal=signals.page_generator_preread,
+                        preread_sender=self,
+                        context_signal=signals.page_generator_context,
+                        context_sender=self
                     )
                 except Exception as exc:  # pylint: disable=broad-except
                     LOGGER.error(
@@ -168,30 +172,35 @@ class IMMAuthorList(generators.CachingGenerator):
                     self._add_failed_source_path(each_file)
                     continue
 
-                if not contents.is_valid_content(page, each_file):
-                    self._add_failed_source_path(each_file)
-                    continue
-
-                if page.status.lower() not in ('published', 'hidden'):
-                    LOGGER.error(
-                        'Unknown status "%s" for file %s, skipping it.',
-                        page.status, each_file)
+                if not page.is_valid():
                     self._add_failed_source_path(each_file)
                     continue
 
                 self.cache_data(each_file, page)
 
-            if page.status.lower() == "published":
+            if page.status.lower() == 'published':
                 all_pages.append(page)
             self.add_source_path(page)
+            self.add_static_links(page)
 
-        canonical_authors = self.settings.get('AUTHOR_TO_CANONICAL', {})
+        def _process(pages):
+            origs, translations = utils.process_translations(
+                pages,
+                translation_id=self.settings['PAGE_TRANSLATION_ID']
+            )
+            origs = utils.order_content(origs, self.settings['PAGE_ORDER_BY'])
+            return origs, translations
 
-        self.imm_authors_list = prepare_authors_context(all_pages, canonical_authors)
-        self._update_context(('imm_authors_list',))
+        self.pages, self.translations = _process(all_pages)
+        self.imm_authors_list = prepare_authors_context(
+            all_pages,
+            self.settings.get('AUTHOR_TO_CANONICAL', {})
+        )
+        self._update_context(('imm_authors_list', 'pages'))
 
         self.save_cache()
         self.readers.save_cache()
+        signals.page_generator_finalized.send(self)
 
 
 def bibliographic_list_joiner(bib_list):
