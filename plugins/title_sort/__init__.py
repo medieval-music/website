@@ -8,8 +8,9 @@ This is what it does:
 1.) converts to lowercase
 2.) removes HTML tags
 3.) trims leading/trailing whitespace
-4.) removes leading articles (see list below)
-5.) removes whitespace
+4.) removes leading numbers and other non-"word" characters
+5.) removes leading articles (see list below)
+6.) removes whitespace
 
 
 **Copyright Notice**
@@ -27,6 +28,11 @@ from pelican import signals
 
 # This list contains words that, if found at the start of the title, will be removed.
 _DEFAULT_IGNOREABLE_INITIAL_WORDS = ('a', 'an', 'the')
+
+
+# Two regexes to help filter and sort names .
+leading_nonletters_regex = re.compile(r'\d*')
+nonword_chars_regex = re.compile(r'\W*')
 
 
 class FilterTagsParser(HTMLParser):
@@ -71,13 +77,16 @@ def add_title_sort(content):
         # 3.) trims leading/trailing whitespace
         sort = sort.strip()
 
-        # 4.) removes leading articles(see list below)
+        # 4.) removes leading numbers and other non-"word" characters
+        sort = re.sub(leading_nonletters_regex, '', sort)
+
+        # 5.) removes leading articles(see list below)
         index_of_first_space = sort.find(' ')
         if index_of_first_space != -1 and sort[0:index_of_first_space] in ignoreables:
             sort = sort[index_of_first_space:]
 
-        # 5.) removes whitespace
-        sort = re.sub(r'\W', '', sort)
+        # 6.) removes whitespace
+        sort = re.sub(nonword_chars_regex, '', sort)
 
     content.title_sort = sort
 
