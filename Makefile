@@ -93,6 +93,7 @@ $(CSS_SOURCEMAP): $(SASS_DIR)/*.scss
 
 
 build: build-html $(CSS_SOURCEMAP) images
+buidl: build
 
 
 .PHONY: help clean publish netlify-publish

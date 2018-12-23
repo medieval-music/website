@@ -1,7 +1,9 @@
+Institute of Mediaeval Music
+----------------------------
+
 :url:
 :save_as: index.html
 :template: homepage
-
 
 The Institute of Mediaeval Music is a small Canadian press devoted to publishing academic books
 about all aspects of music in the Middle Ages. Series include
