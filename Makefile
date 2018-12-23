@@ -25,8 +25,28 @@ WEBP_OUTPUT_FILES=$(IMG_DEST_DIR)/homepage-300.webp $(IMG_DEST_DIR)/homepage-400
 
 
 help:
-	@echo 'Makefile for the Institute of Mediaeval Music website                     '
+	@echo ''
+	@echo 'Makefile for the "Institute of Mediaeval Music" Website                   '
+	@echo '=======================================================                   '
 	@echo '                                                                          '
+	@echo 'Interesting Targets'
+	@echo '-------------------'
+	@echo 'build            - Depends on "build-html," "build-sass," and "images" for development.'
+	@echo 'build-html       - Compile the HTML pages for production.'
+	@echo 'build-html-debug - Compile the HTML pages, with debugging settings.'
+	@echo 'build-sass       - Compile the stylesheets for production.'
+	@echo 'build-sass-debug - Compile the stylesheets, unoptimized and with debugging information.'
+	@echo 'images           - Depends on the other "images" targets.'
+	@echo 'jpeg-images      - Produce optimized images in JPEG format.'
+	@echo 'webp-images      - Produce optimized images in WebP format.'
+	@echo ''
+	@echo 'Other Targets'
+	@echo '-------------'
+	@echo 'clean           - Remove all build artifacts.'
+	@echo 'netlify-publish - Same as "publish" but intended for use by Netlify.'
+	@echo 'publish         - Produce all build artifacts so the website can be deployed.'
+	@echo ''
+
 
 
 build-html: $(OUTPUT_DIR)/index.html
@@ -75,4 +95,4 @@ $(CSS_SOURCEMAP): $(SASS_DIR)/*.scss
 build: build-html $(CSS_SOURCEMAP) images
 
 
-.PHONY: html help clean publish netlify-publish build-html build-sass build-sass-debug images jpeg-images webp-images
+.PHONY: help clean publish netlify-publish
