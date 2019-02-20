@@ -1,0 +1,14 @@
+HISTORIÆ: Historia Sancti Hylarii Episcopi Pictaviensis (circa 816-930)
+=======================================================================
+
+:author: Haggh-Huglo, Barbara
+:volume: LXV
+:volume_part: 28
+:pages: ix + 127
+:price: 82
+:isbn13: 978-1-926664-50-7
+:publisher: IMM
+:place: Kitchener, ON
+:year: 2018
+
+Introduction and Edition by Barbara Haggh-Huglo.
