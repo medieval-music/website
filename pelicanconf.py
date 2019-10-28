@@ -72,7 +72,6 @@ TEMPLATE_PAGES = {
     'news.html': 'news/index.html',
     'series.html': 'series/index.html',
     'titles.html': 'titles/index.html',
-    'volumes.html': 'volumes/index.html',
 }
 
 
