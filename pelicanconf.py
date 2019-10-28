@@ -16,7 +16,7 @@ except SyntaxError:
 AUTHOR = 'Placeholder Author Who Does not Matter'
 SITENAME = 'Institute of Mediaeval Music'
 # Take the URL from Netlify's environment variable. If it's not set, default to no URL.
-SITEURL = os.getenv('DEPLOY_PRIME_URL', '')
+SITEURL = os.getenv('DEPLOY_PRIME_URL', os.getenv('URL', ''))
 RELATIVE_URLS = False
 # used when no author or editor is in the record
 INSTITUTION_AUTHOR = SITENAME
@@ -48,10 +48,13 @@ PATH_METADATA = r'pages/(?P<series>.*)/(?P<isbn13>\d{3}-\d-\d{6}-\d{2}-\d)\.rst'
 
 PLUGINS = ['plugins.combine_authors', 'plugins.title_sort', 'plugins.volume_sort']
 
+ARTICLE_PATHS = ['news']
+
 
 # Change the URLs
 # ===============
 ARCHIVES_SAVE_AS = ''
+ARTICLE_SAVE_AS = ''
 AUTHORS_SAVE_AS = 'authors/index.html'
 AUTHORS_URL = 'authors'
 CATEGORIES_SAVE_AS = ''
@@ -66,6 +69,7 @@ DIRECT_TEMPLATES = ['authors']
 THEME_STATIC_DIR = 'static'
 TYPOGRIFY = True
 TEMPLATE_PAGES = {
+    'news.html': 'news/index.html',
     'series.html': 'series/index.html',
     'titles.html': 'titles/index.html',
     'volumes.html': 'volumes/index.html',
