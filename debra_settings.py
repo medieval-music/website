@@ -77,6 +77,9 @@ And then whatever you write between the sets of quote marks is what we use for t
 Description of Settings
 -----------------------
 - SERIES_NAMES maps a directory name in "content/pages" to the full name of that series.
+- SERIES_ALT_NAMES maps a directory name in "content/pages" to a list of alternative
+  names for that series (i.e., translations). This is optional, meaning you don't have
+  to provide ALT_NAMES for every series.
 - AUTHOR_TO_CANONICAL maps various spellings (forms, versions) of an author's name to a canonical
   version. The canonical version is used in the "Authors" list, though each book page uses the
   spelling in its own file.
@@ -93,6 +96,15 @@ SERIES_NAMES = {
     'in_translation': 'Musical Theorists in Translation',
     'manuscripts': 'Publications of Mediæval Musical Manuscripts',
     'studies': 'Musicological Studies',
+}
+
+SERIES_ALT_NAMES ={
+    'collected_works': ['Gesamtausgaben'],
+    'manuscripts': [
+        'Veröffentlichungen mittelalterlicher Musikhandschriften',
+        'Publications des manuscrits musicaux du moyen age'
+    ],
+    'studies': ['Wissenschaftliche Abhandlungen'],
 }
 
 AUTHOR_TO_CANONICAL = {
