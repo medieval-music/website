@@ -263,8 +263,10 @@ def add_authors_to_page(content):
         # If there are editors but no authors, treat the editors as though they were authors.
         if len(edits_bib) > 1:
             edits_bib = '{0}, eds'.format(bibliographic_list_joiner(edits_bib))
+        elif len(edits_bib) == 1:
+            edits_bib = '{0}, ed'.format(edits_bib[0])
         else:
-            edits_bib = '{0}, ed'.format(edits_bib)
+            edits_bib = ''
         content.imm_authors_bib = edits_bib
         content.imm_editors_bib = False
 
