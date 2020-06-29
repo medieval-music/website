@@ -2,7 +2,8 @@ HISTORIÆ: Officium sancti Mauritii sociorumque eius Thebaicae legionis
 ======================================================================
 
 :author: Hankeln, Roman
-:volume: LXV/30
+:volume: LXV
+:volume_part: 30
 :pages: lxxxi + 51
 :price: 84
 :isbn13: 978-1-926664-53-8
