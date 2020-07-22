@@ -2,8 +2,8 @@ HISTORIÆ: Historia Sanctae Verenae
 ==================================
 
 :author: Sennhauser, Hans Rudolf
-:author: Berschin, Walther
-:author: Hiley, David
+:author2: Berschin, Walther
+:author3: Hiley, David
 :volume: LXV
 :volume_part: 31
 :pages: v + 85
