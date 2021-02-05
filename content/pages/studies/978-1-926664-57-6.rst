@@ -6,7 +6,7 @@ Into the Diaspora: Essays on Medieval and Early Modern Liturgical Music Manuscri
 :volume: CXIII
 :price: 147
 :isbn13: 978-1-926664-57-6
-:pages: 345
+:pages: xix + 345
 :year: 2020
 :place: Kitchener, ON
 :publisher: IMM
