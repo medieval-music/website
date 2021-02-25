@@ -15,11 +15,19 @@ except SyntaxError:
 
 AUTHOR = 'Placeholder Author Who Does not Matter'
 SITENAME = 'Institute of Mediaeval Music'
-# Take the URL from Netlify's environment variable. If it's not set, default to no URL.
-SITEURL = os.getenv('DEPLOY_PRIME_URL', '')
 RELATIVE_URLS = False
 # used when no author or editor is in the record
 INSTITUTION_AUTHOR = SITENAME
+
+# If this is a branch deploy (i.e., not the "main" branch) then we want to use
+# Netlify's "prime URL." If it's the "main" branch then we want to use the
+# proper URL. This also works if we're building locally because "prime_url"
+# defaults to an empty string.
+prime_url = os.getenv('DEPLOY_PRIME_URL', '')
+if prime_url.startswith('https://main--'):
+    SITEURL = os.getenv('URL', '')
+else:
+    SITEURL = prime_url
 
 PATH = 'content'
 
