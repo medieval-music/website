@@ -2,12 +2,12 @@ appdirs==1.4.4
 blinker==1.4
 docutils==0.16
 feedgenerator==1.9.1
-Jinja2==2.11.2
+Jinja2==2.11.3
 libsass==0.20.0
 MarkupSafe==1.1.1
 packaging==20.4
 pelican==4.2.0
-Pygments==2.6.1
+Pygments==2.8.1
 pyparsing==2.4.7
 python-dateutil==2.8.1
 pytz==2020.1
