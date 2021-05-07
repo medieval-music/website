@@ -2,11 +2,10 @@ Rhythmic Theories and Practices in Arabic Writings to 339 AH/950 CE
 ===================================================================
 
 :author: Sawa, George Dmitri
-
 :volume: XCIII
 :pages: xv + 639
 :price: 120
 :isbn13: 978-1-896926-98-8
 :publisher: IMM
-:place: Lions Bay, BC
-:year: 2009
+:place: Lions Bay, BC; Kitchener, ON
+:year: 2009; second printing 2019
