@@ -2,7 +2,6 @@ Collected Works of Benedictus Appenzeller, Vol. 1: Masses I
 ===========================================================
 
 :editor: Jas, Eric
-:series: Collected Works
 :volume: XXXI
 :volume_part: 1
 :price: 120
