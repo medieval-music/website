@@ -20,4 +20,4 @@ ISBN: 978-1-926664-48-4
 
 Barbara Haggh-Huglo (Introduction and Edition),
 HISTORIÆ: Historia Sancti Hylarii Episcopi Pictaviensis (circa 816-930);
-ISBN:978-1-926664-50-7
+ISBN: 978-1-926664-50-7
