@@ -83,6 +83,8 @@ THEME_STATIC_DIR = 'static'
 TYPOGRIFY = True
 TEMPLATE_PAGES = {
     'news.html': 'news/index.html',
+    'search.html': 'search/index.html',
+    'searchIndex.json': 'static/json/searchIndex.json',
     'series.html': 'series/index.html',
     'titles.html': 'titles/index.html',
 }
@@ -93,3 +95,4 @@ TEMPLATE_PAGES = {
 
 # desired width, in pixels, for the homepage image to be outputted in
 HOMEPAGE_IMAGE_SIZES = os.getenv('HOMEPAGE_IMAGE_SIZES', '300 400 500 600 700').split(' ')
+FUSE_JS_VERSION = '3.3.0'
