@@ -1,7 +1,7 @@
 The Collected Transmissions of the Masses by Johannes Martini, Vol. 1: Masses I
 ===============================================================================
 
-:editor: Eakins, Rex, ed.
+:editor: Eakins, Rex
 :volume: XXXII
 :volume_part: 1
 :isbn13: 978-1-926664-56-9
