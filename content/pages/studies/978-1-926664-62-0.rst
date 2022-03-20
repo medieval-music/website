@@ -1,0 +1,11 @@
+Hymns of the Medieval Ambrosian Liturgy with Melodies from the Earliest Sources
+===============================================================================
+
+:author: Bailey, Terence
+:volume: CXIV
+:price: 104
+:isbn13: 978-1-926664-62-0
+:publisher: IMM
+:place: Kitchener, ON
+:date: 2020
+:pages: iv + 176
