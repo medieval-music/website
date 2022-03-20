@@ -4,7 +4,7 @@ Coming soon!
 :date: 2021-05-06
 :summary: In production right now!
 
-Rex Eakins (ed.), The Extant Transmissions of the Missa Orsus orsus by Johannes Martini
+Rex Eakins (ed.), The Collected Transmissions of the Masses by Johannes Martini
 
 Terence Bailey, Hymns of the Medieval Ambrosian Liturgy with Melodies from the Earliest Sources
 
