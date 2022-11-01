@@ -10,7 +10,7 @@ HISTORIÆ: Historia Sancti Emmerammi, Arnoldi Vohburgensis, circa 1030
 :isbn10: 0-931902-42-8
 :isbn13: 978-0-931902-42-0
 :publisher: IMM
-:place: Kitchener
+:place: Reprint Kitchener, ON
 :year: 2022
 
-Introduction and Edition by David Hiley. First printing Ottawa: IMM, 1996. Second printing Kitchener (ON): IMM, 2022.
+Introduction and Edition by David Hiley. First printing Ottawa: IMM, 1996. Second printing Kitchener, ON: IMM, 2022.
