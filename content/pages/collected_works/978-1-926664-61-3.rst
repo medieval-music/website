@@ -1,0 +1,12 @@
+Collected Works of Benedictus Appenzeller, Vol. 2: Masses II
+============================================================
+
+:editor: Jas, Eric
+:volume: XXXI
+:volume_part: 2
+:price: 165
+:isbn13: 978-1-926664-61-3
+:pages: xlviii + 156
+:publisher: IMM
+:place: Kitchener, ON
+:year: 2022
