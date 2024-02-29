@@ -5,7 +5,7 @@ HISTORIÆ: Zwei Historiae zu Ehren der Solothurner Heiligen Urs, Victor und ihre
 :author2: Hankeln, Roman
 :volume: LXV
 :volume_part: 35
-:pages: ? + ?
+:pages: xciv + 76
 :price: 138
 :isbn13: 978-1-926664-63-7
 :publisher: IMM
