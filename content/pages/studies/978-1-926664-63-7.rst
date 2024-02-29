@@ -1,0 +1,15 @@
+HISTORIÆ: Zwei Historiae zu Ehren der Solothurner Heiligen Urs, Victor und ihrer Gefährten, Märtyrer der Thebäischen Legion (11. / 15. Jh.)
+===========================================================================================================================================
+
+:author: Freddi, Silvan
+:author2: Hankeln, Roman
+:volume: LXV
+:volume_part: 35
+:pages: ? + ?
+:price: 138
+:isbn13: 978-1-926664-63-7
+:publisher: IMM
+:place: Kitchener, ON
+:year: 2023
+
+Introduction and Edition by Silvan Freddi and Roman Hankeln.
