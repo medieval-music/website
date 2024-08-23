@@ -8,7 +8,7 @@ The Collected Transmissions of the Masses by Johannes Martini, Vol. 1: Masses I
 :place: Kitchener, ON
 :publisher: IMM
 :date: 2020
-:pages: x + 326 pp.
+:pages: x + 326
 :price: 128
 
 Missa Orsus orsus Part One, Missa Ferialis Part One, Missa La Martinelle
