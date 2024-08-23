@@ -1,5 +1,5 @@
-The Collected Transmissions of the Masses by Johannes Martini, Vol. 1: Masses I
-===============================================================================
+The Collected Transmissions of the Masses by Johannes Martini, Vol. 2: Masses II
+================================================================================
 
 :editor: Eakins, Rex
 :volume: XXXII
@@ -9,6 +9,6 @@ The Collected Transmissions of the Masses by Johannes Martini, Vol. 1: Masses I
 :publisher: IMM
 :date: 2022
 :pages: vi + 337 pp.
-:price: tbd
+:price: 210
 
 Missa Orsus orsus Part Two, Missa Ferialis Part Two, Missa Cucu, Missa Sela sans plus
