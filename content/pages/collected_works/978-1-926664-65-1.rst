@@ -1,0 +1,12 @@
+Collected Works of Benedictus Appenzeller, Vol. 3: Magnificat settings
+======================================================================
+
+:editor: Jas, Eric
+:volume: XXXI
+:volume_part: 3
+:price: 185
+:isbn13: 978-1-926664-65-1
+:pages: xxvi + 123
+:publisher: IMM
+:place: Kitchener, ON
+:year: 2024
