@@ -2,7 +2,7 @@ HISTORIÆ: Historia Sanctae Verenae
 ==================================
 
 :author: Sennhauser, Hans Rudolf
-:author2: Berschin, Walther
+:author2: Berschin, Walter
 :author3: Hiley, David
 :volume: LXV
 :volume_part: 31
@@ -13,4 +13,4 @@ HISTORIÆ: Historia Sanctae Verenae
 :place: Kitchener, ON
 :year: 2019
 
-Introduction and Edition by Hans Rudolf Sennhauser, Walther Berschin, David Hiley.
+Introduction and Edition by Hans Rudolf Sennhauser, Walter Berschin, David Hiley.
