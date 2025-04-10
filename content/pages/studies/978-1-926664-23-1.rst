@@ -1,8 +1,8 @@
 HISTORIÆ: Hermannus Contractus (1013-1054), Historia Sancti Magni
 =================================================================
 
-:editor: Hiley, David
-:editor2: Berschin, Walter
+:author: Hiley, David
+:author2: Berschin, Walter
 :volume: LXV
 :volume_part: 22
 :price: 70
