@@ -2,7 +2,7 @@ appdirs==1.4.4
 blinker==1.4
 docutils==0.17.1
 feedgenerator==1.9.2
-Jinja2==2.11.3
+Jinja2==3.1.6
 libsass==0.21.0
 MarkupSafe==2.0.1
 packaging==21.0
