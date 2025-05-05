@@ -1,5 +1,5 @@
-CANTUS: Two Cambrai Antphoners, Cambrai, Médiathèque Municipale 38 and Impr. XVI C 4, Printouts from two Indices in Machine-Readable Form, A CANTUS Index
-=========================================================================================================================================================
+CANTUS: Two Cambrai Antiphoners, Cambrai, Médiathèque Municipale 38 and Impr. XVI C 4, Printouts from two Indices in Machine-Readable Form, A CANTUS Index
+==========================================================================================================================================================
 
 :author: Haggh, Barbara
 :author2: Downey, Charles
