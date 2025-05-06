@@ -11,9 +11,9 @@ Standing orders welcome. Please note that our editions are not always published 
 
 Please submit orders to Debra Lacoste, Director and General Editor for the Institute of Mediaeval Music.
 
-You may submit orders by telephone: [+1] 519-807-9687.
+You may submit orders by telephone: `[+1] 519-807-9687 <tel:+15198079687>`_.
 
-You may submit orders by email: info at medievalmusic dot ca
+You may submit orders by email: `info at medievalmusic dot ca <mailto:info@medievalmusic.ca>`_
 
 You may also submit orders by mail to:
 
