@@ -1,0 +1,75 @@
+$white: #ffffff;
+$black: #000000;
+
+$gray-9: #212529;
+$gray-8: #343a40;
+$gray-7: #495057;
+$gray-6: #868e96;
+$gray-5: #adb5bd;
+$gray-4: #ced4da;
+$gray-3: #dee2e6;
+$gray-2: #e9ecef;
+$gray-1: #f1f3f5;
+$gray-0: #f8f9fa;
+
+$orange-9: #d9480f;
+$orange-8: #e8590c;
+$orange-7: #f76707;
+$orange-6: #fd7e14;
+$orange-5: #ff922b;
+$orange-4: #ffa94d;
+$orange-3: #ffc078;
+$orange-2: #ffd8a8;
+$orange-1: #ffe8cc;
+$orange-0: #fff4e6;
+
+$red-9: #c92a2a;
+$red-8: #e03131;
+$red-3: #ffa8a8;
+$red-1: #ffe3e3;
+
+$teal-9: #087f5b;
+$teal-8: #099268;
+$teal-3: #63e6be;
+$teal-1: #c3fae8;
+
+$blue-9: #1862ab;
+$blue-8: #1b6ec2;
+$blue-3: #72c3fc;
+$blue-1: #ccedff;
+
+$violet-9: #5f3dc4;
+$violet-8: #6741d9;
+$violet-3: #b197fc;
+$violet-1: #e5dbff;
+
+:root {
+    --background-color: #{$white};
+	--default-color: #{$gray-8};
+    --deemphasized-color: #{$gray-6};
+	--link-color: #{$gray-6};
+
+    --authors-color: #{$orange-8};
+    --ordering-color: #{$red-8};
+    --series-color: #{$teal-8};
+    --titles-color: #{$blue-8};
+    --news-color: #{$violet-8};
+
+    --authors-color-focus: #{$orange-9};
+	--ordering-color-focus: #{$red-9};
+    --series-color-focus: #{$teal-9};
+    --titles-color-focus: #{$blue-9};
+    --news-color-focus: #{$violet-9};
+
+    --authors-background-color: #{$orange-1};
+    --ordering-background-color: #{$red-1};
+    --series-background-color: #{$teal-1};
+    --titles-background-color: #{$blue-1};
+    --news-background-color: #{$violet-1};
+
+    --authors-border-color: #{$orange-3};
+    --ordering-border-color: #{$red-3};
+    --series-border-color: #{$teal-3};
+    --titles-border-color: #{blue-3};
+    --news-border-color: #{$violet-3};
+}

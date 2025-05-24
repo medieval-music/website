@@ -1,0 +1,127 @@
+@use "variables" as *;
+@use "colours";
+
+$hide-title-in-navbar-width: 28.75rem;  // 460px when 1rem is 16px
+$short-title-in-navbar-width: 62.5rem;  // 1000px
+
+#site-header {
+    $navbar-height: 75px;
+    --navbar-item-width: 100px;
+    --navbar-li-flex-grow: 0;
+    --sibling-left-margin: 24px;
+
+    align-items: center;
+    background-color: colours.$gray-2;
+    display: flex;
+    height: $navbar-height;
+    justify-content: space-between;
+    margin-bottom: $std-space;
+    padding: 0 5vw;
+
+    nav {
+        height: $navbar-height;
+
+        a {
+            align-items: center;
+            display: flex;
+            height: $navbar-height;
+            justify-content: center;
+            padding: $std-space;
+            width: var(--navbar-item-width);
+        }
+    }
+
+    ul {
+        height: $navbar-height;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        align-items: stretch;
+    }
+
+    li {
+        list-style: none;
+        flex-grow: var(--navbar-li-flex-grow);
+        height: $navbar-height;
+        width: var(--navbar-item-width);
+    }
+
+    li + li {
+        margin-left: var(--sibling-left-margin);
+    }
+
+    @media (max-width: 650px) {
+        --sibling-left-margin: 2vw;
+        --navbar-item-width: 15vw;
+    }
+
+    @media (max-width: $hide-title-in-navbar-width) {
+        padding: 0;
+        nav {
+            width: 100%;
+            a {
+                width: 100%;
+            }
+        }
+        ul {
+            flex-grow: 1;
+        }
+        li {
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+    }
+}
+
+
+.imm-title {
+    // ".large" title says "Institute of Mediaeval Music" while ".small" says "IMM"
+    &.large {
+        display: block
+    }
+    &.small {
+        display: none;
+    }
+
+    // Switch between showing the "large" title, the "small" title, and hiding the title.
+    @media (max-width: $short-title-in-navbar-width) {
+        &.large {
+            display: none;
+        }
+    }
+    @media (min-width: $hide-title-in-navbar-width) and (max-width: $short-title-in-navbar-width) {
+        &.small {
+            display: block;
+        }
+    }
+
+    // Adjust font-size according to the screen width.
+    @media (min-width: 84.375rem) {  // > 1350px (when 1rem is 16px)
+        font-size: 3rem;
+    }
+    @media (min-width: 81.25rem) and (max-width: 84.375rem) {  // 1300px to 1350px
+        font-size: 2.75rem;
+    }
+    @media (min-width: 78.125rem) and (max-width: 81.25rem) {  // 1250px to 1300px
+        font-size: 2.5rem;
+    }
+    @media (min-width: 75rem) and (max-width: 78.125rem) {  // 1200px to 1250px
+        font-size: 2.25rem;
+    }
+    @media (min-width: 71.875rem) and (max-width: 75rem) {  // 1150px to 1200px
+        font-size: 2rem;
+    }
+    @media (min-width: 68.75rem) and (max-width: 71.875rem) {  // 1100px to 1150px
+        font-size: 1.75rem;
+    }
+    @media (min-width: 65.625rem) and (max-width: 68.75rem) {  // 1050px to 1100px
+        font-size: 1.5rem;
+    }
+    @media (min-width: $short-title-in-navbar-width) and (max-width: 65.625rem) {  // to 1050px
+        font-size: 1.25rem;
+    }
+    @media (max-width: $short-title-in-navbar-width) {
+        font-size: 3rem;
+    }
+}

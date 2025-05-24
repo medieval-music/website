@@ -1,0 +1,10 @@
+---
+---
+@use "variables" as *;
+@use "colours";
+@use "navbar";
+
+@each $category in $data-categories-with-ordering {
+    .#{$category} { color: var(--#{$category}-color); }
+    .#{$category}.with-bg { background-color: var(--#{$category}-background-color); }
+}
