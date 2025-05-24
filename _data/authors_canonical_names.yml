@@ -1,0 +1,31 @@
+# THIS FILE IS IN YAML FORMAT!!
+# Failing to follow the YAML structure will result in a parse error
+# See https://learntheweb.courses/topics/markdown-yaml-cheat-sheet/#yaml
+
+# Map of authors to their canonical name
+# In the format: "Name to map from": "Canonical Name"
+# MUST wrap the name in quotes if it contains spaces to avoid parsing errors.
+# "Name to map from" should be lowercase.
+
+# EXAMPLES:
+# "bar foo": "Foo Bar" is OK
+# bar: "Foo Bar" is OK
+# bar foo: "Foo Bar" is NOT OK
+# "Bar Foo": "Foo Bar" is OK, but it won't match anything
+
+"boyce, james": "Boyce, James (O. Carm.)"
+"van deusen, nancy": "Deusen, Nancy van"
+"de peñalosa, francisco": "Peñalosa, Francisco de"
+"antoine de févin": "Févin, Antoine de"
+"de févin, antoine": "Févin, Antoine de"
+"robert de févin": "Févin, Robert de"
+"de févin, robert": "Févin, Robert de"
+"galliculus (hähnel), johannes": "Galliculus (Alectorius, Hähnel, Hennel), Johannes"
+"gillingham, b.": "Gillingham, Bryan"
+"del giudice, luisa": "Giudice, Luisa del"
+"haggh, barbara": "Haggh-Huglo, Barbara"
+"hardie, jane": "Hardie, Jane Morlet"
+"lacoste, debra": "Lacoste, Debra S."
+"de loos, ike": "Loos, Ike de"
+"nelson, kathleen": "Nelson, Kathleen E."
+"santosuosso, alma": "Santosuosso, Alma Colk"
