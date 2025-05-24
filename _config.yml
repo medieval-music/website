@@ -33,3 +33,4 @@ exclude:
   - pelicanconf.py
   - README.md
   - requirements.txt
+timezone: "America/Toronto"
