@@ -1,6 +1,37 @@
 # _plugins/generate_author_and_editor_pages.rb
 
 module Jekyll
+  class AuthorPage < Jekyll::Page
+    def initialize(site, author, author_slug, books)
+	  @site = site
+	  @base = site.source
+	  @dir = 'authors'
+
+	  @basename = author_slug
+	  @ext = '.html'
+	  @name = "#{author_slug}.html"
+
+	  @data = {
+	    'authored_books' => books[:authored].map { |page| { 'title' => page.data['title'], 'url' => page.url } },
+		'edited_books' => books[:edited].map { |page| { 'title' => page.data['title'], 'url' => page.url } },
+		'title' => author
+	  }
+
+	  data.default_proc = proc do |_, key|
+        site.frontmatter_defaults.find(relative_path, :authors, key)
+      end
+	end
+
+	def url_placeholders
+      {
+        :path       => @dir,
+        :category   => @dir,
+        :basename   => basename,
+        :output_ext => output_ext,
+      }
+    end
+  end
+
   class GenerateAuthorAndEditorPages < Jekyll::Generator
     safe true
     priority :low
@@ -28,6 +59,9 @@ module Jekyll
             authors_books[editor][:edited] << page
             all_authors.add(editor)
           end
+
+		  page.data['author_names'] = author_names
+		  page.data['editor_names'] = editor_names
         end
       end
 
@@ -128,14 +162,8 @@ module Jekyll
     # Create a new virtual author/editor page if it doesn't exist
     def create_author_page(site, name, books)
       author_slug = Jekyll::Utils.slugify(name)
-      author_page = Jekyll::Page.new(site, site.source, 'authors', "#{author_slug}.md")
+      author_page = AuthorPage.new(site, name, author_slug, books)
       author_page.data['layout'] = 'author'
-      author_page.data['title'] = "Books by #{name}"
-      author_page.data['author_name'] = name
-
-      # Populate the books data (authored and edited)
-      author_page.data['authored_books'] = books[:authored].map { |page| { 'title' => page.data['title'], 'url' => page.url } }
-      author_page.data['edited_books'] = books[:edited].map { |page| { 'title' => page.data['title'], 'url' => page.url } }
 
       site.pages << author_page
     end
