@@ -131,7 +131,7 @@ module Jekyll
       author_page = Jekyll::Page.new(site, site.source, 'authors', "#{author_slug}.md")
       author_page.data['layout'] = 'author'
       author_page.data['title'] = "Books by #{name}"
-      author_page.data['name'] = name
+      author_page.data['author_name'] = name
 
       # Populate the books data (authored and edited)
       author_page.data['authored_books'] = books[:authored].map { |page| { 'title' => page.data['title'], 'url' => page.url } }

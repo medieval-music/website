@@ -4,7 +4,7 @@ layout: default
 <h1>Books by {{ page.author_name }}</h1>
 
 <ul>
-  {% for book in page.books %}
+  {% for book in page.authored_books %}
     <li><a href="{{ book.url }}">{{ book.title }}</a></li>
   {% endfor %}
 </ul>

@@ -6,9 +6,7 @@ $short-title-in-navbar-width: 62.5rem;  // 1000px
 
 #site-header {
     $navbar-height: 75px;
-    --navbar-item-width: 100px;
-    --navbar-li-flex-grow: 0;
-    --sibling-left-margin: 24px;
+    $navbar-item-width: 100px;
 
     align-items: center;
     background-color: colours.$gray-2;
@@ -27,7 +25,7 @@ $short-title-in-navbar-width: 62.5rem;  // 1000px
             height: $navbar-height;
             justify-content: center;
             padding: $std-space;
-            width: var(--navbar-item-width);
+            width: $navbar-item-width;
         }
     }
 
@@ -42,18 +40,30 @@ $short-title-in-navbar-width: 62.5rem;  // 1000px
 
     li {
         list-style: none;
-        flex-grow: var(--navbar-li-flex-grow);
+        flex-grow: 0;
         height: $navbar-height;
-        width: var(--navbar-item-width);
+        width: $navbar-item-width;
     }
 
     li + li {
-        margin-left: var(--sibling-left-margin);
+        margin-left: 24px;
     }
 
     @media (max-width: 650px) {
         --sibling-left-margin: 2vw;
-        --navbar-item-width: 15vw;
+		nav {
+			a {
+				width: 15vw;
+			}
+		}
+		
+		li {
+			width: 15vw;
+		}
+		
+		li + li {
+			margin-left: 2vw;
+		}
     }
 
     @media (max-width: $hide-title-in-navbar-width) {

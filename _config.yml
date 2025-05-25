@@ -4,7 +4,16 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-
+  -
+    scope:
+      path: "authors/"
+    values:
+      layout: "author"
+  -
+    scope:
+      path: "books/"
+    values:
+      layout: "book"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
