@@ -91,3 +91,6 @@ ENV/
 
 # Pelican
 output
+
+# Jekyll
+_site
