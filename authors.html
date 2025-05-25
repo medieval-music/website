@@ -5,7 +5,7 @@ layout: default
 <ol>
 	{% for author in site.data['authors'] %}
 		<li>
-			<a href={{author.url | relative_url}}>{{author.name}}</a>
+			<a href="{{ author.url | relative_url }}">{{author.name}}</a>
 		</li>
 	{% endfor %}
 </ol>
