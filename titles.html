@@ -1,0 +1,13 @@
+---
+layout: default
+title: Titles
+---
+<h1>Titles</h1>
+<ul>
+	{% assign book_pages = site.pages | where: "layout", "book" | sort_by_title_ignore_words: site %}
+	{% for page in book_pages %}
+		<li>
+			<a href="{{ page.url | relative_url }}">{{page.title}}</a>
+		</li>
+	{% endfor %}
+</ul>
