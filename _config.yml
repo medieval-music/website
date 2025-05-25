@@ -11,9 +11,10 @@ defaults:
       layout: "author"
   -
     scope:
-      path: "books/"
+      path: "books"
     values:
       layout: "book"
+      permalink: /books/:basename/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
