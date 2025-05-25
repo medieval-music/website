@@ -5,6 +5,6 @@ layout: default
 
 <ul>
   {% for book in page.authored_books %}
-    <li><a href="{{ book.url }}">{{ book.title }}</a></li>
+    <li><a href="{{ book.url | relative_url }}">{{ book.title }}</a></li>
   {% endfor %}
 </ul>
