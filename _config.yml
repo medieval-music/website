@@ -15,6 +15,11 @@ defaults:
     values:
       layout: "book"
       permalink: /books/:basename/
+  -
+    scope:
+      path: "series"
+    values:
+      layout: "series"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,17 +1,32 @@
 module Jekyll
   class SeriesPage < Page
-    def initialize(site, base, dir, series_key, series_title)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = "index.html"
+	def initialize(site, series_key, series_title, series_slug)
+	  @site = site
+	  @base = site.source
+	  @dir = 'series'
 
-      self.process(@name)
-      self.read_yaml(File.join(base, "_layouts"), "series.html")
+	  @basename = series_slug
+	  @ext = '.html'
+	  @name = "#{series_slug}.html"
 
-      self.data["title"] = "#{series_title} Series"
-      self.data["series"] = series_key
-      self.data["permalink"] = "/series/#{series_key}/"
+	  @data = {
+	    'title' => series_title,
+		'series' => series_key,
+		'layout' => 'series'
+	  }
+
+	  data.default_proc = proc do |_, key|
+        site.frontmatter_defaults.find(relative_path, :authors, key)
+      end
+	end
+
+	def url_placeholders
+      {
+        :path       => @dir,
+        :category   => @dir,
+        :basename   => basename,
+        :output_ext => output_ext,
+      }
     end
   end
 
@@ -43,12 +58,12 @@ module Jekyll
       # Generate index page for each detected series
       seen_series.each do |series_key|
         series_title = series_map[series_key] || series_key.capitalize
+		series_slug = Jekyll::Utils.slugify(series_key)
         site.pages << SeriesPage.new(
           site,
-          site.source,
-          File.join("series", series_key),
           series_key,
-          series_title
+          series_title,
+          series_slug
         )
       end
 	  

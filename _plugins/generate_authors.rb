@@ -1,5 +1,3 @@
-# _plugins/generate_author_and_editor_pages.rb
-
 module Jekyll
   class AuthorPage < Jekyll::Page
     def initialize(site, author, author_slug, books)
