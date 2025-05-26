@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{% if page.url == "/" %}
+			<title>Institute of Mediaeval Music</title>
+		{% else %}
+			<title>{{ page.title | default: page.name }} | Institute of Mediaeval Music</title>
+		{% endif %}
+		<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}" />
+	</head>
+	<body>
+		<header id="site-header">
+			<nav>
+				<ul>
+					<li class="ordering with-bg"><a href="{{ '/ordering' | relative_url }}"><span>Ordering</span></a></li>
+					<li class="authors with-bg"><a href="{{ '/authors' | relative_url }}"><span>Authors</span></a></li>
+					<li class="series with-bg"><a href="{{ '/series' | relative_url }}"><span>Series</span></a></li>
+					<li class="titles with-bg"><a href="{{ '/titles' | relative_url }}"><span>Titles</span></a></li>
+					<li class="news with-bg"><a href="{{ '/news' | relative_url }}"><span>News</span></a></li>
+				</ul>
+			</nav>
+			<a class="imm-title small" href="{{ '/' | relative_url }}">
+				IMM
+			</a>
+			<a class="imm-title large" href="{{ '/' | relative_url }}">
+				Institute of Mediaeval Music
+			</a>
+		</header>
+		<main>
+			{{ content }}
+		</main>
+	</body>
+</html>

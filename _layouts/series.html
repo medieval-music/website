@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-
-<h1>{{ page.title }}</h1>
-
 <ul>
   {% assign current_series = page.series %}
   {% assign book_pages = site.pages | where_exp: "page", "page.layout == 'book' and page.series == current_series" | sort_by_title_ignore_words: site %}
