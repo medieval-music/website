@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<ul>
+  {% assign current_series = page.series %}
+  {% assign book_pages = site.pages | where_exp: "page", "page.layout == 'book' and page.series == current_series" | sort_by_title_ignore_words: site %}
+  {% for book in book_pages %}
+    {% if book.layout == "book" and book.series == page.series %}
+      <li>
+        <a href="{{ book.url }}">{{ book.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
