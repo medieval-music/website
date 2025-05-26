@@ -8,8 +8,7 @@ module Jekyll
       place = page['place'] || "Ottawa"
       publisher = page['publisher'] || "IMM"
 
-      # Prefer 'date', fallback to 'year'
-      raw_year = (page['date'] || page['year'] || '').to_s.strip
+      raw_year = (page['year'] || '').to_s.strip
 
       series_key = page['series']
       series_name = site['data']['series_names'][series_key] if series_key
