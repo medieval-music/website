@@ -2,11 +2,22 @@
 layout: default
 title: Titles
 ---
+{% assign book_pages = site.pages | where: "layout", "book" | sort_by_title_ignore_words: site %}
+
+{% assign letters = book_pages | map: "group_letter" | uniq | sort %}
+{% include quick-links.html letters=letters %}
+
 <ul>
-	{% assign book_pages = site.pages | where: "layout", "book" | sort_by_title_ignore_words: site %}
+	{% assign previous_letter = "" %}
 	{% for page in book_pages %}
-		<li>
-			<a href="{{ page.url | relative_url }}">{{page.title}}</a>
-		</li>
+	  {% assign current_letter = page.group_letter %}
+
+	  {% if current_letter != previous_letter %}
+		<h2 id="section-{{ current_letter }}">{{ current_letter }}</h2>
+		{% assign previous_letter = current_letter %}
+	  {% endif %}
+	  <li>
+		<a href="{{ page.url | relative_url }}">{{page.title}}</a>
+	  </li>
 	{% endfor %}
 </ul>

@@ -1,3 +1,6 @@
+require 'active_support'
+require 'active_support/inflector'
+
 module Jekyll
   module SortByTitleIgnoreWords
     def sort_by_title_ignore_words(input, site)
@@ -20,8 +23,19 @@ module Jekyll
             break
           end
         end
+		
+		# Transliterate for sorting/grouping (Ü → U, etc.)
+        sort_title = ActiveSupport::Inflector.transliterate(title).strip
 
-        title
+        # Determine group letter
+        group_letter = sort_title[0]&.upcase || '#'
+        group_letter = '#' unless group_letter =~ /[A-Z]/
+
+        # Store cleaned data in item for use in Liquid
+        item.data['sort_title'] = sort_title
+        item.data['group_letter'] = group_letter
+
+        sort_title
       end
     end
   end

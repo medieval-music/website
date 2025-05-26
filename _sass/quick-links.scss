@@ -1,0 +1,72 @@
+@use "variables" as *;
+
+$is-2-lines: 750px;  // 751 is one line; 750 is two lines
+$is-3-lines: 599px;
+$is-4-lines: 451px;
+$is-5-lines: 356px;
+
+$sticky-list-nav-vertical-padding: 1rem;
+$sticky-list-nav-border-width: calc(1rem / 16);
+$sticky-list-nav-letter-height: calc(19 / 16) * $std-space;
+
+$one-line-height: (2 * $sticky-list-nav-border-width) + (2 * $sticky-list-nav-vertical-padding) + (1 * $sticky-list-nav-letter-height);
+$two-line-height: (4 * $sticky-list-nav-border-width) + (4 * $sticky-list-nav-vertical-padding) + (2 * $sticky-list-nav-letter-height);
+$three-line-height: (6 * $sticky-list-nav-border-width) + (6 * $sticky-list-nav-vertical-padding) + (3 * $sticky-list-nav-letter-height);
+$four-line-height: (8 * $sticky-list-nav-border-width) + (8 * $sticky-list-nav-vertical-padding) + (4 * $sticky-list-nav-letter-height);
+
+.sticky-list-nav {
+	background: var(--background-color);
+    border: solid $sticky-list-nav-border-width var(--default-color);
+    display: inline-block;
+    width: 100%;
+	position: sticky;
+	top: $std-space;
+    z-index: 1;
+	
+	$required-min-factor: 3;
+    @media (max-height: #{$one-line-height * $required-min-factor}) {
+        position: initial;
+        top: unset;
+        z-index: unset;
+    }
+    @media (max-width: #{$is-2-lines}) and (max-height: #{$two-line-height * $required-min-factor}) {
+        position: initial;
+        top: unset;
+        z-index: unset;
+    }
+    @media (max-width: #{$is-3-lines}) and (max-height: #{$three-line-height * $required-min-factor}) {
+        position: initial;
+        top: unset;
+        z-index: unset;
+    }
+    @media (max-width: #{$is-4-lines}) and (max-height: #{$four-line-height * $required-min-factor}) {
+        position: initial;
+        top: unset;
+        z-index: unset;
+    }
+	
+	ul {
+        list-style: none;
+        margin: 0 0.5rem;
+        padding: 0;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+	
+	a {
+        color: var(--link-color);
+        display: inline-block;
+        padding: $sticky-list-nav-vertical-padding 0.5rem;
+
+        &:hover, &:focus {
+            background-color: var(--link-color);
+            color: var(--background-color);
+        }
+
+        @media (max-width: 750px) {
+            padding: $sticky-list-nav-vertical-padding 1rem;
+        }
+    }
+}

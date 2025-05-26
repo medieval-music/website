@@ -1,14 +1,21 @@
 ---
 layout: default
 ---
+{% assign current_series = page.series %}
+{% assign book_pages = site.pages | where_exp: "page", "page.layout == 'book' and page.series == current_series" | sort_by_title_ignore_words: site %}
+
+{% assign letters = book_pages | map: "group_letter" | uniq | sort %}
+{% include quick-links.html letters=letters %}
 <ul>
-  {% assign current_series = page.series %}
-  {% assign book_pages = site.pages | where_exp: "page", "page.layout == 'book' and page.series == current_series" | sort_by_title_ignore_words: site %}
+  {% assign previous_letter = "" %}
   {% for book in book_pages %}
-    {% if book.layout == "book" and book.series == page.series %}
-      <li>
-        <a href="{{ book.url }}">{{ book.title }}</a>
+      {% assign current_letter = book.group_letter %}
+	  {% if current_letter != previous_letter %}
+		<h2 id="section-{{ current_letter }}">{{ current_letter }}</h2>
+		{% assign previous_letter = current_letter %}
+	  {% endif %}
+	  <li>
+        <a href="{{ book.url | relative_url }}">{{ book.title }}</a>
       </li>
-    {% endif %}
   {% endfor %}
 </ul>
