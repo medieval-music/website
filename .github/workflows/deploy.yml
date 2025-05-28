@@ -44,9 +44,26 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: |
+          set -o pipefail
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" 2>&1 | tee build.log
         env:
           JEKYLL_ENV: production
+      - name: Check for YAML front matter issues
+        shell: bash
+        run: |
+          if grep -q "YAML Exception" build.log; then
+            grep "YAML Exception" build.log | while read -r line; do
+              # Extract file path, line number, and column number from the error message
+              file_path=$(echo "$line" | sed -E 's/.*reading (.*):.*/\1/')
+              line_number=$(echo "$line" | sed -E 's/.*line ([0-9]+) .*/\1/')
+              column_number=$(echo "$line" | sed -E 's/.*column ([0-9]+).*/\1/')
+              
+              # Output warning tied to the specific file and line number
+              echo "::error file=$file_path,line=$line_number,column=$column_number::YAML issue detected at line $line_number, column $column_number in file $file_path"
+            done
+            exit 1
+          fi
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
