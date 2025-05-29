@@ -56,6 +56,7 @@ jobs:
             grep "YAML Exception" build.log | while read -r line; do
               # Extract file path, line number, and column number from the error message
               # Extract the relative file path (ensure it's relative to the repo root)
+              echo "$line"
               file_path=$(echo "$line" | sed -E 's/.*reading \/home\/runner\/work\/[^\/]+\/[^\/]+\/(.*?):.*/\1/')
               file_path=$(echo "$file_path" | sed 's|^/[^/]\+/[^/]\+/||')
               line_number=$(echo "$line" | sed -E 's/.*line ([0-9]+) .*/\1/')
