@@ -79,7 +79,7 @@ jobs:
               column_number=$(echo "$line" | sed -E 's/.*column ([0-9]+).*/\1/')
 
               # Output warning tied to the specific file and line number
-              echo "::error title=YAML Error!,file=$file_path,line=$line_number,column=$column_number::YAML issue detected at line $line_number, column $column_number in file $file_path"
+              echo "::error title=YAML Error,file=$file_path,line=$line_number,column=$column_number::YAML issue detected at line $line_number, column $column_number in file $file_path"
             done
             exit 1
           fi
