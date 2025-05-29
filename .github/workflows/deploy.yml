@@ -61,6 +61,9 @@ jobs:
               file_path=$(echo "$file_path" | sed 's|^/[^/]\+/[^/]\+/||')
               line_number=$(echo "$line" | sed -E 's/.*line ([0-9]+) .*/\1/')
               column_number=$(echo "$line" | sed -E 's/.*column ([0-9]+).*/\1/')
+              echo "$file_path"
+              echo "$line_number"
+              echo "column_number"
               
               # Output warning tied to the specific file and line number
               echo "::error file=$file_path,line=$line_number,column=$column_number::YAML issue detected at line $line_number, column $column_number in file $file_path"
