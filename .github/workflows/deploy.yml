@@ -55,14 +55,13 @@ jobs:
           if grep -q "YAML Exception" build.log; then
             grep "YAML Exception" build.log | while read -r line; do
               # Extract file path, line number, and column number from the error message
-              # Extract the relative file path (ensure it's relative to the repo root)
-              echo "$line"
               file_path=$(echo "$line" | sed -E 's/.*reading \/home\/runner\/work\/[^\/]+\/[^\/]+\/([^:]+):.*/\1/')
               line_number=$(echo "$line" | sed -E 's/.*line ([0-9]+) .*/\1/')
               column_number=$(echo "$line" | sed -E 's/.*column ([0-9]+).*/\1/')
-              
+
+              title="YAML issue detected"
               # Output warning tied to the specific file and line number
-              echo "::error file=$file_path,line=$line_number,column=$column_number,title=YAML error detected::YAML issue detected at line $line_number, column $column_number in file $file_path"
+              echo "::error file=$file_path,line=$line_number,column=$column_number,title=$title::YAML issue detected at line $line_number, column $column_number in file $file_path"
             done
             exit 1
           fi
