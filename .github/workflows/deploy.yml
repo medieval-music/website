@@ -60,12 +60,9 @@ jobs:
               file_path=$(echo "$line" | sed -E 's/.*reading \/home\/runner\/work\/[^\/]+\/[^\/]+\/([^:]+):.*/\1/')
               line_number=$(echo "$line" | sed -E 's/.*line ([0-9]+) .*/\1/')
               column_number=$(echo "$line" | sed -E 's/.*column ([0-9]+).*/\1/')
-              echo "$file_path"
-              echo "$line_number"
-              echo "column_number"
               
               # Output warning tied to the specific file and line number
-              echo "::error file=$file_path,line=$line_number,column=$column_number::YAML issue detected at line $line_number, column $column_number in file $file_path"
+              echo "::error file=$file_path,line=$line_number,column=$column_number,title=YAML error detected::YAML issue detected at line $line_number, column $column_number in file $file_path"
             done
             exit 1
           fi
