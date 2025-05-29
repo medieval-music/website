@@ -61,6 +61,7 @@ jobs:
   check:
     name: Check Front Matter
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Checkout Build Log
         uses: actions/download-artifact@v4
