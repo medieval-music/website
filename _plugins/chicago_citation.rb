@@ -1,3 +1,7 @@
+# Jekyll filter for generating a chicago style citation
+# Assumes names are listed Last, First
+# Uses author_names and editor_names front matter for the author and editor names (populated by generate_authors plugin)
+# Uses series_names site data (found at _data/series_names.yml) for the name of the series
 module Jekyll
   module ChicagoCitationFilter
     def chicago_citation(page, site)

@@ -1,3 +1,10 @@
+# Jekyll Plugin for collecting book authors and editors and ensuring each author/editor has an author page
+# Reads author, author2 through author99 as well as authors front matter to determine book authors
+# Reads editor, editor2 through editor99 as well as editors front matter to determine book editors
+# Populates author_names and editor_names front matter for each book with the normalized author and editor names
+# Uses authors_canonical_names site data (found in _data/authors_canonical_names.yml) to normalize names
+# Populates authors site data with a complete sorted list of all found authors and editors
+# Creates a page for each found author/editor unless a page with a matching name is found in authors/ (eg. authors/wildfong-eric.md will override generated author page for Wildfong, Eric)
 module Jekyll
   class AuthorPage < Jekyll::Page
     def initialize(site, author, author_slug, books)

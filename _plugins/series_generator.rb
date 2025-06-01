@@ -1,3 +1,10 @@
+# Jekyll plugin for generating series pages based off of books
+# Extracts a list of all series found in book pages
+# Uses the series front matter key if it exists, otherwise attempts to determine the series from the path
+# Only processes the path if the page is located under books/ (ie. books/manuscripts/a-book.md would have series of manuscripts)
+# Ensures the series front matter key is populated
+# Populates series site data with the list of series that were found in the books
+# Uses series_names site data (found in _data/series_names.yml) for mapping to a human readable name for the series (eg. collected_works to Collected Works)
 module Jekyll
   class SeriesPage < Page
 	def initialize(site, series_key, series_title, series_slug)

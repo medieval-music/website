@@ -1,6 +1,12 @@
 require 'active_support'
 require 'active_support/inflector'
 
+# Jekyll filter for sorting titles while ignoring specific starting words
+# Uses ignore_words site data (found in _data/ignore_words.yml) for the list of starting words to ignore while sorting
+# Populates sort_title front matter with the title used for sorting (ie. lowercase title with all "ignore words" removed)
+# Populates group_letter front matter with the letter coresponding to the group that should contain the title
+# Sorts based off of the title front matter
+# Uses ActiveSupport Transliterate to handle special unicode characters in order to sort using the ASCII equivalent
 module Jekyll
   module SortByTitleIgnoreWords
     def sort_by_title_ignore_words(input, site)
