@@ -37,7 +37,7 @@ No Books Found
       {% if page.title and page.url %}
         {
           "title": "{{ page.title }}",
-          "url": "{{ page.url }}",
+          "url": "{{ page.url | relative_url }}",
           "year": "{{ page.year }}",
 		  "author_names": {{ page.author_names | jsonify }},
 		  "editor_names": {{ page.author_names | jsonify }},
