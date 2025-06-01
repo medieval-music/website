@@ -4,7 +4,7 @@
 	<nav class="sticky-list-nav" aria-label="Quick links">
 	  <ul>
 		{% for letter in unique_letters %}
-		  <li><a href="#section-{{ letter }}">{{ letter }}</a></li>
+		  <li data-letter="{{ letter }}"><a href="#section-{{ letter }}">{{ letter }}</a></li>
 		{% endfor %}
 	  </ul>
 	</nav>
