@@ -1,14 +1,15 @@
 ---
 title: Institute of Mediaeval Music
 layout: homepage
+
 ---
 
 The Institute of Mediaeval Music is a small Canadian press devoted to publishing academic books
 about all aspects of music in the Middle Ages. Series include
-["Publications of Mediæval Musical Manuscripts"](/series/manuscripts),
-["Musical Theorists in Translation,"](/series/in-translation)
-["Collected Works"](/series/collected-works), and
-["Musicological Studies"](/series/studies).
+["Publications of Mediæval Musical Manuscripts"]({{ '/series/manuscripts' | relative_url }}),
+["Musical Theorists in Translation,"]({{ '/series/in-translation' | relative_url }})
+["Collected Works"]({{'/series/collected-works' | relative_url }}), and
+["Musicological Studies"]({{ '/series/studies' | relative_url }}).
 The simple, distinctive hardbound covers identify each series by colour: black, red, blue, and
 green, respectively.
 
