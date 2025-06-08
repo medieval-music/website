@@ -2,25 +2,22 @@
 layout: default
 ---
 {% assign current_series = page.series %}
-{% assign book_pages = site.pages | where_exp: "page", "page.layout == 'book' and page.series == current_series" | sort_by_title_ignore_words: site %}
-{% assign letters = book_pages | map: "group_letter" | uniq | sort %}
-
+{% assign book_pages = site.pages | where_exp: "page", "page.layout == 'book' and page.series == current_series" | sort_by_volume %}
+{% if site.data.series_alt_names[page.series] %}
+<h2>
+	{% for name in site.data.series_alt_names[page.series] %}
+		<div>{{name}}</div>
+	{% endfor %}
+</h2>
+{% endif %}
 {% if book_pages.size > 0 %}
   <input type="search" oninput="debounceSearch(event)" placeholder="Search for a book..." />
-  {% include quick-links.html letters=letters %}
-
+  <ul class="book-list">
   {% for page in book_pages %}
-    {% assign current_letter = page.group_letter %}
-    {% if current_letter != previous_letter %}
-	  {% if previous_letter != "" %}
-	    </ul>
-	  {% endif %}
-	  <h2 id="section-{{ current_letter }}">{{ current_letter }}</h2>
-	  <ul class="book-list" data-letter="{{ current_letter }}">
-	  {% assign previous_letter = current_letter %}
-    {% endif %}
     <li data-url="{{ page.url | relative_url }}">
-	  <a href="{{ page.url | relative_url }}">{{page.title}}</a>
+	  <a href="{{ page.url | relative_url }}">
+		{{page.volume}}{% if page.volume_part %}/{{page.volume_part}}{% endif %}: {{page.title}}
+	  </a>
     </li>
   {% endfor %}
   </ul>
@@ -41,12 +38,12 @@ No Books Found
           "year": "{{ page.year }}",
 		  "author_names": {{ page.author_names | jsonify }},
 		  "editor_names": {{ page.author_names | jsonify }},
-		  "group_letter": "{{ page.group_letter }}",
 		  "isbn13": "{{ page.isbn13 }}",
-		  "isbn10": "{{ page.isbn10 }}"
+		  "isbn10": "{{ page.isbn10 }}",
+		  "volume": "{{ page.volume }}{% if page.volume_part %}/{{page.volume_part}}{% endif %}"
         }{% unless forloop.last %},{% endunless %}
       {% endif %}
     {% endfor %}
   ];
 </script>
-<script src="{{ '/assets/js/title_search.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/series_search.js' | relative_url }}"></script>
