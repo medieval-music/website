@@ -1,3 +1,5 @@
+# Jekyll filter for sorting books by volume
+# Sorts based off of the volume front matter and volume_part front matter if it exists
 module Jekyll
   module SortByVolume
 
