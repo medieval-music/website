@@ -31,6 +31,7 @@ defaults:
 #
 exclude:
   - .jekyll-cache/
+  - assets/img/original/
   - .venv/
   - .git/
   - __pycache__
@@ -48,4 +49,5 @@ exclude:
   - pelicanconf.py
   - README.md
   - requirements.txt
+  - assets/img/original/
 timezone: "America/Toronto"
