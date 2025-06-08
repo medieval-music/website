@@ -8,13 +8,16 @@ on:
       - ".github/workflows/resize_images.yml"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   resize:
     runs-on: ubuntu-latest
 
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up ImageMagick
         run: sudo apt-get install imagemagick
@@ -51,6 +54,8 @@ jobs:
 
       - name: Commit resized and converted images
         run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/img/*
-          git commit -m "Add resized and WebP images for all assets"
+          git commit -m "Add resized images"
           git push
