@@ -25,24 +25,26 @@ jobs:
           mkdir -p $IMG_DEST_DIR
 
           # Loop through all images in the original folder
-          for img in $ORIGINAL_IMG_DIR/*.{jpg,jpeg,png}; do
-            # Extract image filename (without extension)
-            filename=$(basename "$img")
-            filename_noext="${filename%.*}"
+          for img in $ORIGINAL_IMG_DIR/*; do
+            if [[ $img == *.jpg || $img == *.jpeg || $img == *.png ]]; then
+              # Extract image filename (without extension)
+              filename=$(basename "$img")
+              filename_noext="${filename%.*}"
 
-            # Resize and create JPEG images
-            convert "$img" -resize 300x $IMG_DEST_DIR/${filename_noext}-300.jpg
-            convert "$img" -resize 400x $IMG_DEST_DIR/${filename_noext}-400.jpg
-            convert "$img" -resize 500x $IMG_DEST_DIR/${filename_noext}-500.jpg
-            convert "$img" -resize 600x $IMG_DEST_DIR/${filename_noext}-600.jpg
-            convert "$img" -resize 700x $IMG_DEST_DIR/${filename_noext}-700.jpg
+              # Resize and create JPEG images
+              convert "$img" -resize 300x $IMG_DEST_DIR/${filename_noext}-300.jpg
+              convert "$img" -resize 400x $IMG_DEST_DIR/${filename_noext}-400.jpg
+              convert "$img" -resize 500x $IMG_DEST_DIR/${filename_noext}-500.jpg
+              convert "$img" -resize 600x $IMG_DEST_DIR/${filename_noext}-600.jpg
+              convert "$img" -resize 700x $IMG_DEST_DIR/${filename_noext}-700.jpg
 
-            # Convert to WebP
-            convert "$img" -resize 300x $IMG_DEST_DIR/${filename_noext}-300.webp
-            convert "$img" -resize 400x $IMG_DEST_DIR/${filename_noext}-400.webp
-            convert "$img" -resize 500x $IMG_DEST_DIR/${filename_noext}-500.webp
-            convert "$img" -resize 600x $IMG_DEST_DIR/${filename_noext}-600.webp
-            convert "$img" -resize 700x $IMG_DEST_DIR/${filename_noext}-700.webp
+              # Convert to WebP
+              convert "$img" -resize 300x $IMG_DEST_DIR/${filename_noext}-300.webp
+              convert "$img" -resize 400x $IMG_DEST_DIR/${filename_noext}-400.webp
+              convert "$img" -resize 500x $IMG_DEST_DIR/${filename_noext}-500.webp
+              convert "$img" -resize 600x $IMG_DEST_DIR/${filename_noext}-600.webp
+              convert "$img" -resize 700x $IMG_DEST_DIR/${filename_noext}-700.webp
+            fi
           done
 
       - name: Commit resized and converted images
