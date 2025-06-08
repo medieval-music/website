@@ -5,6 +5,8 @@ on:
     branches: ["gh-pages-test"]
     paths:
       - "assets/img/original/*"  # Trigger when any image is added or modified
+      - ".github/workflows/resize_images.yml"
+  workflow_dispatch:
 
 jobs:
   resize:
