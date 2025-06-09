@@ -3,6 +3,8 @@ title: Institute of Mediaeval Music
 layout: homepage
 # Credit for the image on the homepage
 image_credit: Photograph courtesy of Wilfrid Laurier University Archives.
+# Name of the image (minus the extension) in assets/img/original to use on the home page
+homepage_image: laurier_hymnal
 ---
 
 The Institute of Mediaeval Music is a small Canadian press devoted to publishing academic books

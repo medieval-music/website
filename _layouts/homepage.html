@@ -1,5 +1,42 @@
 ---
 layout: default
 ---
-
-{{ content }}
+<div class="home-page">
+	<div>
+		{{ content }}
+	</div>
+	<div>
+		<figure class="homepage-figure">
+			<picture>
+				{% comment %}
+					The size in @srcset is max viewport width to show that image source.
+				{% endcomment %}
+				<source
+					sizes="30vw"
+					srcset="
+						{% for size in (3..7) %}
+						{% capture img %}/assets/img/{{ page.homepage_image }}-{{ size }}00.webp{% endcapture %}
+							{{ img | relative_url }} {{ size }}00w{% unless forloop.last %},{% endunless %}
+						{% endfor %}
+						"
+					type="image/webp"
+				>
+				<source
+					sizes="30vw"
+					srcset="
+						{% for size in (3..7) %}
+							{% capture img %}/assets/img/{{ page.homepage_image }}-{{ size }}00.jpg{% endcapture %}
+							{{ img | relative_url }} {{ size }}00w{% unless forloop.last %},{% endunless %}
+						{% endfor %}
+						"
+					type="image/jpeg"
+				>
+				{% assign fallback_img = '/assets/img/{{ page.homepage_image }}-500.jpg' %}
+				<img src="{{ fallback_img | relative_url }}">
+			</picture>
+			{% if page.image_credit %}
+				<figcaption>{{ page.image_credit }}</figcaption>
+			{% endif %}
+		</figure>
+	</div>
+</div>
