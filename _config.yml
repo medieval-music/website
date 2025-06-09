@@ -31,23 +31,12 @@ defaults:
 #
 exclude:
   - .jekyll-cache/
-  - assets/img/original/
-  - .venv/
   - .git/
-  - __pycache__
   - Gemfile
   - Gemfile.lock
   - content
-  - output
-  - plugins
-  - theme
   - .gitignore
-  - .gitmodules
-  - debra_settings.py
-  - Makefile
   - metadata_fields.md
-  - pelicanconf.py
   - README.md
-  - requirements.txt
   - assets/img/original/
 timezone: "America/Toronto"
