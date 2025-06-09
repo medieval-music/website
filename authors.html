@@ -2,7 +2,7 @@
 layout: default
 title: Authors
 ---
-<ol>
+<ol class="author-list">
 	{% for author in site.data['authors'] %}
 		<li>
 			<a href="{{ author.url | relative_url }}">{{author.name}}</a>

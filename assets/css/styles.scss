@@ -5,6 +5,8 @@
 @use "navbar";
 @use "quick-links";
 @use "homepage";
+@use "authors";
+@use "series-page";
 
 *, *:before, *:after {
     box-sizing: border-box;
@@ -64,4 +66,8 @@ a {
 @each $category in $data-categories-with-ordering {
     .#{$category} { color: var(--#{$category}-color); }
     .#{$category}.with-bg { background-color: var(--#{$category}-background-color); }
+}
+
+.book-list {
+	list-style-type: '\2192';
 }

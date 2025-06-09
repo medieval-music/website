@@ -1,0 +1,10 @@
+@use 'colours' as *;
+
+.series-page {
+	.series-subtitle {
+		color: $gray-6;
+		font-size: 0.8em;
+		font-weight: normal;
+		margin-top: 0.25rem;
+	}
+}
