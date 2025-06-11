@@ -21,6 +21,8 @@ defaults:
     values:
       layout: "series"
 
+# Listen on all addresses (for development)
+host: 0.0.0.0
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -38,5 +40,6 @@ exclude:
   - .gitignore
   - metadata_fields.md
   - README.md
+  - "**/README.md"
   - assets/img/original/
 timezone: "America/Toronto"
