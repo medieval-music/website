@@ -1,7 +1,7 @@
 $std-space: 1rem;
 :root { --std-space: #{$std-space}; }
 
-$data-categories: authors series titles news;
-$data-categories-with-ordering: authors ordering series titles news;
+$data-categories: authors series titles online;
+$data-categories-with-ordering: authors ordering series titles online;
 
 $line-width: 1px;
