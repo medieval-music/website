@@ -1,8 +1,6 @@
-@use "variables" as *;
+@use "settings" as *;
+@use "mixins" as *;
 @use "colours";
-
-$hide-title-in-navbar-width: 28.75rem;  // 460px when 1rem is 16px
-$short-title-in-navbar-width: 62.5rem;  // 1000px
 
 #site-header {
     $navbar-height: 75px;
@@ -35,10 +33,10 @@ $short-title-in-navbar-width: 62.5rem;  // 1000px
 
         display: flex;
         align-items: stretch;
+        list-style-type: none;
     }
 
     li {
-        list-style: none;
         flex-grow: 0;
         height: $navbar-height;
         min-width: $navbar-item-width;
@@ -47,25 +45,89 @@ $short-title-in-navbar-width: 62.5rem;  // 1000px
     li + li {
         margin-left: 24px;
     }
-
-    @media (max-width: 650px) {
-        --sibling-left-margin: 2vw;
-		nav {
-			a {
-				width: 15vw;
-			}
-		}
-		
-		li {
-			width: 15vw;
-		}
-		
-		li + li {
-			margin-left: 2vw;
-		}
+    
+    .authors {
+        color: colours.$orange-8;
+        background-color: colours.$orange-1;
+        
+        :hover, :focus {
+            background-color: colours.$orange-3;
+        }
+        
+        :active {
+            color: colours.$orange-5;
+        }
+    }
+    
+    .ordering {
+        color: colours.$red-8;
+        background-color: colours.$red-1;
+        
+        :hover, :focus {
+            background-color: colours.$red-3;
+        }
+        
+        :active {
+            color: colours.$red-5;
+        }
+    }
+    
+    .series {
+        color: colours.$teal-8;
+        background-color: colours.$teal-1;
+        
+        :hover, :focus {
+            background-color: colours.$teal-3;
+        }
+        
+        :active {
+            color: colours.$teal-5;
+        }
+    }
+    
+    .titles {
+        color: colours.$blue-8;
+        background-color: colours.$blue-1;
+        
+        :hover, :focus {
+            background-color: colours.$blue-3;
+        }
+        
+        :active {
+            color: colours.$blue-5;
+        }
+    }
+    
+    .online {
+        color: colours.$violet-8;
+        background-color: colours.$violet-1;
+        
+        :hover, :focus {
+            background-color: colours.$violet-3;
+        }
+        
+        :active {
+            color: colours.$violet-5;
+        }
     }
 
-    @media (max-width: $hide-title-in-navbar-width) {
+    @include down(tablet) {
+        nav {
+            a {
+                width: 15vw;
+            }
+        }
+        
+        li {
+            width: 15vw;
+        }
+        
+        li + li {
+            margin-left: 2vw;
+        }
+    }
+
+    @include down(mobile) {
         padding: 0;
         nav {
             width: 100%;
@@ -81,56 +143,50 @@ $short-title-in-navbar-width: 62.5rem;  // 1000px
             flex-shrink: 1;
         }
     }
-}
 
-
-.imm-title {
-    // ".large" title says "Institute of Mediaeval Music" while ".small" says "IMM"
-    &.large {
-        display: block
-    }
-    &.small {
-        display: none;
-    }
-
-    // Switch between showing the "large" title, the "small" title, and hiding the title.
-    @media (max-width: $short-title-in-navbar-width) {
+    .imm-title {
+        font-size: 3rem;
+        // ".large" title says "Institute of Mediaeval Music" while ".small" says "IMM"
         &.large {
-            display: none;
-        }
-    }
-    @media (min-width: $hide-title-in-navbar-width) and (max-width: $short-title-in-navbar-width) {
-        &.small {
             display: block;
         }
-    }
+        &.small {
+            display: none;
+        }
 
-    // Adjust font-size according to the screen width.
-    @media (min-width: 84.375rem) {  // > 1350px (when 1rem is 16px)
-        font-size: 3rem;
-    }
-    @media (min-width: 81.25rem) and (max-width: 84.375rem) {  // 1300px to 1350px
-        font-size: 2.75rem;
-    }
-    @media (min-width: 78.125rem) and (max-width: 81.25rem) {  // 1250px to 1300px
-        font-size: 2.5rem;
-    }
-    @media (min-width: 75rem) and (max-width: 78.125rem) {  // 1200px to 1250px
-        font-size: 2.25rem;
-    }
-    @media (min-width: 71.875rem) and (max-width: 75rem) {  // 1150px to 1200px
-        font-size: 2rem;
-    }
-    @media (min-width: 68.75rem) and (max-width: 71.875rem) {  // 1100px to 1150px
-        font-size: 1.75rem;
-    }
-    @media (min-width: 65.625rem) and (max-width: 68.75rem) {  // 1050px to 1100px
-        font-size: 1.5rem;
-    }
-    @media (min-width: $short-title-in-navbar-width) and (max-width: 65.625rem) {  // to 1050px
-        font-size: 1.25rem;
-    }
-    @media (max-width: $short-title-in-navbar-width) {
-        font-size: 3rem;
+        // Switch between showing the "large" title, the "small" title, and hiding the title.
+        @include down(tablet) {
+            &.large {
+                display: none;
+            }
+        }
+        @include between(mobile, tablet) {
+            &.small {
+                display: block;
+            }
+        }
+
+        // Adjust font-size according to the screen width.
+        @media (min-width: 1300px) and (max-width: 1350px) {
+            font-size: 2.75rem;
+        }
+        @media (min-width: 1250px) and (max-width: 1300px) {
+            font-size: 2.5rem;
+        }
+        @media (min-width: 1200px) and (max-width: 1250px) {
+            font-size: 2.25rem;
+        }
+        @media (min-width: 1150px) and (max-width: 1200px) {
+            font-size: 2rem;
+        }
+        @media (min-width: 1100px) and (max-width: 1150px) {
+            font-size: 1.75rem;
+        }
+        @media (min-width: 1050px) and (max-width: 1100px) {
+            font-size: 1.5rem;
+        }
+        @media (min-width: calc($tablet-breakpoint + 1px)) and (max-width: 1050px) {
+            font-size: 1.25rem;
+        }
     }
 }

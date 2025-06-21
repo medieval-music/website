@@ -1,0 +1,14 @@
+@use "colours";
+$std-space: 1rem;
+
+// breakpoints
+$mobile-breakpoint: 600px !default;
+$tablet-breakpoint: 768px !default;
+$small-desktop-breakpoint: 992px !default;
+$desktop-breakpoint: 1200px !default;
+
+
+//colours
+$default-colour: colours.$gray-8;
+$link-colour: colours.$gray-6;
+$background-colour: colours.$white;

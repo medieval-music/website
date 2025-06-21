@@ -143,34 +143,3 @@ $green-3: #8ce99a;
 $green-2: #b2f2bb;
 $green-1: #d3f9d8;
 $green-0: #ebfbee;
-
-:root {
-    --background-color: #{$white};
-	--default-color: #{$gray-8};
-    --deemphasized-color: #{$gray-6};
-	--link-color: #{$gray-6};
-
-    --authors-color: #{$orange-8};
-    --ordering-color: #{$red-8};
-    --series-color: #{$teal-8};
-    --titles-color: #{$blue-8};
-    --online-color: #{$violet-8};
-
-    --authors-color-focus: #{$orange-9};
-	--ordering-color-focus: #{$red-9};
-    --series-color-focus: #{$teal-9};
-    --titles-color-focus: #{$blue-9};
-    --online-color-focus: #{$violet-9};
-
-    --authors-background-color: #{$orange-1};
-    --ordering-background-color: #{$red-1};
-    --series-background-color: #{$teal-1};
-    --titles-background-color: #{$blue-1};
-    --online-background-color: #{$violet-1};
-
-    --authors-border-color: #{$orange-3};
-    --ordering-border-color: #{$red-3};
-    --series-border-color: #{$teal-3};
-    --titles-border-color: #{blue-3};
-    --online-border-color: #{$violet-3};
-}

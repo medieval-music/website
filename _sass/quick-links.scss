@@ -1,10 +1,10 @@
-@use "variables" as *;
+@use "settings" as *;
 
 $sticky-list-nav-vertical-padding: 1rem;
 
 .sticky-list-nav {
-	background: var(--background-color);
-    border: solid 1px var(--default-color);
+	background: $background-colour;
+    border: solid 1px $default-colour;
 	position: sticky;
 	top: $std-space;
     z-index: 1;
@@ -20,13 +20,13 @@ $sticky-list-nav-vertical-padding: 1rem;
     }
 	
 	a {
-        color: var(--link-color);
+        color: $link-colour;
         padding: 1rem 0.5rem;
 		display: inline-block;
 
         &:hover, &:focus {
-            background-color: var(--link-color);
-            color: var(--background-color);
+            background-color: $link-colour;
+            color: $background-colour;
         }
 
         @media (max-width: 750px) {
