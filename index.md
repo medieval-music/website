@@ -22,7 +22,7 @@ In 2016--17, operations were transferred to Dr. Debra Lacoste, and the Institute
 back to Ontario.
 
 The earliest volumes produced by Prof. Dittmer are now being distributed through the
-[American Institute of Musicology](http://www.corpusmusicae.com/). The approximately 200 books
+<a href="http://www.corpusmusicae.com/" target="about:blank">American Institute of Musicology</a>. The approximately 200 books
 published by Dr. Bryan Gillingham over his three decades as Director are available in the current
 IMM list on this website. For details of print status and pricing,
 please consult the appropriate Series pages.
