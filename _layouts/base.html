@@ -30,5 +30,10 @@
 		<main>
 			{{ content }}
 		</main>
+		<footer>
+			<img class="logo" src="{{ '/assets/img/IMM-logo-narrow.svg' | relative_url }}" />
+			<div class="updated-at">Last Updated: {{ site.time | date_to_long_string: "ordinal", "US" }}</div>
+			<!--{{ site.time | date: "%B %Y" }}-->
+		</footer>
 	</body>
 </html>

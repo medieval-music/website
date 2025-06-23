@@ -48,3 +48,18 @@ a {
 .book-list {
 	list-style-type: '\2192';
 }
+
+footer {
+	padding: 5px;
+
+	.logo {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 50vw;
+		display: block;
+		height: 100px;
+	}
+	.updated-at {
+		text-align: right;
+	}
+}
