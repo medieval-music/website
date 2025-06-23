@@ -3,26 +3,28 @@ layout: base
 ---
 <h1>Books by {{ page.title }}</h1>
 
-<div>
-	{% if page.authored_books != empty %}
-		<div>
-			Books Authored
-			<ul>
-			  {% for book in page.authored_books %}
-				<li><a href="{{ book.url | relative_url }}">{{ book.title }}</a></li>
-			  {% endfor %}
-			</ul>
-		</div>
-	{% endif %}
-	{% if page.edited_books != empty %}
-		<div>
-			Books Edited
-			<ul>
-			  {% for book in page.edited_books %}
-				<li><a href="{{ book.url | relative_url }}">{{ book.title }}</a></li>
-			  {% endfor %}
-			</ul>
-		</div>
-	{% endif %}
+<div class="author-page">
+	<div class="author-books">
+		{% if page.authored_books != empty %}
+			<div>
+				Books Authored
+				<ul class="book-list">
+				  {% for book in page.authored_books %}
+					<li><a href="{{ book.url | relative_url }}">{{ book.title }}</a></li>
+				  {% endfor %}
+				</ul>
+			</div>
+		{% endif %}
+		{% if page.edited_books != empty %}
+			<div>
+				Books Edited
+				<ul class="book-list">
+				  {% for book in page.edited_books %}
+					<li><a href="{{ book.url | relative_url }}">{{ book.title }}</a></li>
+				  {% endfor %}
+				</ul>
+			</div>
+		{% endif %}
+	</div>
+	{{ content }}
 </div>
-{{ content }}

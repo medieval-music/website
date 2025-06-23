@@ -6,18 +6,14 @@
 @use "homepage";
 @use "authors";
 @use "series-page";
+@use "author-page";
 
 *, *:before, *:after {
     box-sizing: border-box;
 }
 
-html {
-	height: 100%
-}
-
 body {
     font-family: BlinkMacSystemFont, -apple-system, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
-	height: 100%;
 	margin: 0;
 	padding: 0;
 }
@@ -47,6 +43,10 @@ a {
 
 .book-list {
 	list-style-type: '\2192';
+}
+
+#book-search {
+	margin-bottom: 10px;
 }
 
 footer {
