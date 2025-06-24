@@ -18,7 +18,7 @@ green, respectively.
 
 Founded by Prof. Luther Dittmer in 1954, The Institute of Mediaeval Music was directed by
 Dr. Bryan Gillingham from 1985 to 2016, first in Ottawa, ON and after 2011 in Lions Bay, BC.
-In 2016--17, operations were transferred to Dr. Debra Lacoste, and the Institute has now moved
+In 2016-17, operations were transferred to Dr. Debra Lacoste, and the Institute has now moved
 back to Ontario.
 
 The earliest volumes produced by Prof. Dittmer are now being distributed through the
