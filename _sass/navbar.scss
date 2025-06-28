@@ -60,8 +60,10 @@ $navbar-item-width: 100px;
 			}
 		}
 		
-		&.open {
-			display: block;
+		@include down(tablet) {
+			&.open {
+				display: block;
+			}
 		}
 	}
 	
