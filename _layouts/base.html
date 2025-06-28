@@ -12,32 +12,15 @@
 		<link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
 		<link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}" sizes="180x180">
 		<link rel="manifest" href="{{ '/manifest.json' | relative_url }}" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
-		<header id="site-header">
-			<nav aria-label="Main navigation">
-				<ul>
-					<li class="ordering"><a href="{{ '/ordering' | relative_url }}"><span>Ordering</span></a></li>
-					<li class="authors"><a href="{{ '/authors' | relative_url }}"><span>Authors</span></a></li>
-					<li class="series"><a href="{{ '/series' | relative_url }}"><span>Series</span></a></li>
-					<li class="titles"><a href="{{ '/titles' | relative_url }}"><span>Titles</span></a></li>
-					<li class="online"><a href="{{ '/online' | relative_url }}"><span>Open Access</span></a></li>
-				</ul>
-			</nav>
-			<a class="imm-title small" href="{{ '/' | relative_url }}">
-				IMM
-			</a>
-			<a class="imm-title large" href="{{ '/' | relative_url }}">
-				Institute of Mediaeval Music
-			</a>
-		</header>
+		{% include navbar.html %}
 		<main>
 			{{ content }}
 		</main>
 		<footer>
-			<img class="logo" src="{{ '/assets/img/IMM-logo-narrow.svg' | relative_url }}" />
-			<div class="updated-at">Last Updated: {{ site.time | date_to_long_string: "ordinal", "US" }}</div>
-			<!--{{ site.time | date: "%B %Y" }}-->
+			Last Updated: {{ site.time | date_to_long_string: "ordinal", "US" }}
 		</footer>
 	</body>
 </html>

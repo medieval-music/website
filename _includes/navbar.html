@@ -1,0 +1,28 @@
+<header id="site-header">
+	<nav class="main-nav" aria-label="Main navigation">
+		<ul>
+			<li class="ordering"><a href="{{ '/ordering' | relative_url }}"><span>Ordering</span></a></li>
+			<li class="authors"><a href="{{ '/authors' | relative_url }}"><span>Authors</span></a></li>
+			<li class="series"><a href="{{ '/series' | relative_url }}"><span>Series</span></a></li>
+			<li class="titles"><a href="{{ '/titles' | relative_url }}"><span>Titles</span></a></li>
+			<li class="online"><a href="{{ '/online' | relative_url }}"><span>Open Access</span></a></li>
+		</ul>
+	</nav>
+	<div class="logo-container">
+		<a href="{{ '/' | relative_url }}">
+			<img class="logo" src="{{ '/assets/img/IMM-logo-narrow.svg' | relative_url }}" />
+		</a>
+		<a href="javascript:void(0);" class="icon" onclick="document.querySelector('.burger-menu').classList.toggle('open')">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+	<nav class="burger-menu" aria-label="Main navigation">
+		<ul>
+			<li class="ordering"><a href="{{ '/ordering' | relative_url }}"><span>Ordering</span></a></li>
+			<li class="authors"><a href="{{ '/authors' | relative_url }}"><span>Authors</span></a></li>
+			<li class="series"><a href="{{ '/series' | relative_url }}"><span>Series</span></a></li>
+			<li class="titles"><a href="{{ '/titles' | relative_url }}"><span>Titles</span></a></li>
+			<li class="online"><a href="{{ '/online' | relative_url }}"><span>Open Access</span></a></li>
+		</ul>
+	</nav>
+</header>

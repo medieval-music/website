@@ -1,6 +1,7 @@
 ---
 ---
 @use "settings" as *;
+@use "colours";
 @use "navbar";
 @use "quick-links";
 @use "homepage";
@@ -14,8 +15,6 @@
 
 body {
     font-family: BlinkMacSystemFont, -apple-system, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
-	margin: 0;
-	padding: 0;
 }
 
 main {
@@ -51,15 +50,8 @@ a {
 
 footer {
 	padding: 5px;
-
-	.logo {
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 50vw;
-		display: block;
-		height: 100px;
-	}
-	.updated-at {
-		text-align: right;
-	}
+	padding-top: 3rem;
+	font-size: 0.75rem;
+	color: colours.$gray-6;
+	text-align: right;
 }
