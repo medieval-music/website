@@ -8,6 +8,7 @@
 @use "authors";
 @use "series-page";
 @use "author-page";
+@use "book-page";
 
 *, *:before, *:after {
     box-sizing: border-box;
@@ -49,7 +50,7 @@ a {
 }
 
 footer {
-	padding: 5px;
+	padding: 0 5vw;
 	padding-top: 3rem;
 	font-size: 0.75rem;
 	color: colours.$gray-6;
