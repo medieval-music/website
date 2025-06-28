@@ -7,7 +7,7 @@ title: Open Access Titles
 
 {% assign previous_letter = "" %}
 {% if book_pages.size > 0 %}
-  <input type="search" oninput="debounceSearch(event)" placeholder="Search for a book..." />
+  <input id="book-search" type="search" oninput="debounceSearch(event)" placeholder="Search for a book..." />
   {% include quick-links.html letters=letters %}
 
   {% for page in book_pages %}
