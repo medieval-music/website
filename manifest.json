@@ -1,0 +1,11 @@
+---
+layout: none
+---
+{
+  "name": "The Institute of Mediaeval Music",
+  "icons": [
+    { "src": {{- '/assets/img/icon-192.png' | relative_url | jsonify }}, "type": "image/png", "sizes": "192x192" },
+    { "src": {{- '/assets/img/icon-mask.png' | relative_url | jsonify }}, "type": "image/png", "sizes": "512x512", "purpose": "maskable" },
+    { "src": {{- '/assets/img/icon-512.png' | relative_url | jsonify }}, "type": "image/png", "sizes": "512x512" }
+  ]
+}
