@@ -6,6 +6,7 @@
 		
 		div {
 			width: 50%;
+			flex-grow: 1;
 		}
 		
 		@include down(tablet) {

@@ -36,7 +36,6 @@ exclude:
   - .git/
   - Gemfile
   - Gemfile.lock
-  - content
   - .gitignore
   - metadata_fields.md
   - README.md
