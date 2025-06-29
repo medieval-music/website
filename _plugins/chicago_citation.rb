@@ -33,7 +33,7 @@ module Jekyll
       if !authors.empty?
         citation += "#{format_name_list_biblio(authors)}. "
       elsif !editors.empty?
-        citation += "#{format_name_list_biblio(editors)}, #{editors.length == 1 ? 'ed.' : 'eds.'}. "
+        citation += "#{format_name_list_biblio(editors)}; #{editors.length == 1 ? 'ed.' : 'eds.'}. "
       end
 
       # 2. Title (italicized)
@@ -72,9 +72,9 @@ module Jekyll
         "#{invert_name(names[0])} and #{names[1]}"
       else
         first = invert_name(names[0])
-        middle = names[1..-2].join(', ')
+        middle = names[1..-2].join('; ')
         last = names[-1]
-        "#{first}, #{middle}, and #{last}"
+        "#{first}; #{middle}; and #{last}"
       end
     end
 
@@ -83,7 +83,7 @@ module Jekyll
       names = names.map(&:strip)
       return names[0] if names.length == 1
       return names.join(' and ') if names.length == 2
-      [names[0..-2].join(', '), names[-1]].join(', and ')
+      [names[0..-2].join('; '), names[-1]].join('; and ')
     end
 
     # Invert a name like "Last, First" to "Last, First" (keeps as is)
