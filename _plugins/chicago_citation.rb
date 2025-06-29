@@ -8,7 +8,7 @@ module Jekyll
       authors = page['author_names'] || []
       editors = page['editor_names'] || []
       title = page['title']
-      volume = page['volume']
+      volume = page['volume_part'] ? "#{page['volume']}/#{page['volume_part']}" : page['volume']
       place = page['place'] || "Ottawa"
       publisher = page['publisher'] || "IMM"
 
