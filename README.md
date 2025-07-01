@@ -67,3 +67,6 @@ To build the site run `bundle exec jekyll build`
 For local development run `bundle exec jekyll serve --livereload`  
 
 The site will run locally on port 4000 and be accessable from `localhost:4000` OR from other devices on the local network (assuming firewall rules don't block it). This can make it easier to locally test on mobile.
+
+## License
+All content is property of The Institute of Mediaeval Music
