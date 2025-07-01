@@ -4,7 +4,7 @@ name: Deploy Jekyll site to Pages
 on:
   push:
     branches:
-      - "gh-pages-test"
+      - "main"
     paths-ignore:
       - "assets/img/original/*" # Don't run if only the original images match
   workflow_run:
@@ -12,7 +12,7 @@ on:
     types:
       - completed
     branches:
-      - "gh-pages-test"
+      - "main"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

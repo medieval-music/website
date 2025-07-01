@@ -3,7 +3,7 @@ name: Resize and Convert Images
 on:
   push:
     branches: 
-      - "gh-pages-test"
+      - "main"
     paths:
       - "assets/img/original/*"  # Trigger when any image is added or modified
   workflow_dispatch:
