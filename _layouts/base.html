@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{% if page.url == "/" %}
+			<title>The Institute of Mediaeval Music</title>
+		{% else %}
+			<title>{{ page.title | default: page.name }} | The Institute of Mediaeval Music</title>
+		{% endif %}
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}" />
+		<link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="32x32">
+		<link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+		<link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}" sizes="180x180">
+		<link rel="manifest" href="{{ '/manifest.json' | relative_url }}" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		{% include navbar.html %}
+		<main>
+			{{ content }}
+		</main>
+		<footer>
+			Last Updated: {{ site.time | date_to_long_string: "ordinal", "US" }}
+		</footer>
+	</body>
+</html>

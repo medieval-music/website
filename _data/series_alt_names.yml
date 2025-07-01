@@ -1,0 +1,25 @@
+# THIS FILE IS IN YAML FORMAT!!
+# Failing to follow the YAML structure will result in a parse error
+# See https://learntheweb.courses/topics/markdown-yaml-cheat-sheet/#yaml
+
+# Lists of additional names for series
+# In the format:
+# "folder_name":
+#  - "Additional Series Name"
+# Each section starts with the key of the series the names are for (either a folder in books/ or other series front matter).
+# Then followed by indented lines starting with a dash with the additional names for the series
+# Enclosing the title in quotes is strongly recommended to avoid errors when parsing
+
+# EXAMPLES:
+# "new_series":
+#   - "Another Title"
+# "foo":
+#   - "Other Title"
+
+"collected_works":
+  - "Gesamtausgaben"
+"manuscripts":
+  - "Veröffentlichungen mittelalterlicher Musikhandschriften"
+  - "Publications des manuscrits musicaux du moyen age"
+"studies":
+  - "Wissenschaftliche Abhandlungen"

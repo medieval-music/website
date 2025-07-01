@@ -1,0 +1,53 @@
+---
+layout: default
+title: Titles
+---
+{% assign book_pages = site.pages | where: "layout", "book" | sort_by_title_ignore_words: site %}
+{% assign letters = book_pages | map: "group_letter" | uniq | sort %}
+
+{% assign previous_letter = "" %}
+{% if book_pages.size > 0 %}
+  <input id="book-search" type="search" oninput="debounceSearch(event)" placeholder="Search for a book..." />
+  {% include quick-links.html letters=letters %}
+
+  {% for page in book_pages %}
+    {% assign current_letter = page.group_letter %}
+    {% if current_letter != previous_letter %}
+	  {% if previous_letter != "" %}
+	    </ul>
+	  {% endif %}
+	  <h2 id="section-{{ current_letter }}">{{ current_letter }}</h2>
+	  <ul class="book-list" data-letter="{{ current_letter }}">
+	  {% assign previous_letter = current_letter %}
+    {% endif %}
+    <li data-url="{{ page.url | relative_url }}">
+	  <a href="{{ page.url | relative_url }}">{{page.title}}</a>
+    </li>
+  {% endfor %}
+  </ul>
+  <div id="no-results" style="display: none;">
+	<h3>No Results</h3>
+  </div>
+{% else %}
+No Books Found
+{% endif %}
+<script type="text/javascript">
+  // Pass the book data to JS for searching
+  const books = [
+    {% for page in book_pages %}
+      {% if page.title and page.url %}
+        {
+          "title": "{{ page.title }}",
+          "url": "{{ page.url | relative_url }}",
+          "year": "{{ page.year }}",
+		  "author_names": {{ page.author_names | jsonify }},
+		  "editor_names": {{ page.author_names | jsonify }},
+		  "group_letter": "{{ page.group_letter }}",
+		  "isbn13": "{{ page.isbn13 }}",
+		  "isbn10": "{{ page.isbn10 }}"
+        }{% unless forloop.last %},{% endunless %}
+      {% endif %}
+    {% endfor %}
+  ];
+</script>
+<script src="{{ '/assets/js/title_search.js' | relative_url }}"></script>

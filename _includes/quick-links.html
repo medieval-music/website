@@ -1,0 +1,11 @@
+{% assign unique_letters = include.letters | uniq | sort %}
+
+{% if unique_letters.size > 0 %}
+	<nav class="sticky-list-nav" aria-label="Quick links">
+	  <ul>
+		{% for letter in unique_letters %}
+		  <li data-letter="{{ letter }}"><a href="#section-{{ letter }}">{{ letter }}</a></li>
+		{% endfor %}
+	  </ul>
+	</nav>
+{% endif %}

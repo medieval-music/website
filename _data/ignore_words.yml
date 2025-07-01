@@ -1,0 +1,25 @@
+# THIS FILE IS IN YAML FORMAT!!
+# Failing to follow the YAML structure will result in a parse error
+# See https://learntheweb.courses/topics/markdown-yaml-cheat-sheet/#yaml
+
+# List of words to ignore at the start when sorting
+# Each line MUST start with a dash
+# Enclosing the word in quotes is strongly recommended to avoid errors when parsing
+
+# EXAMPLES:
+# - "A" is OK
+# - A is OK
+# - "Some Word" is OK
+# - Some Word could fail to parse
+# - "true" is OK
+# - true may not be parsed as a string and could cause problems
+# A (without the leading -) is NOT OK
+
+- "a"
+- "an"
+- "la"
+- "le"
+- "les"
+- "of"
+- "on"
+- "the"

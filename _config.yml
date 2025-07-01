@@ -1,0 +1,44 @@
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "authors/"
+    values:
+      layout: "author"
+  -
+    scope:
+      path: "books"
+    values:
+      layout: "book"
+      permalink: /books/:basename/
+  -
+    scope:
+      path: "series"
+    values:
+      layout: "series"
+
+# Listen on all addresses (for development)
+host: 0.0.0.0
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - .jekyll-cache/
+  - .git/
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - metadata_fields.md
+  - README.md
+  - "**/README.md"
+  - assets/img/original/
+timezone: "America/Toronto"

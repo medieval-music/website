@@ -1,0 +1,58 @@
+---
+---
+@use "settings" as *;
+@use "colours";
+@use "navbar";
+@use "quick-links";
+@use "homepage";
+@use "authors";
+@use "series-page";
+@use "author-page";
+@use "book-page";
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: BlinkMacSystemFont, -apple-system, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
+}
+
+main {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+a {
+    color: inherit;
+
+    &:hover, &:focus {
+        text-decoration: underline;
+        outline: none;
+    }
+
+    &.external {
+        color: $link-colour;
+    }
+}
+
+.book-list {
+	list-style-type: '\2192';
+}
+
+#book-search {
+	margin-bottom: 10px;
+}
+
+footer {
+	padding: 0 5vw;
+	padding-top: 3rem;
+	font-size: 0.75rem;
+	color: colours.$gray-6;
+	text-align: right;
+}

@@ -1,0 +1,1 @@
+The images in this folder will be automatically resized by a GitHub Action and placed in assets/img.

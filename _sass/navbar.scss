@@ -1,0 +1,165 @@
+@use "settings" as *;
+@use "mixins" as *;
+@use "colours";
+
+$navbar-height: 75px;
+$navbar-item-width: 100px;
+
+#site-header {
+    align-items: center;
+    background-color: colours.$gray-2;
+    display: flex;
+    min-height: $navbar-height;
+    justify-content: space-between;
+    margin-bottom: $std-space;
+    padding: 0 5vw;
+
+    .main-nav {
+        height: $navbar-height;
+
+        a {
+            align-items: center;
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            padding: $std-space;
+        }
+		
+		ul {
+			height: $navbar-height;
+			margin: 0;
+			padding: 0;
+
+			display: flex;
+			align-items: stretch;
+			list-style-type: none;
+		}
+
+		li {
+			flex-grow: 0;
+			height: $navbar-height;
+			min-width: $navbar-item-width;
+		}
+
+		li + li {
+			margin-left: 24px;
+		}
+    }
+	
+	.burger-menu {
+		display: none;
+		width: 100%;
+		ul {
+			list-style-type: none;
+			padding: 0px;
+			
+			li {
+				text-align: center;
+				padding: 5px;
+				margin-bottom: 10px;
+			}
+		}
+		
+		@include down(tablet) {
+			&.open {
+				display: block;
+			}
+		}
+	}
+	
+	.logo-container {
+		margin-left: 24px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.icon {
+		display: none;
+	}
+    
+    .authors {
+        color: colours.$orange-8;
+        background-color: colours.$orange-1;
+        
+        :hover, :focus {
+            background-color: colours.$orange-3;
+        }
+        
+        :active {
+            color: colours.$orange-5;
+        }
+    }
+    
+    .ordering {
+        color: colours.$red-8;
+        background-color: colours.$red-1;
+        
+        :hover, :focus {
+            background-color: colours.$red-3;
+        }
+        
+        :active {
+            color: colours.$red-5;
+        }
+    }
+    
+    .series {
+        color: colours.$teal-8;
+        background-color: colours.$teal-1;
+        
+        :hover, :focus {
+            background-color: colours.$teal-3;
+        }
+        
+        :active {
+            color: colours.$teal-5;
+        }
+    }
+    
+    .titles {
+        color: colours.$blue-8;
+        background-color: colours.$blue-1;
+        
+        :hover, :focus {
+            background-color: colours.$blue-3;
+        }
+        
+        :active {
+            color: colours.$blue-5;
+        }
+    }
+    
+    .online {
+        color: colours.$violet-8;
+        background-color: colours.$violet-1;
+        
+        :hover, :focus {
+            background-color: colours.$violet-3;
+        }
+        
+        :active {
+            color: colours.$violet-5;
+        }
+    }
+
+    @include down(tablet) {
+		flex-direction: column;
+        .logo-container {
+			width: 100%;
+			margin-left: unset;
+		}
+		.icon {
+			display: inline-block;
+		}
+		
+		.main-nav {
+			display: none;
+		}
+    }
+	
+	.logo {
+		display: block;
+		height: $navbar-height;
+	}
+}

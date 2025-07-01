@@ -1,0 +1,11 @@
+.book-page {
+	.book-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		
+		ul {
+			margin-top: 0px;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+---
+layout: default
+title: Series
+---
+<ul>
+	{% for series in site.data['series'] %}
+		<li>
+			<a href="{{ series | slugify | prepend: '/series/' | relative_url }}">
+				{% assign series_name = site.data.series_names[series] %}
+				{% if series_name %}
+				  {{ series_name }}
+				{% else %}
+				  {{ series | capitalize }}
+				{% endif %}
+			</a>
+		</li>
+	{% endfor %}
+</ul>
