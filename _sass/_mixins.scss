@@ -1,0 +1,77 @@
+@use 'sass:list';
+@use 'settings' as s;
+
+// Helper function to get breakpoint by name
+@function bp($name) {
+  @if $name == mobile {
+    @return s.$mobile-breakpoint;
+  } @else if $name == tablet {
+    @return s.$tablet-breakpoint;
+  } @else if $name == small-desktop {
+    @return s.$small-desktop-breakpoint;
+  } @else if $name == desktop {
+    @return s.$desktop-breakpoint;
+  } @else {
+    @warn "Breakpoint `#{$name}` not found.";
+    @return null;
+  }
+}
+
+// Mixin: up (min-width and above)
+@mixin up($breakpoint-name) {
+  $value: bp($breakpoint-name);
+  @if $value {
+    @media (min-width: $value) {
+      @content;
+    }
+  }
+}
+
+// Mixin: down (max-width and below)
+@mixin down($breakpoint-name) {
+  $value: bp($breakpoint-name);
+  @if $value {
+    @media (max-width: $value) {
+      @content;
+    }
+  }
+}
+
+// Mixin: only (between breakpoint and next)
+@mixin only($breakpoint-name) {
+  $keys: mobile tablet small-desktop desktop;
+  $index: list.index($keys, $breakpoint-name);
+
+  @if $index == null {
+    @warn "Breakpoint `#{$breakpoint-name}` not found.";
+  } @else if $index == list.length($keys) {
+    // Last breakpoint — no upper bound
+    @media (min-width: bp($breakpoint-name)) {
+      @content;
+    }
+  } @else {
+    $min: bp($breakpoint-name);
+    $next: list.nth($keys, $index + 1);
+    $max: bp($next) - 1;
+
+    @media (min-width: $min) and (max-width: $max) {
+      @content;
+    }
+  }
+}
+
+// Mixin: between (between two breakpoints)
+@mixin between($start, $end) {
+  $min: bp($start);
+  $max: bp($end);
+
+  @if $min == null or $max == null {
+    @warn "One or both breakpoints not found: `#{$start}`, `#{$end}`.";
+  } @else if $min >= $max {
+    @warn "`#{$start}` must be smaller than `#{$end}`.";
+  } @else {
+    @media (min-width: $min) and (max-width: $max) {
+      @content;
+    }
+  }
+}

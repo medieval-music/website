@@ -1,0 +1,16 @@
+@use "mixins" as *;
+
+.author-page {
+	.author-books {
+		display: flex;
+		
+		div {
+			width: 50%;
+			flex-grow: 1;
+		}
+		
+		@include down(tablet) {
+			flex-direction: column;
+		}
+	}
+}

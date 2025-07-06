@@ -1,0 +1,13 @@
+---
+layout: default
+title: Authors
+---
+<div class="authors-page">
+	<ol class="author-list">
+		{% for author in site.data['authors'] %}
+			<li>
+				<a href="{{ author.url | relative_url }}">{{author.name}}</a>
+			</li>
+		{% endfor %}
+	</ol>
+</div>

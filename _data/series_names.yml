@@ -1,0 +1,19 @@
+# THIS FILE IS IN YAML FORMAT!!
+# Failing to follow the YAML structure will result in a parse error
+# See https://learntheweb.courses/topics/markdown-yaml-cheat-sheet/#yaml
+
+# Map of series key to their human readable name
+# In the format: "folder_name": "Series Name"
+# MUST wrap the name in quotes if it contains spaces to avoid parsing errors.
+# "folder_name" should either match the name of a folder in books/ or the series key in other front matter.
+
+# EXAMPLES:
+# "bar foo": "Foo Bar" is OK
+# bar: "Foo Bar" is OK
+# bar foo: "Foo Bar" is NOT OK
+
+"collected_works": "Collected Works"
+"de_medicinae_rebus": "De Medicinæ Rebus"
+"in_translation": "Musical Theorists in Translation"
+"manuscripts": "Publications of Mediæval Musical Manuscripts"
+"studies": "Musicological Studies"
