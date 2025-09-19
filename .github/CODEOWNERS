@@ -1,0 +1,5 @@
+/.github/ @medieval-music/contributors
+
+# For dependabot updates
+Gemfile @ericw9079
+Gemfile.lock @ericw9079
