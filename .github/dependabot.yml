@@ -1,0 +1,19 @@
+version: 2
+updates:
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 1
+    groups:
+      ruby-dependencies:
+        patterns:
+          - "*"
+        update-types:
+          - "security"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+    rebase-strategy: "auto"
+    reviewers:
+      - "ericw9079"
