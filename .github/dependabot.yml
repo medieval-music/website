@@ -9,11 +9,11 @@ updates:
       ruby-dependencies:
         patterns:
           - "*"
-        update-types:
-          - "security"
+        applies-to: security-updates
     commit-message:
       prefix: "chore(deps)"
       include: "scope"
     rebase-strategy: "auto"
     reviewers:
       - "ericw9079"
+    versioning-strategy: increase
