@@ -14,4 +14,4 @@ gem "tzinfo-data", "~> 1.2025"
 
 gem 'wdm', '>= 0.1.0', platforms: :windows
 
-gem "activesupport", "~> 8.0"
+gem "activesupport", "~> 8.1"
