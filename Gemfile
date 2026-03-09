@@ -10,7 +10,7 @@ gem "logger", "~> 1.7"
 
 gem "tzinfo", "~> 2.0"
 
-gem "tzinfo-data", "~> 1.2025"
+gem "tzinfo-data", "~> 1.2026"
 
 gem 'wdm', '>= 0.1.0', platforms: :windows
 
