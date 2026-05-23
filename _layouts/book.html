@@ -48,9 +48,11 @@ layout: default
 			{% if page.pages %}
 				<li>Pages: {{ page.pages }}&nbsp;pp.{% if page.plates %} plus {{ page.plates }} plates{% endif %}</li>
 			{% endif %}
+			{% comment %}
 			{% if page.size %}
 				<li>Size: {{ page.size }}&nbsp;cm</li>
 			{% endif %}
+			{% endcomment %}
 		</ul>
 		{% if page.pdf_url %}
 			<a href="{{ page.pdf_url }}" target="_blank"><button type="button">Online Access</button></a>
