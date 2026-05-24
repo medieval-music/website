@@ -115,7 +115,7 @@ publisher: IMM
 ### size
 Size of the book in centimeters, entered without units
 ```yaml
-size: 23
+book_size: 23
 ```
 ### title
 Title of the book. **MUST** be quoted if the title contains a colon to avoid parsing issues
