@@ -3,13 +3,13 @@ layout: default
 ---
 {% assign current_series = page.series %}
 {% assign book_pages = site.pages | where_exp: "page", "page.layout == 'book' and page.series == current_series" | sort_by_volume %}
-{% if site.data.series_alt_names[page.series] %}
 <div class="series-page">
-	<h2>
+	{% if site.data.series_alt_names[page.series] %}
+	  <h2>
 		{% for name in site.data.series_alt_names[page.series] %}
-			<div class="series-subtitle">{{name}}</div>
+		  <div class="series-subtitle">{{name}}</div>
 		{% endfor %}
-	</h2>
+	  </h2>
 	{% endif %}
 	{% if book_pages.size > 0 %}
 	  <input id="book-search" type="search" oninput="debounceSearch(event)" placeholder="Search for a book..." />

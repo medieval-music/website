@@ -15,12 +15,12 @@ const search = (searchVal) => {
 	
 	const filtered_books = books.filter((book) => (
 		!searchVal
-		|| (book.isbn10 && book.isbn10.includes(searchVal))
-		|| (book.isbn13 && book.isbn13.includes(searchVal))
-		|| book.title.toLowerCase().includes(searchVal.toLowerCase())
-		|| book.author_names.some((author) => author.toLowerCase().includes(searchVal.toLowerCase()))
-		|| book.editor_names.some((editor) => editor.toLowerCase().includes(searchVal.toLowerCase()))
-		|| (book.year && book.year.includes(searchVal))
+		|| (book.isbn10 && searchString(book.isbn10, searchVal))
+		|| (book.isbn13 && searchString(book.isbn13, searchVal))
+		|| searchString(book.title.toLowerCase(), searchVal.toLowerCase())
+		|| book.author_names.some((author) => searchString(author.toLowerCase(), searchVal.toLowerCase()))
+		|| book.editor_names.some((editor) => searchString(editor.toLowerCase(), searchVal.toLowerCase()))
+		|| (book.year && searchString(book.year, searchVal))
 	));
 	const letters = new Set(filtered_books.map((book) => book.group_letter));
 	

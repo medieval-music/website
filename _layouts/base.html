@@ -13,6 +13,17 @@
 		<link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}" sizes="180x180">
 		<link rel="manifest" href="{{ '/manifest.json' | relative_url }}" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script>
+			// Pass the special character mapping to JS for searching
+			const charMappings = {{ site.data.character_map | jsonify }};
+			const specialCharRegex = new RegExp(Object.keys(charMappings).map((char) => char.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1')).join('|'), 'g');
+			const searchString = (haystack, needle) => {
+				// Clean up any look alike characters and apply normalization
+				const cleanedNeedle = needle.replace(specialCharRegex, (match) => charMappings[match]).normalize("NFD").replace(/[\u0300-\u036F]/g, '').replace(/\s+/g, ' ');
+				const cleanedHaystack = haystack.replace(specialCharRegex, (match) => charMappings[match]).normalize("NFD").replace(/[\u0300-\u036F]/g, '').replace(/\s+/g, ' ');
+				return cleanedHaystack.includes(cleanedNeedle);
+			};
+		</script>
 	</head>
 	<body>
 		{% include navbar.html %}

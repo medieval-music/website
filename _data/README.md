@@ -4,6 +4,7 @@ This folder contains the various configurable settings used by the site during g
 - Canonical names of authors
 - Names of the different series
 - Lists of alternative names for the series
+- Textual representations of special characters
 
 Each file is in written in YAML format and contains one of the configurable lists.
 
@@ -14,7 +15,10 @@ Defines the mapping between author names and their canonical names.
 Defines the list of words to ignore at the start of a title when sorting.
 
 ## series_alt_names.yml
-Defines mapping from the folder name to any alternate names for a series. Alternate names are displayed on the series page below the main series name.
+Defines the mapping from the folder name to any alternate names for a series. Alternate names are displayed on the series page below the main series name.
 
 ## series_names.yml
 Defines the mapping from the folder name to the series name.
+
+## character_map.yml
+Defines the mapping between special characters and their textual representation. Used to normalize text when searching. Allows "ae" to match "Æ" and vise versa
