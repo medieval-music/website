@@ -1,5 +1,5 @@
 ---
-title: The Series «Historiae»: A Detailed History in a Brief Study, 1993-2024 (online only)
+title: The Series «Historiae» - A Detailed History in a Brief Study, 1993-2024 (online only)
 author: Hankeln, Roman
 year: 2025
 publisher: IMM
