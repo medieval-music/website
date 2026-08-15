@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -45,7 +45,7 @@ jobs:
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: |
@@ -54,11 +54,12 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: Upload Build Log
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: build.log
           path: build.log
           retention-days: 1
+          archive: false
       - name: Upload Site
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
@@ -68,7 +69,7 @@ jobs:
     needs: build
     steps:
       - name: Checkout Build Log
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: build.log
       - name: Check for YAML front matter issues
@@ -97,4 +98,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
