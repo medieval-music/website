@@ -62,7 +62,7 @@ jobs:
           archive: false
       - name: Upload Site
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
   check:
     name: Check Front Matter
     runs-on: ubuntu-latest
