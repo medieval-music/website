@@ -3,3 +3,4 @@
 # For dependabot updates
 Gemfile @ericw9079
 Gemfile.lock @ericw9079
+/.github/workflows/ @ericw9079
