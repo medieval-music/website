@@ -16,3 +16,21 @@
 		text-align: justify;
 	}
 }
+
+.social-media-box {
+	a {
+		display: flex;
+		
+		&.facebook-link {
+			align-items: flex-end;
+		}
+		
+		&.insta-link {
+			align-items: center;
+		}
+		
+		i {
+			font-size: 1.5em;
+		}
+	}
+}
