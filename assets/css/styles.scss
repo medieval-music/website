@@ -21,7 +21,7 @@ body {
 main {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 53vw;
+	max-width: max(1000px, 53vw);
 }
 
 h1 {
